@@ -11,10 +11,11 @@ from app.core.config import settings
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login")
 
-# Fallback secrets for local development if not in settings
-SECRET_KEY = getattr(settings, "JWT_SECRET_KEY", "SUPER_SECRET_WAJAHNI_KEY_2026")
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 60
+# Signing configuration comes only from validated settings (fail-fast at boot).
+# There is intentionally no hard-coded fallback secret.
+SECRET_KEY = settings.JWT_SECRET_KEY
+ALGORITHM = settings.JWT_ALGORITHM
+ACCESS_TOKEN_EXPIRE_MINUTES = settings.ACCESS_TOKEN_EXPIRE_MINUTES
 
 class SecurityService:
     @staticmethod
