@@ -1,0 +1,16 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: wajahni_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: wajahni
+      POSTGRES_PASSWORD: wajahniLocal2026
+      POSTGRES_DB: wajahni
+    ports:
+      - "5432:5432"
+    volumes:
+      - wajahni_pgdata:/var/lib/postgresql/data
+
+volumes:
+  wajahni_pgdata:
