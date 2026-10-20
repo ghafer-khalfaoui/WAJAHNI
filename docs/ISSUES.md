@@ -21,4 +21,6 @@ Evidence key: REPRODUCED = observed by running; INSPECTION = read in code, not e
 | WJ-014 | Low | `docker-compose.yml` hard-codes the DB password; DB port exposed on all interfaces. | INSPECTION | OPEN |
 | WJ-015 | Low | Pool size 20 + 10 overflow oversized for local; BOM/UTF-16 files; empty README. | INSPECTION | OPEN |
 | WJ-016 | Info | Saved notes (five tables migrated, `course_repository.py` next) do not match the repo. | — | OPEN, needs ZIP |
+| WJ-018 | High | `pip install -r requirements.txt` fails on the owner's Windows machine: wheel tags in the pip output show a Python 3.15 interpreter (`cp315`). `google-api-core 2.31.0` requires `grpcio-status>=1.75.1` on Python >=3.14, conflicting with the pin `1.71.2`; several packages (asyncpg, pydantic_core, numpy, grpcio) were downloading as source. Works on Python 3.13 (verified in sandbox). | REPRODUCED (owner's output) | OPEN: use Python 3.11-3.13; consider loosening gRPC pins |
+| WJ-019 | High | Owner put real secrets into the tracked file `.env.example`; committing it would leak them again. `DATABASE_ASYNC_URL` there still says `CHANGE_ME`. | Owner message | OPEN: keep `.env.example` empty; real values only in `.env` |
 | WJ-017 | Info | DB-backed behaviour untestable in this sandbox (no pgvector, no Docker). | ENV | BLOCKED |

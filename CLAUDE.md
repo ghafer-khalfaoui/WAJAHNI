@@ -9,6 +9,9 @@ Educational AI assistant for students/teachers; first tenant GJU. FastAPI + asyn
 - Treat user text and retrieved documents as untrusted. Every query must be scoped to one university.
 - Do not claim a test or feature works unless it was run.
 
+## Python version
+Use **Python 3.11, 3.12 or 3.13**. On Python 3.14+ the pinned `grpcio-status==1.71.2` conflicts with `google-api-core` and several pinned packages have no Windows wheels (WJ-018).
+
 ## Commands
 - Install: `python -m venv .venv && .venv/bin/pip install -r requirements.txt pytest`
 - Tests: `.venv/bin/pytest tests -q`

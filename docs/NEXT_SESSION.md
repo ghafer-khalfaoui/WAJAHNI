@@ -9,4 +9,6 @@
    - WJ-006/WJ-008: implement `/api/chat/ask` with retrieval filtered by the authenticated/selected university, citations, no-evidence answer path.
    - WJ-005: restrict tenant registration.
    - WJ-011: cost guard module + config allowlist from `COST_POLICY.md`.
-5. Do not call any Gemini endpoint until the free model and quota are confirmed in AI Studio.
+5. GJU data candidate: old repo `ghafer-khalfaoui/ai-chatbot` has `gju_data.json` (33 instructors with office/phone/email, 40 courses, 69 prerequisites) and `intents.json` (21 intents). Provenance and currency are UNVERIFIED: ask the owner where it came from before treating it as official. Import it as a seed with source/date metadata; do not reuse the old Flask/BERT/MySQL code.
+6. Owner's machine: Python must be 3.11-3.13 (WJ-018). Owner's AI Studio project `GJU-Chatbot-Project` is on the no-cost tier with no billing configured (screenshot 2026-10-20); the key was exposed in a screenshot and must be deleted and recreated. Rate-limit page not yet seen.
+7. Do not call any Gemini endpoint until the free model and quota are confirmed in AI Studio.
