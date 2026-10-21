@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Dummy settings so tests never need a real .env, database, or API key.
 os.environ.update(
-    JWT_SECRET_KEY="test-secret-not-real",
+    JWT_SECRET_KEY="test-secret-not-real-0123456789abcdef-0123456789",
     POSTGRES_USER="u",
     POSTGRES_PASSWORD="p",
     POSTGRES_HOST="localhost",

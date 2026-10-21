@@ -16,7 +16,7 @@ def test_password_hash_roundtrip():
 
 def test_no_hardcoded_fallback_secret():
     assert "SUPER_SECRET" not in inspect.getsource(sec)
-    assert sec.SECRET_KEY == "test-secret-not-real"
+    assert sec.SECRET_KEY == "test-secret-not-real-0123456789abcdef-0123456789"
 
 
 def test_token_uses_configured_algorithm_and_expiry():
@@ -26,7 +26,7 @@ def test_token_uses_configured_algorithm_and_expiry():
 
 
 def test_forged_token_is_rejected_by_protected_dependency():
-    forged = jwt.encode({"sub": "x", "role": "admin"}, "some-other-key", algorithm="HS256")
+    forged = jwt.encode({"sub": "x", "role": "admin"}, "some-other-key-0123456789abcdef-0123456789", algorithm="HS256")
     try:
         import asyncio
         asyncio.run(sec.get_current_admin(forged))

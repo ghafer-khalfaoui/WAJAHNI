@@ -4,11 +4,13 @@ services:
     container_name: wajahni_db
     restart: unless-stopped
     environment:
-      POSTGRES_USER: wajahni
-      POSTGRES_PASSWORD: wajahniLocal2026
-      POSTGRES_DB: wajahni
+      POSTGRES_USER: ${POSTGRES_USER:-wajahni}
+      # Read from your local .env (never hard-code it here). Only used the first time the data volume is created.
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-wajahni}
     ports:
-      - "5432:5432"
+      # localhost only: not reachable from other devices on your network
+      - "127.0.0.1:5432:5432"
     volumes:
       - wajahni_pgdata:/var/lib/postgresql/data
 
