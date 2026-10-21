@@ -1,35 +1,35 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, DateTime
+from sqlalchemy import JSON, Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
-from datetime import datetime, timezone
-from app.core.database import Base  # Assuming Base is imported from your core DB setup
 
-class University(Base):
+from app.models.base import WajahniBaseModel
+
+
+class University(WajahniBaseModel):
+    """One tenant. Matches the `universities` table created by migration f9d17912649f."""
+
     __tablename__ = "universities"
 
-    id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, nullable=False, unique=True)
-    domain = Column(String, nullable=False, unique=True)  # e.g., "gju.edu.jo"
-    primary_color = Column(String, default="#003366")    # Theme customization
-    secondary_color = Column(String, default="#e6f2ff")
-    
-    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
-    updated_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))
+    name = Column(String(150), nullable=False, unique=True)
+    domain = Column(String(100), nullable=False, unique=True)  # e.g. "gju.edu.jo"
+    primary_color = Column(String(7), nullable=False, default="#003366")
+    secondary_color = Column(String(7), nullable=False, default="#e6f2ff")
+    logo_url = Column(String(255), nullable=True)
+    suggestion_chips = Column(JSON, nullable=False, default=list)
 
-    # Relationships
     documents = relationship("Document", back_populates="university", cascade="all, delete-orphan")
     admins = relationship("AdminUser", back_populates="university", cascade="all, delete-orphan")
 
 
-class AdminUser(Base):
+class AdminUser(WajahniBaseModel):
+    """University administrator. Created by migration a3c5e7f91b24."""
+
     __tablename__ = "admin_users"
 
-    id = Column(Integer, primary_key=True, index=True)
-    university_id = Column(Integer, ForeignKey("universities.id", ondelete="CASCADE"), nullable=False)
-    username = Column(String, unique=True, nullable=False, index=True)
-    email = Column(String, unique=True, nullable=False)
-    hashed_password = Column(String, nullable=False)
-    
-    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+    university_id = Column(
+        Integer, ForeignKey("universities.id", ondelete="CASCADE"), index=True, nullable=False
+    )
+    username = Column(String(100), unique=True, index=True, nullable=False)
+    email = Column(String(255), unique=True, nullable=False)
+    hashed_password = Column(String(255), nullable=False)
 
-    # Relationships
     university = relationship("University", back_populates="admins")

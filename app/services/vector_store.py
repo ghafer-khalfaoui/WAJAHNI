@@ -1,5 +1,6 @@
 ﻿from google import genai
 from google.genai import types
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.core.config import settings
 from app.models.document import Document, DocumentChunk
@@ -41,6 +42,7 @@ class VectorStoreService:
             
             doc_chunk = DocumentChunk(
                 document_id=doc.id,
+                university_id=university_id,
                 content=chunk_text,
                 embedding=vector_array
             )
@@ -48,3 +50,22 @@ class VectorStoreService:
         
         await db.commit()
         return doc.id
+
+    @staticmethod
+    def build_search_query(university_id: int, query_vector: list[float], limit: int = 5):
+        """Similarity query restricted to ONE university (tenant isolation, WJ-008)."""
+        return (
+            select(DocumentChunk)
+            .where(DocumentChunk.university_id == university_id)
+            .order_by(DocumentChunk.embedding.cosine_distance(query_vector))
+            .limit(min(max(limit, 1), 20))
+        )
+
+    @staticmethod
+    async def search(
+        db: AsyncSession, university_id: int, query_vector: list[float], limit: int = 5
+    ) -> list[DocumentChunk]:
+        result = await db.execute(
+            VectorStoreService.build_search_query(university_id, query_vector, limit)
+        )
+        return list(result.scalars().all())

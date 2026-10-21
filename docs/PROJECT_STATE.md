@@ -23,3 +23,9 @@ See `ISSUES.md`. Biggest gaps: chat and ingest endpoints, schema drift, tenant i
 1. Provide the ZIP (WJ-016).
 2. Authorize secret rotation and history purge / repo recreation (WJ-001).
 3. Confirm which Gemini model and project to use after checking free limits in AI Studio.
+
+## Update 2026-10-21
+- Owner machine (Windows, Python 3.11, folder `wajahni2`): install OK, 5 tests passed, `alembic upgrade head` connected; DB at revision 8770692a9cc5 with tables documentchunks, documents, students, universities.
+- New migration a3c5e7f91b24 written and verified in sandbox; NOT yet applied to the owner's DB.
+- Tests: 10 pass + 1 opt-in drift test (passed against sandbox DB).
+- Owner's Docker container `wajahni_db` belongs to Compose project `wajahni1` (old folder); running Compose from `wajahni2` creates a separate empty volume. Do not remove the old container/volume.

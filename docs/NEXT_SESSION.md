@@ -5,7 +5,7 @@
 3. Verify: `python -m venv .venv && .venv/bin/pip install -r requirements.txt pytest && .venv/bin/pytest tests -q`
    (tests set dummy env vars themselves; no network, no DB, no API calls).
 4. Next actions in order:
-   - WJ-007: one reconciled model set and a new Alembic migration (admin_users, chunk table name, `university_id` on chunks, nullable/default fixes). Test on a Postgres with pgvector (`docker compose up db` on the owner's machine).
+   - Confirm owner ran `alembic upgrade head` and the opt-in drift test on the real DB (WJ-007 final check).
    - WJ-006/WJ-008: implement `/api/chat/ask` with retrieval filtered by the authenticated/selected university, citations, no-evidence answer path.
    - WJ-005: restrict tenant registration.
    - WJ-011: cost guard module + config allowlist from `COST_POLICY.md`.
