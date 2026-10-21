@@ -17,4 +17,6 @@ __pycache__/
 .idea/
 .vscode/
 uploads/
+# Real university data (staff contact details etc.) stays on your computer
+data/
 backups/

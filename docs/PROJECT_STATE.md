@@ -29,3 +29,4 @@ See `ISSUES.md`. Biggest gaps: chat and ingest endpoints, schema drift, tenant i
 - New migration a3c5e7f91b24 written and verified in sandbox; NOT yet applied to the owner's DB.
 - Tests: 10 pass + 1 opt-in drift test (passed against sandbox DB).
 - Owner's Docker container `wajahni_db` belongs to Compose project `wajahni1` (old folder); running Compose from `wajahni2` creates a separate empty volume. Do not remove the old container/volume.
+- Later 2026-10-21: migrations a3c5e7f91b24 and c7d2f4a8b516 written; sandbox result: 17 tests pass (incl. opt-in drift and temp-schema integration), real `gju_data.json` imported in sandbox (40 courses, 33 instructors, 69 prerequisites; second run created nothing). NOT yet run on the owner's DB. Owner created a new Gemini key twice-exposed in screenshots; must delete and recreate; billing level of the new project (893403538057) not yet confirmed.

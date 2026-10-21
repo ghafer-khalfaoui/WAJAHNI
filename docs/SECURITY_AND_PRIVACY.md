@@ -13,3 +13,6 @@
 
 ## Not yet assessed
 Prompt-injection tests, upload validation (no upload exists), dependency vulnerability scan.
+
+## Staff directory data
+Instructor names, emails, phones and offices come from the university and are personal data. Real files live in the git-ignored `data/` folder, never in the public repo; tests use a synthetic fixture. The importer prints counts only. Before exposing contact details in chat answers, confirm the university publishes them and show only what is needed.

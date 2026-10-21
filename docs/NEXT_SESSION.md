@@ -5,7 +5,7 @@
 3. Verify: `python -m venv .venv && .venv/bin/pip install -r requirements.txt pytest && .venv/bin/pytest tests -q`
    (tests set dummy env vars themselves; no network, no DB, no API calls).
 4. Next actions in order:
-   - Confirm owner ran `alembic upgrade head` and the opt-in drift test on the real DB (WJ-007 final check).
+   - Confirm owner ran `alembic upgrade head` (two new migrations) and the tests with `WAJAHNI_TEST_DB_URL` set, then imported the data with `python -m scripts.import_academic_data data\gju_data.json` (WJ-007 final check; WJ-020 verification).
    - WJ-006/WJ-008: implement `/api/chat/ask` with retrieval filtered by the authenticated/selected university, citations, no-evidence answer path.
    - WJ-005: restrict tenant registration.
    - WJ-011: cost guard module + config allowlist from `COST_POLICY.md`.

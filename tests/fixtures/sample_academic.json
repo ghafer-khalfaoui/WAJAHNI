@@ -1,0 +1,22 @@
+{
+  "instructors": [
+    {"name": "Dr. Ada Example", "title": "Professor", "office_location": "X 101", "phone": "+000 1", "email": "Ada.Example@example.edu", "status": null},
+    {"name": "Dr. Bob Sample", "title": "Lecturer", "office_location": null, "phone": "+000 2", "email": "bob.sample@example.edu", "status": "On Leave"},
+    {"name": "Dr. Ada Duplicate", "title": "Lecturer", "office_location": null, "phone": "+000 3", "email": "ada.example@example.edu", "status": null},
+    {"name": "No Email", "title": "Lecturer", "office_location": null, "phone": null, "email": "", "status": null}
+  ],
+  "courses": [
+    {"code": "T 101", "name": "Intro", "hours": 3, "desc": "First course."},
+    {"code": "T201", "name": "Middle", "hours": 3, "desc": null},
+    {"code": "T301", "name": "Advanced", "hours": 3, "desc": "Last course."},
+    {"code": "t201", "name": "Duplicate code", "hours": 3, "desc": null},
+    {"code": "T999", "name": "Bad hours", "hours": -1, "desc": null}
+  ],
+  "prerequisites": [
+    {"course": "T201", "prereq": "T101"},
+    {"course": "T301", "prereq": "T201"},
+    {"course": "T301", "prereq": "T201"},
+    {"course": "T301", "prereq": "T301"},
+    {"course": "T301", "prereq": "T555"}
+  ]
+}

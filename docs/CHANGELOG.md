@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-21 (b)
+- Added: tenant-scoped `courses`, `course_prerequisites`, `instructors` (migration `c7d2f4a8b516`), each row with `source` and `verified`.
+- Added: `app/services/academic.py` (validated, repeatable importer; exact lookups for courses, prerequisites incl. transitive, staff search) and `scripts/import_academic_data.py` (prints counts only).
+- Added: `data/` is git-ignored for real university data; synthetic fixture in `tests/fixtures`.
+- Fixed (WJ-022): all models imported in `app/models/__init__.py`.
+
 ## 2026-10-21
 - Fixed (WJ-007): models rebuilt to match migrations; new migration `a3c5e7f91b24` (admin_users, chunk university_id NOT NULL + FK, data backfilled).
 - Added (WJ-008): tenant-restricted `VectorStoreService.search`; ingest now writes chunk `university_id`.
