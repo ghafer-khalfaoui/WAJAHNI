@@ -6,7 +6,9 @@
    (tests set dummy env vars themselves; no network, no DB, no API calls).
 4. Next actions in order:
    - Confirm owner ran `alembic upgrade head` (two new migrations) and the tests with `WAJAHNI_TEST_DB_URL` set, then imported the data with `python -m scripts.import_academic_data data\gju_data.json` (WJ-007 final check; WJ-020 verification).
-   - WJ-006/WJ-008: implement `/api/chat/ask` with retrieval filtered by the authenticated/selected university, citations, no-evidence answer path.
+   - Owner: `git pull`, run tests with `WAJAHNI_TEST_DB_URL`, start `uvicorn app.main:app --reload`, POST `/api/v1/chat/gju.edu.jo` from `/docs` (rule-based chat is done).
+   - WJ-006/WJ-008: add document retrieval (RAG) behind the same endpoint for questions the rules cannot answer; needs a confirmed free model/embedding first.
+   - Add a minimal chat UI over the endpoint.
    - WJ-005: restrict tenant registration.
    - WJ-011: cost guard module + config allowlist from `COST_POLICY.md`.
 5. GJU data candidate: old repo `ghafer-khalfaoui/ai-chatbot` has `gju_data.json` (33 instructors with office/phone/email, 40 courses, 69 prerequisites) and `intents.json` (21 intents). Provenance and currency are UNVERIFIED: ask the owner where it came from before treating it as official. Import it as a seed with source/date metadata; do not reuse the old Flask/BERT/MySQL code.

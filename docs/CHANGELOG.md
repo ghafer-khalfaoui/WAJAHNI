@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-22
+- Added: rule-based chat endpoint `POST /api/v1/chat/{domain}` (no AI model, $0). Answers course info, direct/full-chain prerequisites and staff office/phone/email from the structured tables, scoped to one university taken from the URL. Replaces the earlier mock stub (response schema changed: `answer`, `status`, `sources`, `data_verified`).
+- Behaviour: returns only the contact detail asked for; says when data is unverified; asks which person when a name is ambiguous; year-like text ("deadlines in 2026") is not treated as a course code.
+- Added: `tests/test_chat.py`, `tests/db_helpers.py` (temporary-schema helpers). Sandbox: 28 pass; the drift test fails only on an unmigrated sandbox DB.
+
 ## 2026-10-21 (b)
 - Added: tenant-scoped `courses`, `course_prerequisites`, `instructors` (migration `c7d2f4a8b516`), each row with `source` and `verified`.
 - Added: `app/services/academic.py` (validated, repeatable importer; exact lookups for courses, prerequisites incl. transitive, staff search) and `scripts/import_academic_data.py` (prints counts only).

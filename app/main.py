@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import router as api_router
+from app.api.v1.router import api_router as api_v1_router
 
 app = FastAPI(
     title="Wajahni AI Backend",
@@ -26,6 +27,7 @@ app.add_middleware(
 
 # Include the RAG routes under the /api prefix
 app.include_router(api_router, prefix="/api")
+app.include_router(api_v1_router, prefix="/api/v1")
 
 @app.get("/")
 def root():

@@ -1,33 +1,24 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.schemas.chat import ChatRequest, ChatResponse
 from app.core.database import get_db
+from app.models.university import University
+from app.schemas.chat import ChatRequest, ChatResponse
+from app.services.chat_router import answer_question
 
 router = APIRouter()
 
-@router.post("/", response_model=ChatResponse)
-async def process_chat_message(
-    request: ChatRequest,
-    db: AsyncSession = Depends(get_db)
-):
+
+@router.post("/{domain}", response_model=ChatResponse)
+async def ask(domain: str, request: ChatRequest, db: AsyncSession = Depends(get_db)) -> ChatResponse:
+    """Answer a question about ONE university, chosen by its domain in the URL (e.g. gju.edu.jo).
+
+    The university comes from the URL, never from the message text, and every lookup is
+    restricted to it. This endpoint only reads public institutional data.
     """
-    Primary ingestion endpoint for the Layered Thinking Engine.
-    Validates payload, injects DB session, and triggers the AI Router.
-    """
-    # -------------------------------------------------------------------------
-    # PHASE 3 STUB: The Layered Thinking Engine (Multi-Agent Router) will go here.
-    # For now, we return a strict mock matching our schema contract to verify the I/O pipeline.
-    # -------------------------------------------------------------------------
-    
-    return ChatResponse(
-        response=f"Message received: '{request.message}'. The Wajahni Agent Swarm is currently compiling.",
-        confidence_score=100,
-        reasoning_steps=[
-            "Intercepted request at API Gateway.",
-            "Validated payload structure via Pydantic.",
-            "Injected isolated PostgreSQL transactional context.",
-            "Generated static structural response."
-        ],
-        ui_shift=None
-    )
+    result = await db.execute(select(University).where(University.domain == domain.strip().lower()))
+    university = result.scalars().first()
+    if university is None:
+        raise HTTPException(status_code=404, detail="Unknown university")
+    return await answer_question(db, university.id, request.message)

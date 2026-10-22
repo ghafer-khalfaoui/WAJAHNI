@@ -205,6 +205,17 @@ async def list_prerequisites(
     return list(courses.scalars().all())
 
 
+async def list_instructors(db: AsyncSession, university_id: int, limit: int = 500) -> list[Instructor]:
+    """All staff of ONE university (bounded), for matching names in Python."""
+    result = await db.execute(
+        select(Instructor)
+        .where(Instructor.university_id == university_id)
+        .order_by(Instructor.name)
+        .limit(min(max(limit, 1), 1000))
+    )
+    return list(result.scalars().all())
+
+
 async def find_instructors(db: AsyncSession, university_id: int, query: str, limit: int = 10) -> list[Instructor]:
     """Case-insensitive name search. LIKE wildcards in the query are treated as plain text."""
     text = query.strip()
