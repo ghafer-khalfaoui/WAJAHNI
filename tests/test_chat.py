@@ -148,3 +148,26 @@ def test_unknown_domain_and_bad_input(client_and_ids):
     assert ask(client_and_ids, "hello", domain="nowhere.edu").status_code == 404
     assert ask(client_and_ids, "").status_code == 422
     assert ask(client_and_ids, "x" * 501).status_code == 422
+
+
+def test_database_down_returns_503_not_500():
+    from fastapi.testclient import TestClient
+
+    from app.core.database import get_db
+    from app.main import app
+
+    class DeadSession:
+        async def execute(self, *args, **kwargs):
+            raise OSError("connection refused")
+
+    async def dead_db():
+        yield DeadSession()
+
+    app.dependency_overrides[get_db] = dead_db
+    try:
+        with TestClient(app) as client:
+            response = client.post("/api/v1/chat/gju.edu.jo", json={"message": "hello"})
+    finally:
+        app.dependency_overrides.pop(get_db, None)
+    assert response.status_code == 503
+    assert "Traceback" not in response.text and "connection refused" not in response.text
