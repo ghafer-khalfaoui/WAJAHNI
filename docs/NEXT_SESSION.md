@@ -14,3 +14,8 @@
 5. GJU data candidate: old repo `ghafer-khalfaoui/ai-chatbot` has `gju_data.json` (33 instructors with office/phone/email, 40 courses, 69 prerequisites) and `intents.json` (21 intents). Provenance and currency are UNVERIFIED: ask the owner where it came from before treating it as official. Import it as a seed with source/date metadata; do not reuse the old Flask/BERT/MySQL code.
 6. Owner's machine: Python must be 3.11-3.13 (WJ-018). Owner's AI Studio project `GJU-Chatbot-Project` is on the no-cost tier with no billing configured (screenshot 2026-10-20); the key was exposed in a screenshot and must be deleted and recreated. Rate-limit page not yet seen.
 7. Do not call any Gemini endpoint until the free model and quota are confirmed in AI Studio.
+
+## Update 2026-10-22 (GJU data source)
+- Owner confirmed chat endpoint reaches the DB layer; the 500 seen was Postgres not running (port 5432 refused), not a code bug. Should return a clean 503 instead (todo).
+- Official GJU pages (public): Faculty Directory https://www.gju.edu.jo/content/faculty-directory-2798 (name, title, school, office, phone ext, email; 9 pages via `?field_school_groups_target_id=All&page=N`), Staff Directory .../staff-directory-2882, Academic Calendar https://www.gju.edu.jo/academic-event (+ 2026-2027 PDF), Schools under /content/school-*. robots.txt: Crawl-delay 10s; /search/, /admin/, /user/ disallowed.
+- Plan: local script run by the owner (shell here cannot reach the site) with 10s delay, identifying User-Agent, saving to `data/` (git-ignored), importing with `verified=false` and `source=<official URL>`. Study plans still need a source page.

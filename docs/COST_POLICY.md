@@ -22,3 +22,8 @@ Paid/unknown models rejected by a config allowlist; daily request counter and ha
 
 ## Rule
 If free status of an exact model/feature cannot be established from official pages, it is not used.
+
+## Rate limits (checked 2026-10-22, official docs)
+- Limits are per **project**, not per key, measured as requests/min, input tokens/min and requests/day; exceeding any gives a rate-limit error. Daily quota resets at midnight Pacific.
+- Docs do not list per-model numbers; they must be read from the AI Studio "Rate limit" page for the project (owner screenshot still needed, key hidden). Until then no Gemini call is made.
+- Owner deleted the exposed keys? Owner reports a new key was created and placed only in `.env`; the repo `ai-chatbot` was made private.
