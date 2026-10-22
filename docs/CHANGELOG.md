@@ -22,3 +22,6 @@
 - Fixed: removed hard-coded JWT fallback secret; algorithm/expiry from settings (WJ-004).
 - Added: `.gitignore`, `.env.example`, `tests/`, audit and policy docs.
 - Changed (index only): stopped tracking `.env`, `venv/`, `__pycache__`.
+
+## 2026-10-22 (later)
+- Added: `app/services/gju_parser.py`, `scripts/parse_gju.py` (saved GJU directory pages -> `data/gju_official.json`), `--verified` flag on the importer, fixtures and `tests/test_gju_parser.py`. Checked on real pages: 10/10 faculty rows and 15/15 staff rows parsed.

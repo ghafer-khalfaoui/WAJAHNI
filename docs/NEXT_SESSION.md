@@ -22,3 +22,9 @@
 - Added `scripts/fetch_gju.py` (polite 10s-delay downloader to `data/raw/gju/`). Parser NOT written yet: needs the real HTML (ask owner to send `faculty_p0.html` and `academic_event.html`), then write `scripts/parse_gju.py` + tests on a trimmed fixture, import with verified=false.
 - Chat endpoint now returns 503 (not 500) when the DB is unreachable.
 - AI Studio rate-limit screenshot (project "wajahni"): free tier, only model row visible so far is "Antigravity" (agents) 60 RPM / 100K TPM / 100 RPD; Gemini text/embedding rows not yet seen (toggle "Tous les modèles").
+
+## Update 2026-10-22 (parser)
+- Owner downloaded 15 faculty + 15 staff pages + calendar page + calendar PDF into `data/raw/gju/`. The fetcher did not stop early (every page contains a mailto), so pages past the real end may be duplicates; the parser de-duplicates by email and prints counts.
+- Next: owner runs `python -m scripts.parse_gju`, sends the printed counts; compare 5 random people with the website; then `python -m scripts.import_academic_data data\gju_official.json --source "https://www.gju.edu.jo/content/faculty-directory-2798 and staff-directory-2882, fetched 2026-10-22"` (add `--verified` only after the spot check).
+- The HTML calendar page for October 2026 has no events. The real source is `academic_calendar_2026-2027.pdf`: owner must attach it; then add an `academic_events` table + chat answers for dates.
+- Study plans / course lists still have no official source file. Look under each school page.

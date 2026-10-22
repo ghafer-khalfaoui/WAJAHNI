@@ -27,3 +27,16 @@ If free status of an exact model/feature cannot be established from official pag
 - Limits are per **project**, not per key, measured as requests/min, input tokens/min and requests/day; exceeding any gives a rate-limit error. Daily quota resets at midnight Pacific.
 - Docs do not list per-model numbers; they must be read from the AI Studio "Rate limit" page for the project (owner screenshot still needed, key hidden). Until then no Gemini call is made.
 - Owner deleted the exposed keys? Owner reports a new key was created and placed only in `.env`; the repo `ai-chatbot` was made private.
+
+## Free-tier limits seen in AI Studio (owner screenshot 2026-10-22, project "wajahni", tier "Niveau sans frais")
+| Model | RPM | TPM | RPD |
+|---|---|---|---|
+| Gemini 2.5 Flash | 5 | 250K | 20 |
+| Gemini 2.5 Flash-Lite | 10 | 250K | 20 |
+| Gemini 3 Flash | 5 | 250K | 20 |
+| Gemini 2.5 Flash TTS | 3 | 10K | 10 |
+| Gemini 2.5 Pro, Gemini 2 Flash, Gemini 2 Flash-Lite, Gemini 3.1 Pro | 0 | 0 | 0 (not available free) |
+- Meaning: about **20 requests per day per model**. Gemini can only be an optional extra for a few questions a day, never the backbone. Rule-based answers and local retrieval carry the product.
+- Only public university data may be sent (free-tier content can be used by Google to improve products).
+- Embedding models were not visible in the screenshot (list was cut off): still unverified. No Gemini call has been made.
+- Numbers can change; re-check the AI Studio page before relying on them.
