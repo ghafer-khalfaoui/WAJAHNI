@@ -29,3 +29,9 @@
 ## 2026-10-23
 - Changed: importer now also updates a row when only its source or verified flag changes (so importing unverified first and re-running with `--verified` works), and an unverified import never overwrites verified rows (`skipped_already_verified` count). Test added.
 - Real parse result on owner's 30 saved pages: faculty 150 rows / 144 with email / 141 unique; staff 225 / 218 / 207; 333 unique people. 13 listing rows have no email and are not importable.
+
+## 2026-10-23 (calendar)
+- Added: `academic_events` table + migration `d9e1b3c5a728` (verified equal to the model in a scratch DB), `AcademicEvent` model, `events` support in the importer, `app/services/calendar_answers.py` (word-matching answers, no AI), chat now answers calendar questions ("When are the midterm exams?").
+- Added: `datasets/gju/calendar_2026_2027.json` (84 entries read from the official PDF; every weekday in the PDF matches its date), `tests/test_calendar.py`, API tests.
+- Changed: the "not verified" note no longer claims the data came from a student (it was wrong for official data).
+- Not independently verified: the wording of the entries was read from page images by hand (OCR could not read the scan). Rows stay `verified=false` until the owner compares them with the PDF.

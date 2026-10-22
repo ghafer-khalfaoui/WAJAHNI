@@ -5,14 +5,16 @@ Everything here is scoped to ONE university_id. Imported rows are marked
 """
 from __future__ import annotations
 
+import datetime as dt
 from typing import Any
 
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.models.academic import Course, CoursePrerequisite, Instructor
+from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor
 
 MAX_RESULTS = 20
+SEMESTERS = ("first", "second", "summer")
 
 
 def normalize_code(code: str) -> str:
@@ -26,7 +28,7 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
     Problem messages mention row numbers or course codes only, never personal data.
     """
     problems: list[str] = []
-    parsed: dict = {"courses": [], "instructors": [], "prerequisites": []}
+    parsed: dict = {"courses": [], "instructors": [], "prerequisites": [], "events": []}
     if not isinstance(data, dict):
         return parsed, ["top level must be an object with courses/instructors/prerequisites"]
 
@@ -97,6 +99,25 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
         elif (course, prereq) not in pairs:
             pairs.add((course, prereq))
             parsed["prerequisites"].append((course, prereq))
+
+    seen_events: set[tuple[str, dt.date, str]] = set()
+    for i, row in enumerate(data.get("events") or []):
+        try:
+            semester = str(row["semester"]).strip().lower()
+            title = str(row["title"]).strip()
+            start = dt.date.fromisoformat(str(row["start"]))
+            end = dt.date.fromisoformat(str(row["end"]))
+            if semester not in SEMESTERS or not title or end < start:
+                raise ValueError("bad semester, title or date order")
+        except (KeyError, TypeError, ValueError) as exc:
+            problems.append(f"event row {i}: skipped ({exc})")
+            continue
+        key = (semester, start, title)
+        if key in seen_events:
+            problems.append(f"event row {i}: duplicate, skipped")
+            continue
+        seen_events.add(key)
+        parsed["events"].append({"semester": semester, "start_date": start, "end_date": end, "title": title})
     return parsed, problems
 
 
@@ -118,6 +139,7 @@ async def import_academic_data(
         "courses_created": 0, "courses_updated": 0,
         "instructors_created": 0, "instructors_updated": 0,
         "prerequisites_created": 0,
+        "events_created": 0, "events_updated": 0,
         "skipped_already_verified": 0,
     }
 
@@ -156,6 +178,23 @@ async def import_academic_data(
                 setattr(current, k, v)
             current.source, current.verified = source, verified
             counts["instructors_updated"] += 1
+
+    existing_events = {
+        (e.semester, e.start_date, e.title): e
+        for e in (await db.execute(select(AcademicEvent).where(AcademicEvent.university_id == university_id))).scalars()
+    }
+    for row in parsed["events"]:
+        current = existing_events.get((row["semester"], row["start_date"], row["title"]))
+        if current is None:
+            db.add(AcademicEvent(university_id=university_id, source=source, verified=verified, **row))
+            counts["events_created"] += 1
+        elif current.verified and not verified:
+            counts["skipped_already_verified"] += 1
+        elif _differs(current, row, source, verified):
+            for k, v in row.items():
+                setattr(current, k, v)
+            current.source, current.verified = source, verified
+            counts["events_updated"] += 1
 
     await db.flush()  # assigns ids to new courses
 
@@ -241,5 +280,16 @@ async def find_instructors(db: AsyncSession, university_id: int, query: str, lim
         .where(Instructor.university_id == university_id, Instructor.name.ilike(f"%{escaped}%", escape="\\"))
         .order_by(Instructor.name)
         .limit(min(max(limit, 1), MAX_RESULTS))
+    )
+    return list(result.scalars().all())
+
+
+async def list_events(db: AsyncSession, university_id: int) -> list[AcademicEvent]:
+    """All calendar entries of ONE university in date order (a year has about 90)."""
+    result = await db.execute(
+        select(AcademicEvent)
+        .where(AcademicEvent.university_id == university_id)
+        .order_by(AcademicEvent.start_date, AcademicEvent.title)
+        .limit(1000)
     )
     return list(result.scalars().all())

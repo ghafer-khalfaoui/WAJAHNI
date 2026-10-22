@@ -2,6 +2,7 @@
 
 Pure-logic tests always run. Endpoint tests need WAJAHNI_TEST_DB_URL and use a temporary schema.
 """
+import datetime as dt
 import os
 
 import pytest
@@ -31,6 +32,13 @@ DATA = {
         {"course": "TS301", "prereq": "TS201"},
     ],
 }
+
+
+_NEXT = dt.date.today() + dt.timedelta(days=30)
+DATA["events"] = [
+    {"semester": "first", "start": _NEXT.isoformat(), "end": (_NEXT + dt.timedelta(days=7)).isoformat(),
+     "title": "Midterm exams"},
+]
 
 
 def test_extract_course_codes():
@@ -171,3 +179,19 @@ def test_database_down_returns_503_not_500():
         app.dependency_overrides.pop(get_db, None)
     assert response.status_code == 503
     assert "Traceback" not in response.text and "connection refused" not in response.text
+
+
+
+@needs_db
+def test_calendar_question_is_answered_from_the_calendar(client_and_ids):
+    body = ask(client_and_ids, "When are the midterm exams?").json()
+    assert body["status"] == "answered" and "Midterm exams" in body["answer"]
+    assert f"{_NEXT.day} {_NEXT.strftime('%b %Y')}" in body["answer"]
+    assert body["sources"][0]["type"] == "event" and body["data_verified"] is False
+    assert "not been verified" in body["answer"]
+
+
+@needs_db
+def test_calendar_is_tenant_scoped_and_never_invented(client_and_ids):
+    assert ask(client_and_ids, "When are the midterm exams?", domain="empty.edu").json()["status"] == "unsupported"
+    assert ask(client_and_ids, "When is the graduation party?").json()["status"] == "unsupported"

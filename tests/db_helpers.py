@@ -10,10 +10,13 @@ from sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine
 
 def _tables():
     import app.models  # noqa: F401  (registers every model)
-    from app.models.academic import Course, CoursePrerequisite, Instructor
+    from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor
     from app.models.university import University
 
-    return [University.__table__, Course.__table__, CoursePrerequisite.__table__, Instructor.__table__]
+    return [
+        University.__table__, Course.__table__, CoursePrerequisite.__table__, Instructor.__table__,
+        AcademicEvent.__table__,
+    ]
 
 
 def scoped_engine(url: str, schema: str):

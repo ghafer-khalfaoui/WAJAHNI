@@ -1,0 +1,510 @@
+{
+ "academic_year": "2026/2027",
+ "source_note": "GJU 2026/2027 Calendar PDF, https://www.gju.edu.jo/sites/default/files/announcement/academic_calendar_2026-2027.pdf, transcribed 2026-10-23",
+ "events": [
+  {
+   "semester": "first",
+   "start": "2026-09-18",
+   "end": "2026-09-22",
+   "title": "Online registration"
+  },
+  {
+   "semester": "first",
+   "start": "2026-09-20",
+   "end": "2026-10-01",
+   "title": "Intensive German Language Pre-course"
+  },
+  {
+   "semester": "first",
+   "start": "2026-09-23",
+   "end": "2026-09-24",
+   "title": "Processing registration requests"
+  },
+  {
+   "semester": "first",
+   "start": "2026-09-27",
+   "end": "2026-09-27",
+   "title": "Beginning of 1st semester / Faculty sign in"
+  },
+  {
+   "semester": "first",
+   "start": "2026-09-28",
+   "end": "2026-10-01",
+   "title": "Add & drop"
+  },
+  {
+   "semester": "first",
+   "start": "2026-10-04",
+   "end": "2026-10-04",
+   "title": "First day of classes"
+  },
+  {
+   "semester": "first",
+   "start": "2026-10-15",
+   "end": "2026-10-15",
+   "title": "Last day to sit for incomplete/retake exams"
+  },
+  {
+   "semester": "first",
+   "start": "2026-10-18",
+   "end": "2026-10-18",
+   "title": "Last day to submit incomplete/retake exam results"
+  },
+  {
+   "semester": "first",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "title": "Graduation ceremony (TBC)"
+  },
+  {
+   "semester": "first",
+   "start": "2026-11-21",
+   "end": "2026-11-28",
+   "title": "Midterm exams"
+  },
+  {
+   "semester": "first",
+   "start": "2026-11-29",
+   "end": "2026-12-03",
+   "title": "Online pre-registration"
+  },
+  {
+   "semester": "first",
+   "start": "2026-12-06",
+   "end": "2026-12-17",
+   "title": "Evaluation period"
+  },
+  {
+   "semester": "first",
+   "start": "2026-12-20",
+   "end": "2026-12-24",
+   "title": "Evaluation discussion period"
+  },
+  {
+   "semester": "first",
+   "start": "2026-12-25",
+   "end": "2026-12-25",
+   "title": "Christmas holiday"
+  },
+  {
+   "semester": "first",
+   "start": "2026-12-27",
+   "end": "2026-12-31",
+   "title": "Study break"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-01",
+   "end": "2027-01-01",
+   "title": "New Year's holiday"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-02",
+   "end": "2027-01-02",
+   "title": "GJU-DaF"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-07",
+   "end": "2027-01-07",
+   "title": "Last day to withdraw courses"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "title": "GJU-DaF"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-10",
+   "end": "2027-01-14",
+   "title": "Graduation projects defense week"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-14",
+   "end": "2027-01-14",
+   "title": "Last day to defend master's theses"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-14",
+   "end": "2027-01-14",
+   "title": "Last day of classes"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-16",
+   "end": "2027-01-30",
+   "title": "Final exams"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-21",
+   "end": "2027-01-21",
+   "title": "Last day to submit documents to the IAD"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-31",
+   "end": "2027-01-31",
+   "title": "Last day to submit final exams results"
+  },
+  {
+   "semester": "first",
+   "start": "2027-01-31",
+   "end": "2027-02-11",
+   "title": "Student recess"
+  },
+  {
+   "semester": "first",
+   "start": "2027-02-04",
+   "end": "2027-02-04",
+   "title": "Last day to receive graduation documents by the ARD"
+  },
+  {
+   "semester": "first",
+   "start": "2027-02-11",
+   "end": "2027-02-11",
+   "title": "End of 1st semester"
+  },
+  {
+   "semester": "second",
+   "start": "2027-02-05",
+   "end": "2027-02-09",
+   "title": "Online registration"
+  },
+  {
+   "semester": "second",
+   "start": "2027-02-10",
+   "end": "2027-02-11",
+   "title": "Processing registration requests"
+  },
+  {
+   "semester": "second",
+   "start": "2027-02-14",
+   "end": "2027-02-14",
+   "title": "Beginning of 2nd semester"
+  },
+  {
+   "semester": "second",
+   "start": "2027-02-15",
+   "end": "2027-02-18",
+   "title": "Add & drop"
+  },
+  {
+   "semester": "second",
+   "start": "2027-02-21",
+   "end": "2027-02-21",
+   "title": "First day of classes"
+  },
+  {
+   "semester": "second",
+   "start": "2027-03-04",
+   "end": "2027-03-04",
+   "title": "Last day to sit for incomplete/retake exams"
+  },
+  {
+   "semester": "second",
+   "start": "2027-03-07",
+   "end": "2027-03-07",
+   "title": "Last day to submit incomplete/retake exam results"
+  },
+  {
+   "semester": "second",
+   "start": "2027-03-09",
+   "end": "2027-03-12",
+   "title": "Eid Al-Fitr (expected)"
+  },
+  {
+   "semester": "second",
+   "start": "2027-04-10",
+   "end": "2027-04-17",
+   "title": "Midterm exams"
+  },
+  {
+   "semester": "second",
+   "start": "2027-04-18",
+   "end": "2027-04-22",
+   "title": "Online pre-registration"
+  },
+  {
+   "semester": "second",
+   "start": "2027-04-25",
+   "end": "2027-04-25",
+   "title": "Palm Sunday"
+  },
+  {
+   "semester": "second",
+   "start": "2027-04-25",
+   "end": "2027-05-06",
+   "title": "Evaluation period"
+  },
+  {
+   "semester": "second",
+   "start": "2027-05-01",
+   "end": "2027-05-02",
+   "title": "Labor Day vacation (Expected)"
+  },
+  {
+   "semester": "second",
+   "start": "2027-05-02",
+   "end": "2027-05-02",
+   "title": "Easter Sunday"
+  },
+  {
+   "semester": "second",
+   "start": "2027-05-09",
+   "end": "2027-05-13",
+   "title": "Evaluation discussion period"
+  },
+  {
+   "semester": "second",
+   "start": "2027-05-16",
+   "end": "2027-05-20",
+   "title": "Eid Al-Adha (expected)"
+  },
+  {
+   "semester": "second",
+   "start": "2027-05-23",
+   "end": "2027-05-27",
+   "title": "German Week 2027"
+  },
+  {
+   "semester": "second",
+   "start": "2027-05-25",
+   "end": "2027-05-25",
+   "title": "Independence Day"
+  },
+  {
+   "semester": "second",
+   "start": "2027-05-29",
+   "end": "2027-05-29",
+   "title": "GJU-DaF"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-03",
+   "end": "2027-06-03",
+   "title": "Last day to withdraw courses"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-05",
+   "end": "2027-06-05",
+   "title": "GJU-DaF"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-06",
+   "end": "2027-06-06",
+   "title": "Islamic New Year's holiday"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-07",
+   "end": "2027-06-10",
+   "title": "Graduation projects defense week"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-10",
+   "end": "2027-06-10",
+   "title": "Last day to defend master's theses"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-10",
+   "end": "2027-06-10",
+   "title": "Last day of classes"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-12",
+   "end": "2027-06-26",
+   "title": "Final exams"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-17",
+   "end": "2027-06-17",
+   "title": "Last day to submit documents to the IAD"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-24",
+   "end": "2027-06-24",
+   "title": "Last day to receive graduation documents by the ARD"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-27",
+   "end": "2027-07-01",
+   "title": "Student recess"
+  },
+  {
+   "semester": "second",
+   "start": "2027-06-27",
+   "end": "2027-06-27",
+   "title": "Last day to submit final exams results"
+  },
+  {
+   "semester": "second",
+   "start": "2027-07-01",
+   "end": "2027-07-01",
+   "title": "End of 2nd semester"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-06-25",
+   "end": "2027-06-29",
+   "title": "Online registration"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-06-30",
+   "end": "2027-07-01",
+   "title": "Processing registration requests"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-07-04",
+   "end": "2027-07-04",
+   "title": "Beginning of Summer semester / faculty sign in"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-07-05",
+   "end": "2027-07-08",
+   "title": "Add & drop"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-07-11",
+   "end": "2027-07-11",
+   "title": "First day of classes"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-07-22",
+   "end": "2027-07-22",
+   "title": "Last day to sit for incomplete/retake exams"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-07-25",
+   "end": "2027-07-25",
+   "title": "Last day to submit incomplete/retake exam results"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-07-31",
+   "end": "2027-08-07",
+   "title": "Midterm exams"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-08",
+   "end": "2027-08-12",
+   "title": "Online pre-registration"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-08",
+   "end": "2027-08-12",
+   "title": "Evaluation period"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-12",
+   "end": "2027-08-12",
+   "title": "Last day to withdraw courses"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-14",
+   "end": "2027-08-14",
+   "title": "GJU-DaF"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-16",
+   "end": "2027-08-16",
+   "title": "GJU-DaF"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-15",
+   "end": "2027-08-15",
+   "title": "Birthday of prophet Mohammad (Expected)"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-16",
+   "end": "2027-08-19",
+   "title": "Evaluation discussion period"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-16",
+   "end": "2027-08-19",
+   "title": "Graduation projects defense week"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-19",
+   "end": "2027-08-19",
+   "title": "Last day to defend master's theses"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-19",
+   "end": "2027-08-19",
+   "title": "Last day of classes"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-19",
+   "end": "2027-08-19",
+   "title": "Last day to submit documents to the IAD"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-21",
+   "end": "2027-08-28",
+   "title": "Final exams"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-26",
+   "end": "2027-08-26",
+   "title": "End of Summer semester"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-29",
+   "end": "2027-09-23",
+   "title": "Student recess"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-08-29",
+   "end": "2027-08-29",
+   "title": "Last day to submit final exams results"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-09-02",
+   "end": "2027-09-02",
+   "title": "Last day to receive graduation documents by the ARD"
+  },
+  {
+   "semester": "summer",
+   "start": "2027-09-23",
+   "end": "2027-09-23",
+   "title": "End of Summer vacation"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+first|2026-09-18|2026-09-22|Fri|Tue|Online registration
+first|2026-09-20|2026-10-01|Sun|Thu|Intensive German Language Pre-course
+first|2026-09-23|2026-09-24|Wed|Thu|Processing registration requests
+first|2026-09-27|2026-09-27|Sun|Sun|Beginning of 1st semester / Faculty sign in
+first|2026-09-28|2026-10-01|Mon|Thu|Add & drop
+first|2026-10-04|2026-10-04|Sun|Sun|First day of classes
+first|2026-10-15|2026-10-15|Thu|Thu|Last day to sit for incomplete/retake exams
+first|2026-10-18|2026-10-18|Sun|Sun|Last day to submit incomplete/retake exam results
+first|2026-11-14|2026-11-14|Sat|Sat|Graduation ceremony (TBC)
+first|2026-11-21|2026-11-28|Sat|Sat|Midterm exams
+first|2026-11-29|2026-12-03|Sun|Thu|Online pre-registration
+first|2026-12-06|2026-12-17|Sun|Thu|Evaluation period
+first|2026-12-20|2026-12-24|Sun|Thu|Evaluation discussion period
+first|2026-12-25|2026-12-25|Fri|Fri|Christmas holiday
+first|2026-12-27|2026-12-31|Sun|Thu|Study break
+first|2027-01-01|2027-01-01|Fri|Fri|New Year's holiday
+first|2027-01-02|2027-01-02|Sat|Sat|GJU-DaF
+first|2027-01-07|2027-01-07|Thu|Thu|Last day to withdraw courses
+first|2027-01-09|2027-01-09|Sat|Sat|GJU-DaF
+first|2027-01-10|2027-01-14|Sun|Thu|Graduation projects defense week
+first|2027-01-14|2027-01-14|Thu|Thu|Last day to defend master's theses
+first|2027-01-14|2027-01-14|Thu|Thu|Last day of classes
+first|2027-01-16|2027-01-30|Sat|Sat|Final exams
+first|2027-01-21|2027-01-21|Thu|Thu|Last day to submit documents to the IAD
+first|2027-01-31|2027-01-31|Sun|Sun|Last day to submit final exams results
+first|2027-01-31|2027-02-11|Sun|Thu|Student recess
+first|2027-02-04|2027-02-04|Thu|Thu|Last day to receive graduation documents by the ARD
+first|2027-02-11|2027-02-11|Thu|Thu|End of 1st semester
+second|2027-02-05|2027-02-09|Fri|Tue|Online registration
+second|2027-02-10|2027-02-11|Wed|Thu|Processing registration requests
+second|2027-02-14|2027-02-14|Sun|Sun|Beginning of 2nd semester
+second|2027-02-15|2027-02-18|Mon|Thu|Add & drop
+second|2027-02-21|2027-02-21|Sun|Sun|First day of classes
+second|2027-03-04|2027-03-04|Thu|Thu|Last day to sit for incomplete/retake exams
+second|2027-03-07|2027-03-07|Sun|Sun|Last day to submit incomplete/retake exam results
+second|2027-03-09|2027-03-12|Tue|Fri|Eid Al-Fitr (expected)
+second|2027-04-10|2027-04-17|Sat|Sat|Midterm exams
+second|2027-04-18|2027-04-22|Sun|Thu|Online pre-registration
+second|2027-04-25|2027-04-25|Sun|Sun|Palm Sunday
+second|2027-04-25|2027-05-06|Sun|Thu|Evaluation period
+second|2027-05-01|2027-05-02|Sat|Sun|Labor Day vacation (Expected)
+second|2027-05-02|2027-05-02|Sun|Sun|Easter Sunday
+second|2027-05-09|2027-05-13|Sun|Thu|Evaluation discussion period
+second|2027-05-16|2027-05-20|Sun|Thu|Eid Al-Adha (expected)
+second|2027-05-23|2027-05-27|Sun|Thu|German Week 2027
+second|2027-05-25|2027-05-25|Tue|Tue|Independence Day
+second|2027-05-29|2027-05-29|Sat|Sat|GJU-DaF
+second|2027-06-03|2027-06-03|Thu|Thu|Last day to withdraw courses
+second|2027-06-05|2027-06-05|Sat|Sat|GJU-DaF
+second|2027-06-06|2027-06-06|Sun|Sun|Islamic New Year's holiday
+second|2027-06-07|2027-06-10|Mon|Thu|Graduation projects defense week
+second|2027-06-10|2027-06-10|Thu|Thu|Last day to defend master's theses
+second|2027-06-10|2027-06-10|Thu|Thu|Last day of classes
+second|2027-06-12|2027-06-26|Sat|Sat|Final exams
+second|2027-06-17|2027-06-17|Thu|Thu|Last day to submit documents to the IAD
+second|2027-06-24|2027-06-24|Thu|Thu|Last day to receive graduation documents by the ARD
+second|2027-06-27|2027-07-01|Sun|Thu|Student recess
+second|2027-06-27|2027-06-27|Sun|Sun|Last day to submit final exams results
+second|2027-07-01|2027-07-01|Thu|Thu|End of 2nd semester
+summer|2027-06-25|2027-06-29|Fri|Tue|Online registration
+summer|2027-06-30|2027-07-01|Wed|Thu|Processing registration requests
+summer|2027-07-04|2027-07-04|Sun|Sun|Beginning of Summer semester / faculty sign in
+summer|2027-07-05|2027-07-08|Mon|Thu|Add & drop
+summer|2027-07-11|2027-07-11|Sun|Sun|First day of classes
+summer|2027-07-22|2027-07-22|Thu|Thu|Last day to sit for incomplete/retake exams
+summer|2027-07-25|2027-07-25|Sun|Sun|Last day to submit incomplete/retake exam results
+summer|2027-07-31|2027-08-07|Sat|Sat|Midterm exams
+summer|2027-08-08|2027-08-12|Sun|Thu|Online pre-registration
+summer|2027-08-08|2027-08-12|Sun|Thu|Evaluation period
+summer|2027-08-12|2027-08-12|Thu|Thu|Last day to withdraw courses
+summer|2027-08-14|2027-08-14|Sat|Sat|GJU-DaF
+summer|2027-08-16|2027-08-16|Mon|Mon|GJU-DaF
+summer|2027-08-15|2027-08-15|Sun|Sun|Birthday of prophet Mohammad (Expected)
+summer|2027-08-16|2027-08-19|Mon|Thu|Evaluation discussion period
+summer|2027-08-16|2027-08-19|Mon|Thu|Graduation projects defense week
+summer|2027-08-19|2027-08-19|Thu|Thu|Last day to defend master's theses
+summer|2027-08-19|2027-08-19|Thu|Thu|Last day of classes
+summer|2027-08-19|2027-08-19|Thu|Thu|Last day to submit documents to the IAD
+summer|2027-08-21|2027-08-28|Sat|Sat|Final exams
+summer|2027-08-26|2027-08-26|Thu|Thu|End of Summer semester
+summer|2027-08-29|2027-09-23|Sun|Thu|Student recess
+summer|2027-08-29|2027-08-29|Sun|Sun|Last day to submit final exams results
+summer|2027-09-02|2027-09-02|Thu|Thu|Last day to receive graduation documents by the ARD
+summer|2027-09-23|2027-09-23|Thu|Thu|End of Summer vacation

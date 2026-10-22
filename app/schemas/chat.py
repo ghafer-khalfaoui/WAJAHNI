@@ -16,7 +16,7 @@ class ChatRequest(BaseModel):
 
 
 class SourceRef(BaseModel):
-    type: Literal["course", "instructor"]
+    type: Literal["course", "instructor", "event"]
     label: str
     source: str | None = None  # where the data came from
     verified: bool = False

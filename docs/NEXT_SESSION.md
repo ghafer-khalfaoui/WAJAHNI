@@ -32,3 +32,8 @@
 ## Update 2026-10-23
 - Owner ran `parse_gju` (333 people). First import failed with ConnectionRefused (Postgres/Docker was off). Owner had passed `--verified` before any spot check: advise import WITHOUT `--verified`, spot-check 5 people, then re-run with `--verified`.
 - Still needed: calendar PDF, study-plan source, confirm AI Studio project id.
+
+## Update 2026-10-23 (calendar done)
+- Owner: `git pull`, `alembic upgrade head` (new revision d9e1b3c5a728), then `python -m scripts.import_academic_data datasets\gju\calendar_2026_2027.json --source "GJU academic calendar 2026/2027 PDF"`; glance at the PDF vs a few chat answers; then re-run with `--verified`.
+- AI Studio project confirmed: `893403538057` = `gen-lang-client-0113469613` ("wajahni"), free tier.
+- Next: study plans. Owner says each school page has its study plans. Find them (School of Computing first), get an official source, extend courses/prerequisites import with source URLs.

@@ -21,7 +21,7 @@ from app.models.university import University
 from app.models.student import Student
 from app.models.document import Document
 from app.models.document import DocumentChunk
-from app.models.academic import Course, CoursePrerequisite, Instructor  # noqa: F401
+from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor  # noqa: F401
 config = context.config
 
 # Inject our async database URL from the .env file

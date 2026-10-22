@@ -36,6 +36,20 @@ def test_problem_messages_never_contain_personal_data():
     assert all("@" not in p and "example" not in p.lower() for p in problems)
 
 
+def test_parse_events_validates_dates_and_semesters():
+    good = {"semester": "First", "start": "2026-11-21", "end": "2026-11-28", "title": " Midterm exams "}
+    bad = [
+        {"semester": "winter", "start": "2026-11-21", "end": "2026-11-28", "title": "x"},
+        {"semester": "first", "start": "2026-11-28", "end": "2026-11-21", "title": "x"},
+        {"semester": "first", "start": "not a date", "end": "2026-11-21", "title": "x"},
+        {"semester": "first", "start": "2026-11-21", "end": "2026-11-28", "title": " "},
+        dict(good),  # duplicate of the good row
+    ]
+    parsed, problems = parse_academic_data({"events": [good, *bad]})
+    assert [(e["semester"], e["title"]) for e in parsed["events"]] == [("first", "Midterm exams")]
+    assert len(problems) == 5
+
+
 def test_parse_rejects_non_object():
     parsed, problems = parse_academic_data(["not", "an", "object"])
     assert problems and not parsed["courses"]
@@ -52,7 +66,7 @@ def test_import_and_lookups_in_a_temporary_schema():
 
     import app.models.document  # noqa: F401
     from app.core.database import Base
-    from app.models.academic import Course, CoursePrerequisite, Instructor
+    from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor
     from app.models.university import University
     from app.services.academic import (
         find_instructors, get_course, import_academic_data, list_prerequisites,
@@ -65,7 +79,8 @@ def test_import_and_lookups_in_a_temporary_schema():
             await conn.execute(text(f'CREATE SCHEMA "{schema}"'))
         engine = create_async_engine(URL, connect_args={"server_settings": {"search_path": schema}})
         try:
-            tables = [University.__table__, Course.__table__, CoursePrerequisite.__table__, Instructor.__table__]
+            tables = [University.__table__, Course.__table__, CoursePrerequisite.__table__, Instructor.__table__,
+                      AcademicEvent.__table__]
             async with engine.begin() as conn:
                 await conn.run_sync(lambda sync: Base.metadata.create_all(sync, tables=tables))
             async with async_sessionmaker(engine, expire_on_commit=False)() as db:

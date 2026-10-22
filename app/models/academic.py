@@ -1,4 +1,4 @@
-from sqlalchemy import Boolean, CheckConstraint, Column, ForeignKey, Integer, String, Text, UniqueConstraint
+from sqlalchemy import Boolean, CheckConstraint, Column, Date, ForeignKey, Integer, String, Text, UniqueConstraint
 from sqlalchemy.orm import relationship
 
 from app.models.base import WajahniBaseModel
@@ -53,5 +53,23 @@ class Instructor(WajahniBaseModel):
     phone = Column(String(60), nullable=True)
     email = Column(String(255), nullable=False)
     status = Column(String(30), nullable=True)  # e.g. "on leave"
+    source = Column(String(255), nullable=True)
+    verified = Column(Boolean, nullable=False, default=False)
+
+
+class AcademicEvent(WajahniBaseModel):
+    """A dated entry of the official academic calendar (registration, exams, holidays...)."""
+
+    __tablename__ = "academic_events"
+    __table_args__ = (
+        UniqueConstraint("university_id", "semester", "start_date", "title", name="uq_academic_events_entry"),
+        CheckConstraint("end_date >= start_date", name="ck_academic_event_dates"),
+    )
+
+    university_id = _university_fk()
+    semester = Column(String(20), nullable=False)  # "first", "second" or "summer"
+    start_date = Column(Date, nullable=False, index=True)
+    end_date = Column(Date, nullable=False)
+    title = Column(String(255), nullable=False)
     source = Column(String(255), nullable=True)
     verified = Column(Boolean, nullable=False, default=False)

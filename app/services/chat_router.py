@@ -6,6 +6,7 @@ returned, and every answer says when the underlying data is not yet verified.
 """
 from __future__ import annotations
 
+import datetime as dt
 import re
 
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -13,6 +14,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.models.academic import Course, Instructor
 from app.schemas.chat import ChatResponse, SourceRef
 from app.services.academic import get_course, list_instructors, list_prerequisites
+from app.services.calendar_answers import answer_calendar
 
 COURSE_CODE_RE = re.compile(r"\b([A-Za-z]{2,5})\s?(\d{3,4})\b")
 WORD_RE = re.compile(r"[A-Za-zÀ-ɏ؀-ۿ'’\-]+")
@@ -30,17 +32,16 @@ STOPWORDS = (
        "my", "mr", "mrs", "ms", "course", "courses", "hours", "credit", "name", "ignore", "previous"}
 )
 COURSE_CUES = {"course", "courses", "credit", "credits", "hours", "class", "subject"}
+DIRECTORY_WORDS = {"dr", "prof", "professor", "doctor", "instructor", "teacher", "email", "emails", "mail", "phone", "telephone", "extension"}
 MAX_CODES = 3
 MAX_NAME_MATCHES = 5
 HELP_TEXT = (
     "I don't have information about that yet. Right now I can answer questions about GJU courses "
-    "(name, credit hours, prerequisites) and the staff directory, for example "
-    "\"What are the prerequisites of CS223?\" or \"What is the office of Dr. Khalifeh?\"."
+    "(name, credit hours, prerequisites), the staff directory and the academic calendar, for example "
+    "\"What are the prerequisites of CS223?\", \"What is the office of Dr. Khalifeh?\" or "
+    "\"When are the midterm exams?\"."
 )
-UNVERIFIED_NOTE = (
-    "Note: this data was supplied by a student from university material and has not been verified "
-    "against official sources yet."
-)
+UNVERIFIED_NOTE = "Note: this data has not been verified against the official source yet."
 
 
 def _norm(word: str) -> str:
@@ -171,7 +172,9 @@ async def _answer_instructor(db: AsyncSession, university_id: int, message: str)
     return _finish(_describe_instructor(person, _words(message)), "answered", [_instructor_source(person)])
 
 
-async def answer_question(db: AsyncSession, university_id: int, message: str) -> ChatResponse:
+async def answer_question(
+    db: AsyncSession, university_id: int, message: str, today: dt.date | None = None
+) -> ChatResponse:
     message = message.strip()[:500]
     codes = extract_course_codes(message)
     words = _words(message)
@@ -181,6 +184,10 @@ async def answer_question(db: AsyncSession, university_id: int, message: str) ->
         # question really is about a course; otherwise let the other handlers try.
         if response.status == "answered" or words & (PREREQ_WORDS | COURSE_CUES):
             return response
+    if not words & DIRECTORY_WORDS:
+        calendar = await answer_calendar(db, university_id, message, today)
+        if calendar is not None:
+            return calendar
     if words & (PERSON_CUES | EMAIL_CUES | PHONE_CUES | OFFICE_CUES):
         answer = await _answer_instructor(db, university_id, message)
         if answer is not None:
