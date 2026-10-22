@@ -28,3 +28,7 @@
 - Next: owner runs `python -m scripts.parse_gju`, sends the printed counts; compare 5 random people with the website; then `python -m scripts.import_academic_data data\gju_official.json --source "https://www.gju.edu.jo/content/faculty-directory-2798 and staff-directory-2882, fetched 2026-10-22"` (add `--verified` only after the spot check).
 - The HTML calendar page for October 2026 has no events. The real source is `academic_calendar_2026-2027.pdf`: owner must attach it; then add an `academic_events` table + chat answers for dates.
 - Study plans / course lists still have no official source file. Look under each school page.
+
+## Update 2026-10-23
+- Owner ran `parse_gju` (333 people). First import failed with ConnectionRefused (Postgres/Docker was off). Owner had passed `--verified` before any spot check: advise import WITHOUT `--verified`, spot-check 5 people, then re-run with `--verified`.
+- Still needed: calendar PDF, study-plan source, confirm AI Studio project id.

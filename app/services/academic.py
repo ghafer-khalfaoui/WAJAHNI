@@ -100,6 +100,15 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
     return parsed, problems
 
 
+def _differs(current, row: dict, source: str, verified: bool) -> bool:
+    """True when the data, its source, or its verified flag would change."""
+    return (
+        any(getattr(current, k) != v for k, v in row.items())
+        or current.source != source
+        or bool(current.verified) != verified
+    )
+
+
 async def import_academic_data(
     db: AsyncSession, university_id: int, data: Any, source: str, verified: bool = False
 ) -> dict:
@@ -109,6 +118,7 @@ async def import_academic_data(
         "courses_created": 0, "courses_updated": 0,
         "instructors_created": 0, "instructors_updated": 0,
         "prerequisites_created": 0,
+        "skipped_already_verified": 0,
     }
 
     existing_courses = {
@@ -122,7 +132,9 @@ async def import_academic_data(
             db.add(current)
             existing_courses[row["code"]] = current
             counts["courses_created"] += 1
-        elif any(getattr(current, k) != v for k, v in row.items()):
+        elif current.verified and not verified:
+            counts["skipped_already_verified"] += 1  # an unverified import never overwrites verified rows
+        elif _differs(current, row, source, verified):
             for k, v in row.items():
                 setattr(current, k, v)
             current.source, current.verified = source, verified
@@ -137,7 +149,9 @@ async def import_academic_data(
         if current is None:
             db.add(Instructor(university_id=university_id, source=source, verified=verified, **row))
             counts["instructors_created"] += 1
-        elif any(getattr(current, k) != v for k, v in row.items()):
+        elif current.verified and not verified:
+            counts["skipped_already_verified"] += 1  # an unverified import never overwrites verified rows
+        elif _differs(current, row, source, verified):
             for k, v in row.items():
                 setattr(current, k, v)
             current.source, current.verified = source, verified

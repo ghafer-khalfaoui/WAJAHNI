@@ -25,3 +25,7 @@
 
 ## 2026-10-22 (later)
 - Added: `app/services/gju_parser.py`, `scripts/parse_gju.py` (saved GJU directory pages -> `data/gju_official.json`), `--verified` flag on the importer, fixtures and `tests/test_gju_parser.py`. Checked on real pages: 10/10 faculty rows and 15/15 staff rows parsed.
+
+## 2026-10-23
+- Changed: importer now also updates a row when only its source or verified flag changes (so importing unverified first and re-running with `--verified` works), and an unverified import never overwrites verified rows (`skipped_already_verified` count). Test added.
+- Real parse result on owner's 30 saved pages: faculty 150 rows / 144 with email / 141 unique; staff 225 / 218 / 207; 333 unique people. 13 listing rows have no email and are not importable.

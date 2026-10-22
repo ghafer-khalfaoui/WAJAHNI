@@ -98,6 +98,16 @@ def test_import_and_lookups_in_a_temporary_schema():
                 assert await find_instructors(db, uni.id, "%") == []
                 assert (await find_instructors(db, uni.id, "bob"))[0].status == "on leave"
 
+                # re-importing the same data as verified flips the flag even though the data is unchanged
+                promoted = await import_academic_data(db, uni.id, DATA, source="official", verified=True)
+                assert promoted["courses_updated"] == 3 and promoted["instructors_updated"] == 2
+                assert (await get_course(db, uni.id, "T101")).verified is True
+                # a later unverified import must not downgrade or overwrite verified rows
+                kept = await import_academic_data(db, uni.id, DATA, source="old file", verified=False)
+                assert kept["courses_updated"] == kept["instructors_updated"] == 0
+                assert kept["skipped_already_verified"] == 5
+                assert (await get_course(db, uni.id, "T101")).source == "official"
+
                 t101 = await get_course(db, uni.id, "T101")
                 db.add(CoursePrerequisite(university_id=uni.id, course_id=t101.id, prerequisite_id=t101.id))
                 with pytest.raises(IntegrityError):
