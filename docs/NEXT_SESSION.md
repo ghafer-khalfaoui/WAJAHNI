@@ -37,3 +37,9 @@
 - Owner: `git pull`, `alembic upgrade head` (new revision d9e1b3c5a728), then `python -m scripts.import_academic_data datasets\gju\calendar_2026_2027.json --source "GJU academic calendar 2026/2027 PDF"`; glance at the PDF vs a few chat answers; then re-run with `--verified`.
 - AI Studio project confirmed: `893403538057` = `gen-lang-client-0113469613` ("wajahni"), free tier.
 - Next: study plans. Owner says each school page has its study plans. Find them (School of Computing first), get an official source, extend courses/prerequisites import with source URLs.
+
+## Study plans (found 2026-10-23)
+- Official CS study-plan PDFs are linked from https://www.gju.edu.jo/content/computer-science-7419 (versions 2018, 2020, 2022/23 updated, 2023/24 updated; all tracks incl. Cybersecurity and Data Science; also dual-study versions). Tables have: Course ID, Course Name, Credit Hours, ECTS, Contact Hours, Type (F2F/BLD/OL), Prerequisites/Corequisites. Only a summary was seen via WebFetch; do NOT trust it for data: parse the real PDF.
+- `scripts/fetch_gju.py` now also downloads the 2022/23 and 2023/24 plans. Owner must say which admission year applies (plans differ).
+- Limitation to design for: `courses` is unique per (university, code), so only ONE plan version can be loaded at a time unless a `plan_version`/program column is added (new issue WJ-024).
+- Other schools (SATS, SABE, SSSE, BS, SAMS, SAHSS, SN) have their own plans; do CS first.

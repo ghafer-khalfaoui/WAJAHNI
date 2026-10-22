@@ -27,6 +27,11 @@ LISTINGS = {
 SINGLE = {
     "academic_event.html": "/academic-event",
     "academic_calendar_2026-2027.pdf": "/sites/default/files/announcement/academic_calendar_2026-2027.pdf",
+    # Computer Science study plans (official PDFs linked from the program page)
+    "cs_program.html": "/content/computer-science-7419",
+    "cs_cybersecurity_track.html": "/content/computer-science-cybersecurity-track-19735",
+    "cs_study_plan_2023-2024_updated.pdf": "/sites/default/files/Computer%20Science/programs/study_plan_all_tracks_2023-2024_updated.pdf",
+    "cs_study_plan_2022-2023_updated.pdf": "/sites/default/files/Computer%20Science/programs/study_plan_all_tracks_2022-2023_updated.pdf",
 }
 
 
