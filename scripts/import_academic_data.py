@@ -12,6 +12,7 @@ import json
 from pathlib import Path
 
 from sqlalchemy import select
+from sqlalchemy.exc import ProgrammingError
 
 from app.core.database import AsyncSessionLocal, async_engine
 from app.models.university import University
@@ -30,7 +31,15 @@ async def main(path: Path, domain: str, name: str, source: str, verified: bool) 
             print(f"Created university '{name}' ({domain}) with id {uni.id}")
         else:
             print(f"Using existing university id {uni.id} ({domain})")
-        result = await import_academic_data(db, uni.id, data, source=source, verified=verified)
+        try:
+            result = await import_academic_data(db, uni.id, data, source=source, verified=verified)
+        except ProgrammingError as exc:
+            if "does not exist" in str(exc):
+                print("A database table is missing. Run this first, then try again:")
+                print("  .\\.venv\\Scripts\\python.exe -m alembic upgrade head")
+                await async_engine.dispose()
+                return 1
+            raise
     await async_engine.dispose()
     problems = result.pop("problems")
     for key, value in result.items():
