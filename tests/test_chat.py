@@ -43,6 +43,7 @@ DATA["events"] = [
 
 def test_extract_course_codes():
     assert extract_course_codes("prerequisites of cs 223 and CS4714, also ENGL0099") == ["CS223", "CS4714", "ENGL0099"]
+    assert extract_course_codes("what comes before gerl201b1 or GERL 102B2?") == ["GERL201B1", "GERL102B2"]
 
 
 def test_extract_name_tokens_handles_possessive_and_stopwords():

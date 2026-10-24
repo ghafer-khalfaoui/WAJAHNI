@@ -27,7 +27,7 @@ def test_parse_normalizes_and_skips_bad_rows():
     assert [c["code"] for c in parsed["courses"]] == ["T101", "T201", "T301"]
     assert [i["email"] for i in parsed["instructors"]] == ["ada.example@example.edu", "bob.sample@example.edu"]
     assert parsed["instructors"][1]["status"] == "on leave"
-    assert parsed["prerequisites"] == [("T201", "T101"), ("T301", "T201")]
+    assert parsed["prerequisites"] == [("T201", "T101", False, None), ("T301", "T201", False, None)]
     assert len(problems) == 6
 
 
@@ -116,11 +116,12 @@ def test_import_and_lookups_in_a_temporary_schema():
                 # re-importing the same data as verified flips the flag even though the data is unchanged
                 promoted = await import_academic_data(db, uni.id, DATA, source="official", verified=True)
                 assert promoted["courses_updated"] == 3 and promoted["instructors_updated"] == 2
+                assert promoted["prerequisites_updated"] == 2
                 assert (await get_course(db, uni.id, "T101")).verified is True
                 # a later unverified import must not downgrade or overwrite verified rows
                 kept = await import_academic_data(db, uni.id, DATA, source="old file", verified=False)
                 assert kept["courses_updated"] == kept["instructors_updated"] == 0
-                assert kept["skipped_already_verified"] == 5
+                assert kept["skipped_already_verified"] == 7  # 3 courses + 2 staff + 2 prerequisite pairs
                 assert (await get_course(db, uni.id, "T101")).source == "official"
 
                 t101 = await get_course(db, uni.id, "T101")

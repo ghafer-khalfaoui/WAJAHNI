@@ -28,10 +28,11 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
     Problem messages mention row numbers or course codes only, never personal data.
     """
     problems: list[str] = []
-    parsed: dict = {"courses": [], "instructors": [], "prerequisites": [], "events": []}
+    parsed: dict = {"courses": [], "instructors": [], "prerequisites": [], "events": [], "replace_prerequisites": False}
     if not isinstance(data, dict):
         return parsed, ["top level must be an object with courses/instructors/prerequisites"]
 
+    parsed["replace_prerequisites"] = bool(data.get("replace_prerequisites"))
     seen_codes: set[str] = set()
     for i, row in enumerate(data.get("courses") or []):
         try:
@@ -50,8 +51,18 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
             continue
         seen_codes.add(code)
         desc = row.get("desc")
+        groups = row.get("plan_groups")
+        if groups is not None and not (isinstance(groups, list) and all(isinstance(g, str) for g in groups)):
+            problems.append(f"course {code}: plan_groups must be a list of text, ignored")
+            groups = None
+        note = row.get("prerequisite_note")
         parsed["courses"].append(
-            {"code": code, "name": name, "credit_hours": hours, "description": str(desc).strip() if desc else None}
+            {
+                "code": code, "name": name, "credit_hours": hours,
+                "description": str(desc).strip() if desc else None,
+                "plan_groups": list(groups) if groups else None,
+                "prerequisite_note": str(note).strip() if note else None,
+            }
         )
 
     seen_emails: set[str] = set()
@@ -98,7 +109,9 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
             problems.append(f"prerequisite {course} <- {prereq}: unknown course code, skipped")
         elif (course, prereq) not in pairs:
             pairs.add((course, prereq))
-            parsed["prerequisites"].append((course, prereq))
+            group = row.get("alt_group")
+            group = group if isinstance(group, int) and not isinstance(group, bool) else None
+            parsed["prerequisites"].append((course, prereq, bool(row.get("corequisite")), group))
 
     seen_events: set[tuple[str, dt.date, str]] = set()
     for i, row in enumerate(data.get("events") or []):
@@ -138,7 +151,7 @@ async def import_academic_data(
     counts = {
         "courses_created": 0, "courses_updated": 0,
         "instructors_created": 0, "instructors_updated": 0,
-        "prerequisites_created": 0,
+        "prerequisites_created": 0, "prerequisites_updated": 0, "prerequisites_removed": 0,
         "events_created": 0, "events_updated": 0,
         "skipped_already_verified": 0,
     }
@@ -198,23 +211,45 @@ async def import_academic_data(
 
     await db.flush()  # assigns ids to new courses
 
-    existing_pairs = {
-        (p.course_id, p.prerequisite_id)
+    existing = {
+        (p.course_id, p.prerequisite_id): p
         for p in (
             await db.execute(select(CoursePrerequisite).where(CoursePrerequisite.university_id == university_id))
         ).scalars()
     }
-    for course_code, prereq_code in parsed["prerequisites"]:
+    wanted: set[tuple[int, int]] = set()
+    for course_code, prereq_code, corequisite, alt_group in parsed["prerequisites"]:
         pair = (existing_courses[course_code].id, existing_courses[prereq_code].id)
-        if pair not in existing_pairs:
+        wanted.add(pair)
+        current = existing.get(pair)
+        flags = {"corequisite": corequisite, "alt_group": alt_group}
+        if current is None:
             db.add(
                 CoursePrerequisite(
                     university_id=university_id, course_id=pair[0], prerequisite_id=pair[1],
-                    source=source, verified=verified,
+                    source=source, verified=verified, **flags,
                 )
             )
-            existing_pairs.add(pair)
             counts["prerequisites_created"] += 1
+        elif current.verified and not verified:
+            counts["skipped_already_verified"] += 1
+        elif _differs(current, flags, source, verified):
+            for k, v in flags.items():
+                setattr(current, k, v)
+            current.source, current.verified = source, verified
+            counts["prerequisites_updated"] += 1
+
+    if parsed["replace_prerequisites"]:
+        # This file lists the complete prerequisites of every course it contains: remove older pairs
+        # for those courses that it no longer lists (never touching verified rows from an unverified file).
+        in_file = {existing_courses[row["code"]].id for row in parsed["courses"]}
+        for pair, current in existing.items():
+            if pair[0] in in_file and pair not in wanted:
+                if current.verified and not verified:
+                    counts["skipped_already_verified"] += 1
+                else:
+                    await db.delete(current)
+                    counts["prerequisites_removed"] += 1
 
     await db.commit()
     return {**counts, "problems": problems}
@@ -230,7 +265,7 @@ async def get_course(db: AsyncSession, university_id: int, code: str) -> Course 
 async def list_prerequisites(
     db: AsyncSession, university_id: int, code: str, transitive: bool = False, max_depth: int = 10
 ) -> list[Course]:
-    """Direct prerequisites, or the full chain when transitive=True. Cycle-safe."""
+    """Direct prerequisites, or the full chain when transitive=True. Cycle-safe. Corequisites are not followed."""
     start = await get_course(db, university_id, code)
     if start is None:
         return []
@@ -242,6 +277,7 @@ async def list_prerequisites(
             select(CoursePrerequisite.prerequisite_id).where(
                 CoursePrerequisite.university_id == university_id,
                 CoursePrerequisite.course_id.in_(frontier),
+                CoursePrerequisite.corequisite.is_(False),
             )
         )
         next_ids = {r for (r,) in rows.all()} - seen
@@ -291,5 +327,29 @@ async def list_events(db: AsyncSession, university_id: int) -> list[AcademicEven
         .where(AcademicEvent.university_id == university_id)
         .order_by(AcademicEvent.start_date, AcademicEvent.title)
         .limit(1000)
+    )
+    return list(result.scalars().all())
+
+
+async def list_prerequisite_details(
+    db: AsyncSession, university_id: int, code: str
+) -> list[tuple[Course, bool, int | None]]:
+    """Direct requirements of one course as (course, is_corequisite, alt_group), ordered by code."""
+    start = await get_course(db, university_id, code)
+    if start is None:
+        return []
+    rows = await db.execute(
+        select(Course, CoursePrerequisite.corequisite, CoursePrerequisite.alt_group)
+        .join(CoursePrerequisite, CoursePrerequisite.prerequisite_id == Course.id)
+        .where(CoursePrerequisite.university_id == university_id, CoursePrerequisite.course_id == start.id)
+        .order_by(Course.code)
+    )
+    return [(course, bool(co), group) for course, co, group in rows.all()]
+
+
+async def list_courses(db: AsyncSession, university_id: int, limit: int = 1000) -> list[Course]:
+    """All courses of ONE university (bounded), ordered by code."""
+    result = await db.execute(
+        select(Course).where(Course.university_id == university_id).order_by(Course.code).limit(limit)
     )
     return list(result.scalars().all())

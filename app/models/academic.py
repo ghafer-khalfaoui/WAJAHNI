@@ -1,4 +1,4 @@
-from sqlalchemy import Boolean, CheckConstraint, Column, Date, ForeignKey, Integer, String, Text, UniqueConstraint
+from sqlalchemy import JSON, Boolean, CheckConstraint, Column, Date, ForeignKey, Integer, String, Text, UniqueConstraint
 from sqlalchemy.orm import relationship
 
 from app.models.base import WajahniBaseModel
@@ -19,6 +19,8 @@ class Course(WajahniBaseModel):
     name = Column(String(255), nullable=False)
     credit_hours = Column(Integer, nullable=False)
     description = Column(Text, nullable=True)
+    plan_groups = Column(JSON, nullable=True)  # e.g. ["program-common"], ["track-cybersecurity"]
+    prerequisite_note = Column(Text, nullable=True)  # non-course conditions, e.g. "Placement test"
     source = Column(String(255), nullable=True)
     verified = Column(Boolean, nullable=False, default=False)
 
@@ -33,6 +35,8 @@ class CoursePrerequisite(WajahniBaseModel):
     university_id = _university_fk()
     course_id = Column(Integer, ForeignKey("courses.id", ondelete="CASCADE"), index=True, nullable=False)
     prerequisite_id = Column(Integer, ForeignKey("courses.id", ondelete="CASCADE"), index=True, nullable=False)
+    corequisite = Column(Boolean, nullable=False, default=False)  # may be taken at the same time
+    alt_group = Column(Integer, nullable=True)  # rows of one course sharing a number: any ONE of them is enough
     source = Column(String(255), nullable=True)
     verified = Column(Boolean, nullable=False, default=False)
 

@@ -35,3 +35,8 @@
 - Added: `datasets/gju/calendar_2026_2027.json` (84 entries read from the official PDF; every weekday in the PDF matches its date), `tests/test_calendar.py`, API tests.
 - Changed: the "not verified" note no longer claims the data came from a student (it was wrong for official data).
 - Not independently verified: the wording of the entries was read from page images by hand (OCR could not read the scan). Rows stay `verified=false` until the owner compares them with the PDF.
+
+## 2026-10-24
+- Added: study-plan parser (`app/services/plan_parser.py`, `scripts/build_gju_plan.py`) and dataset `datasets/gju/cs_study_plan_2023_2024.json` (103 courses, 106 prerequisite rows; newest CS plan only). Cross-checked: table vs course-block agreement 90/96, credit totals match the PDF.
+- Added: corequisites, "A or B" alternatives, plan groups and non-course conditions (migration `f3a9c1d7e054`); `replace_prerequisites` flag; chat answers for track questions and the new prerequisite wording.
+- Added: importer prints courses in the DB that are not in the plan (never deletes). Sandbox run of import, repeat (no changes) and `--verified` promotion was correct. Tests: 80 pass.

@@ -15,6 +15,7 @@ from sqlalchemy import select
 from sqlalchemy.exc import ProgrammingError
 
 from app.core.database import AsyncSessionLocal, async_engine
+from app.models.academic import Course
 from app.models.university import University
 from app.services.academic import import_academic_data
 
@@ -40,11 +41,20 @@ async def main(path: Path, domain: str, name: str, source: str, verified: bool) 
                 await async_engine.dispose()
                 return 1
             raise
+        leftovers: list[str] = []
+        if data.get("replace_prerequisites"):  # a complete study plan: show courses it does not contain
+            in_file = {str(c["code"]).replace(" ", "").upper() for c in data.get("courses", [])}
+            rows = await db.execute(select(Course.code, Course.verified).where(Course.university_id == uni.id))
+            leftovers = sorted(code for code, verified_flag in rows.all() if code not in in_file)
     await async_engine.dispose()
     problems = result.pop("problems")
     for key, value in result.items():
         print(f"  {key}: {value}")
     print(f"  rows skipped or flagged: {len(problems)}")
+    if leftovers:
+        print(f"  courses in the database that are NOT in this plan: {len(leftovers)}")
+        print("    " + ", ".join(leftovers))
+        print("    (nothing was deleted; ask before removing old data)")
     for line in problems[:20]:
         print(f"    - {line}")
     return 0

@@ -43,3 +43,8 @@
 - `scripts/fetch_gju.py` now also downloads the 2022/23 and 2023/24 plans. Owner must say which admission year applies (plans differ).
 - Limitation to design for: `courses` is unique per (university, code), so only ONE plan version can be loaded at a time unless a `plan_version`/program column is added (new issue WJ-024).
 - Other schools (SATS, SABE, SSSE, BS, SAMS, SAHSS, SN) have their own plans; do CS first.
+
+## Update 2026-10-24 (study plan done)
+- Owner steps: `git pull`; `docker start wajahni_db`; `alembic upgrade head` (applies d9e1b3c5a728 and f3a9c1d7e054); import calendar, then plan (`datasets\gju\cs_study_plan_2023_2024.json`, source "GJU CS study plan 2023-2024 PDF"); read the "NOT in this plan" list; spot-check against the PDF; re-run with `--verified`. Import staff after a 5-person spot check.
+- Old 2022/23 plan is ignored (owner decision). Ask owner before deleting old unverified courses (WJ-025).
+- Next: owner's admission year; other schools' plans; Study Plan Guide tables (WJ-026); chat UI; RAG once a free model/embedding quota is confirmed.

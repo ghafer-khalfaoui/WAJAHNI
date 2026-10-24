@@ -26,7 +26,7 @@ def test_migrations_have_a_single_head():
     cfg = Config(str(ROOT / "alembic.ini"))
     cfg.set_main_option("script_location", str(ROOT / "migrations"))
     heads = ScriptDirectory.from_config(cfg).get_heads()
-    assert heads == ["d9e1b3c5a728"]
+    assert heads == ["f3a9c1d7e054"]
 
 
 def test_search_query_is_restricted_to_one_university():

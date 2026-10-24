@@ -13,10 +13,16 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.models.academic import Course, Instructor
 from app.schemas.chat import ChatResponse, SourceRef
-from app.services.academic import get_course, list_instructors, list_prerequisites
+from app.services.academic import (
+    get_course,
+    list_courses,
+    list_instructors,
+    list_prerequisite_details,
+    list_prerequisites,
+)
 from app.services.calendar_answers import answer_calendar
 
-COURSE_CODE_RE = re.compile(r"\b([A-Za-z]{2,5})\s?(\d{3,4})\b")
+COURSE_CODE_RE = re.compile(r"\b([A-Za-z]{2,5})\s?(\d{3,4}(?:[A-Za-z]\d)?)\b")  # CS223, CS 223, GERL201B1
 WORD_RE = re.compile(r"[A-Za-zÀ-ɏ؀-ۿ'’\-]+")
 
 PREREQ_WORDS = {"prerequisite", "prerequisites", "prereq", "prereqs", "pre-requisite", "pre-requisites", "before"}
@@ -85,6 +91,79 @@ def _instructor_source(person: Instructor) -> SourceRef:
     return SourceRef(type="instructor", label=person.name, source=person.source, verified=bool(person.verified))
 
 
+def _label(course: Course) -> str:
+    return f"{course.code} ({course.name})"
+
+
+def format_prerequisites(course: Course, details: list[tuple[Course, bool, int | None]]) -> str:
+    """Direct requirements of one course: required courses, "A or B" alternatives, corequisites, notes."""
+    required = [c for c, co, group in details if not co and group is None]
+    alternatives: dict[int, list[Course]] = {}
+    for c, co, group in details:
+        if not co and group is not None:
+            alternatives.setdefault(group, []).append(c)
+    corequisites = [c for c, co, _ in details if co]
+    parts = [_label(c) for c in required] + [
+        "either " + " or ".join(_label(c) for c in group) for group in alternatives.values()
+    ]
+    head = _label(course)
+    if parts:
+        text = f"{head} has these direct prerequisites: {', '.join(parts)}."
+    elif corequisites or course.prerequisite_note:
+        text = f"{head} has no prerequisite courses."
+    else:
+        return f"{head} has no prerequisites listed in my data."
+    if corequisites:
+        text += f" Corequisite (can be taken at the same time): {', '.join(_label(c) for c in corequisites)}."
+    if course.prerequisite_note:
+        text += f" Other conditions listed: {course.prerequisite_note}."
+    return text
+
+
+TRACK_NAMES = {"cybersecurity": "cybersecurity", "cyber": "cybersecurity", "datascience": "data-science",
+               "general": "general"}
+TRACK_TITLES = {"cybersecurity": "Cybersecurity", "data-science": "Data Science", "general": "General"}
+ELECTIVE_WORDS = {"elective", "electives", "optional"}
+
+
+def detect_track(words: set[str]) -> str | None:
+    for word, track in TRACK_NAMES.items():
+        if word in words:
+            return track
+    if "data" in words and "science" in words:
+        return "data-science"
+    return None
+
+
+async def _answer_track(db: AsyncSession, university_id: int, message: str) -> ChatResponse | None:
+    words = _words(message)
+    track = detect_track(words)
+    if track is None:
+        return _finish(
+            "Which track do you mean: General, Data Science or Cybersecurity?", "needs_clarification", []
+        )
+    wants_electives = bool(words & ELECTIVE_WORDS)
+    group = f"{'elective' if wants_electives else 'track'}-{track}"
+    courses = [c for c in await list_courses(db, university_id) if group in (c.plan_groups or [])]
+    if not courses:
+        return None
+    title = TRACK_TITLES[track]
+    listing = "; ".join(f"{c.code} {c.name} ({c.credit_hours} cr.)" for c in courses)
+    if wants_electives:
+        text = (
+            f"Elective courses listed for the {title} track (the plan asks for 12 credit hours of electives, "
+            f"and the plan notes electives are taken at a partner university in Germany): {listing}."
+        )
+    else:
+        total = sum(c.credit_hours for c in courses)
+        text = (
+            f"The {title} track has {len(courses)} special compulsory courses ({total} credit hours): {listing}. "
+            "You also take the common program, school and university courses that every Computer Science "
+            f"student takes. Ask for \"{title.lower()} electives\" to see the elective list."
+        )
+    return _finish(text, "answered", [_course_source(c) for c in courses][:24])
+
+
 async def _answer_courses(db: AsyncSession, university_id: int, message: str, codes: list[str]) -> ChatResponse:
     words = _words(message)
     wants_prereqs = bool(words & PREREQ_WORDS)
@@ -99,13 +178,19 @@ async def _answer_courses(db: AsyncSession, university_id: int, message: str, co
             continue
         sources.append(_course_source(course))
         if wants_prereqs:
-            prereqs = await list_prerequisites(db, university_id, code, transitive=wants_chain)
-            kind = "full chain of prerequisites" if wants_chain else "direct prerequisites"
-            if prereqs:
-                listing = ", ".join(f"{p.code} ({p.name})" for p in prereqs)
-                lines.append(f"{course.code} ({course.name}) has these {kind}: {listing}.")
+            if wants_chain:
+                prereqs = await list_prerequisites(db, university_id, code, transitive=True)
+                if prereqs:
+                    listing = ", ".join(f"{p.code} ({p.name})" for p in prereqs)
+                    lines.append(
+                        f"{course.code} ({course.name}) has this full chain of prerequisites: {listing}. "
+                        "Where the plan says \"A or B\", both are listed; you need only one."
+                    )
+                else:
+                    lines.append(f"{course.code} ({course.name}) has no prerequisites listed in my data.")
             else:
-                lines.append(f"{course.code} ({course.name}) has no prerequisites listed in my data.")
+                details = await list_prerequisite_details(db, university_id, code)
+                lines.append(format_prerequisites(course, details))
         else:
             text = f"{course.code} - {course.name}: {course.credit_hours} credit hours."
             if course.description:
@@ -184,6 +269,10 @@ async def answer_question(
         # question really is about a course; otherwise let the other handlers try.
         if response.status == "answered" or words & (PREREQ_WORDS | COURSE_CUES):
             return response
+    if words & {"track", "tracks"}:
+        track_answer = await _answer_track(db, university_id, message)
+        if track_answer is not None:
+            return track_answer
     if not words & DIRECTORY_WORDS:
         calendar = await answer_calendar(db, university_id, message, today)
         if calendar is not None:
