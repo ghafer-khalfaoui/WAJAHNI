@@ -1,0 +1,331 @@
+{
+ "note": "Study-plan sources found on gju.edu.jo program pages on 2026-10-25 (newest version per program, regular first, dual-study second). URLs were read from page text and are NOT verified until downloaded. status: loaded = already in the dataset, todo = not downloaded yet.",
+ "base": "https://www.gju.edu.jo",
+ "plans": [
+  {
+   "id": "cs_2023-2024",
+   "school": "SC",
+   "program": "Computer Science",
+   "version": "2023-2024",
+   "kind": "regular",
+   "path": "/sites/default/files/Computer%20Science/programs/study_plan_all_tracks_2023-2024_updated.pdf",
+   "status": "loaded"
+  },
+  {
+   "id": "cs_2023-2024_dual",
+   "school": "SC",
+   "program": "Computer Science",
+   "version": "2023-2024",
+   "kind": "dual",
+   "path": "/sites/default/files/Computer%20Science/programs/dual_studies_all_tracks_study_plan_2023-2024_updated.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "ce_2023-2024",
+   "school": "SC",
+   "program": "Computer Engineering",
+   "version": "2023-2024",
+   "kind": "regular",
+   "path": "/sites/default/files/Computer%20Engineering/programs/study_plan_all_tracks_2023-2024.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "ce_2023-2024_dual",
+   "school": "SC",
+   "program": "Computer Engineering",
+   "version": "2023-2024",
+   "kind": "dual",
+   "path": "/sites/default/files/Computer%20Engineering/programs/study_plan_all_tracks_with_dual_studies_2023-2024_0.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "gdmi_2025",
+   "school": "SC",
+   "program": "Game Design and Media Informatics",
+   "version": "2025",
+   "kind": "regular",
+   "path": "/sites/default/files/Computer%20Science/programs/gdmi_2025.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "ie_2023",
+   "school": "SATS",
+   "program": "Industrial Engineering",
+   "version": "2023",
+   "kind": "regular",
+   "path": "/sites/default/files/Industrial%20Engineering/programs/ie_regular_study_plan_2023_r18.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "ie_2023_dual",
+   "school": "SATS",
+   "program": "Industrial Engineering",
+   "version": "2023",
+   "kind": "dual",
+   "path": "/sites/default/files/Industrial%20Engineering/programs/ie_ds_study_plan_2023_r18_0.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "mme_2023",
+   "school": "SATS",
+   "program": "Mechanical and Maintenance Engineering",
+   "version": "2023",
+   "kind": "regular",
+   "path": "/sites/default/files/Mechanical%20and%20Maintenance%20Engineering/programs/mech_study_plan_2023.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "mme_2023_dual",
+   "school": "SATS",
+   "program": "Mechanical and Maintenance Engineering",
+   "version": "2023",
+   "kind": "dual",
+   "path": "/sites/default/files/Mechanical%20and%20Maintenance%20Engineering/programs/mech_study_plan_2023_ds.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "mechatronics_2024",
+   "school": "SATS",
+   "program": "Mechatronics Engineering",
+   "version": "2024",
+   "kind": "regular",
+   "path": "/sites/default/files/Mechatronics%20Engineering/programs/me_study_plan_2024_r1_-_20260416.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "mechatronics_2024_dual",
+   "school": "SATS",
+   "program": "Mechatronics Engineering",
+   "version": "2024",
+   "kind": "dual",
+   "path": "/sites/default/files/Mechatronics%20Engineering/programs/me_study_plan_2024_r1_ds_-_20260416.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "arch_2024",
+   "school": "SABE",
+   "program": "Architecture / Interior Architecture",
+   "version": "2024",
+   "kind": "regular",
+   "path": "/sites/default/files/Department%20of%20Architecture%20and%20Interior%20Architecture/programs/b.sc_._regular_programs_architecture_interior_architecture_21-7-2025-_final.pdf",
+   "status": "todo",
+   "note": "the school page showed this under architecture-969; check which program it belongs to"
+  },
+  {
+   "id": "arch_2024_dual",
+   "school": "SABE",
+   "program": "Architecture / Interior Architecture",
+   "version": "2024",
+   "kind": "dual",
+   "path": "/sites/default/files/Department%20of%20Architecture%20and%20Interior%20Architecture/programs/dual_studies_studyplan-b.sc-architectureinterior_architecture-_21-7-2025-_final.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "dvc_2024",
+   "school": "SABE",
+   "program": "Design and Visual Communication",
+   "version": "2024",
+   "kind": "regular",
+   "path": "/sites/default/files/Department%20of%20Design%20and%20Visual%20Communication/programs/design_and_visual_comunication_studyplan2024_22-07-2025.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "dvc_2024_dual",
+   "school": "SABE",
+   "program": "Design and Visual Communication",
+   "version": "2024",
+   "kind": "dual",
+   "path": "/sites/default/files/Department%20of%20Design%20and%20Visual%20Communication/programs/ds_design_and_visual_comunication_studyplan2024_22-07-2025.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "cee_2023",
+   "school": "SSSE",
+   "program": "Sustainable Infrastructure Systems (Civil and Environmental) Engineering",
+   "version": "2023",
+   "kind": "regular",
+   "path": "/sites/default/files/Departments%20of%20Civil%20%26amp%3B%20Environmental%20Engineering/programs/cee_study_plan_2023_0.pdf",
+   "status": "todo",
+   "note": "site URL contains an encoded '&amp;'; the downloader also tries a plain '&'"
+  },
+  {
+   "id": "ee_2025",
+   "school": "SSSE",
+   "program": "Electrical Engineering",
+   "version": "2025",
+   "kind": "regular",
+   "path": "/sites/default/files/Electrical%20and%20Energy%20Engineering/programs/2025_ee_studyplan.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "ene_2025",
+   "school": "SSSE",
+   "program": "Energy Engineering",
+   "version": "2025",
+   "kind": "regular",
+   "path": "/sites/default/files/Electrical%20and%20Energy%20Engineering/programs/2025_ene_studyplan.docx",
+   "status": "todo",
+   "note": "published as a Word file, not a PDF"
+  },
+  {
+   "id": "accounting",
+   "school": "BS",
+   "program": "International Accounting",
+   "version": "undated",
+   "kind": "regular",
+   "path": "/sites/default/files/International%20Accounting/programs/8_international_accounting_reqular.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "accounting_dual",
+   "school": "BS",
+   "program": "International Accounting",
+   "version": "undated",
+   "kind": "dual",
+   "path": "/sites/default/files/International%20Accounting/programs/9_international_accounting_dual_study.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "logistics",
+   "school": "BS",
+   "program": "Logistic Sciences",
+   "version": "undated",
+   "kind": "regular",
+   "path": "/sites/default/files/Logistics%20Sciences/programs/6_logistics_regular.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "logistics_dual",
+   "school": "BS",
+   "program": "Logistic Sciences",
+   "version": "undated",
+   "kind": "dual",
+   "path": "/sites/default/files/Logistics%20Sciences/programs/7_logistics_dual_study.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "bida",
+   "school": "BS",
+   "program": "Business Intelligence and Data Analytics",
+   "version": "undated",
+   "kind": "regular",
+   "path": "/sites/default/files/Management%20Sciences/programs/4_bida_regular.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "bida_dual",
+   "school": "BS",
+   "program": "Business Intelligence and Data Analytics",
+   "version": "undated",
+   "kind": "dual",
+   "path": "/sites/default/files/Management%20Sciences/programs/5_bida_dual_study.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "digital_marketing_2024",
+   "school": "BS",
+   "program": "Digital Marketing",
+   "version": "2024",
+   "kind": "regular",
+   "path": "/sites/default/files/Management%20Sciences/programs/digital_marketing_study_plan_22_08_2024.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "translation_2024-2025",
+   "school": "SAHSS",
+   "program": "Translation (German, English, Arabic)",
+   "version": "2024-2025",
+   "kind": "regular",
+   "path": "/sites/default/files/Department%20of%20Applied%20Humanities/programs/translation_german_english_arabic_._tracks_2024-_2025.pdf",
+   "status": "todo",
+   "note": "file name says 'tracks': probably covers both tracks"
+  },
+  {
+   "id": "gebc_2023-2024",
+   "school": "SAHSS",
+   "program": "German and English for Business and Communication",
+   "version": "2023-2024",
+   "kind": "regular",
+   "path": "/sites/default/files/Department%20of%20Languages/programs/german_and_english_for_business_and_communication_study_plan_2023-2024.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "gebc_2023-2024_guide",
+   "school": "SAHSS",
+   "program": "German and English for Business and Communication",
+   "version": "2023-2024",
+   "kind": "regular",
+   "path": "/sites/default/files/Department%20of%20Languages/programs/study_plan_guide_gebc_2023-2024.pdf",
+   "status": "todo",
+   "note": "year-by-year guide"
+  },
+  {
+   "id": "gebc_2023-2024_dual",
+   "school": "SAHSS",
+   "program": "German and English for Business and Communication",
+   "version": "2023-2024",
+   "kind": "dual",
+   "path": "/sites/default/files/Department%20of%20Languages/programs/gebc_dual_studies_track_2023-2024.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "bme_2023-2024",
+   "school": "SAMS",
+   "program": "Biomedical Engineering",
+   "version": "2023-2024",
+   "kind": "regular",
+   "path": "/sites/default/files/Biomedical%20Engineering/programs/bme_study_plan_2023-2024_finalversion_7_4_2025.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "bme_2023_dual",
+   "school": "SAMS",
+   "program": "Biomedical Engineering",
+   "version": "2023",
+   "kind": "dual",
+   "path": "/sites/default/files/Biomedical%20Engineering/programs/bme_study_plan_2023-dual_study-fv_7_4_2025.pdf",
+   "status": "todo"
+  },
+  {
+   "id": "pce_2023",
+   "school": "SAMS",
+   "program": "Pharmaceutical and Chemical Engineering",
+   "version": "2023",
+   "kind": "regular",
+   "path": "/sites/default/files/Pharmaceutical%20%26amp%3B%20Chemical%20Engineering/programs/pce_study_plan_2023_updated_23.9.2023_nr.7.7.2025.pdf",
+   "status": "todo",
+   "note": "site URL contains an encoded '&amp;'; the downloader also tries a plain '&'"
+  },
+  {
+   "id": "nursing_2026",
+   "school": "SN",
+   "program": "Nursing",
+   "version": "2026-01",
+   "kind": "regular",
+   "path": "/sites/default/files/Nursing%20Sciences/programs/nursing_study_plan-v16.0-_21january_2026.pdf",
+   "status": "todo"
+  }
+ ],
+ "gaps": [
+  {
+   "program": "Management Sciences (B.Sc.)",
+   "school": "BS",
+   "reason": "no plan link found on its program page (management-science-2551)"
+  },
+  {
+   "program": "Architecture/Interior Architecture page 2470",
+   "school": "SABE",
+   "reason": "'Study Plan:' heading with no link found; plans were listed on architecture-969"
+  },
+  {
+   "program": "Translation (AI track), GEBC 2024-25",
+   "school": "SAHSS",
+   "reason": "only older/2023-24 plan links found; check for newer ones"
+  },
+  {
+   "program": "Graduate programs (M.Sc., MBA ...)",
+   "school": "all",
+   "reason": "out of scope for now (undergraduate first)"
+  }
+ ]
+}

@@ -45,3 +45,7 @@
 - Added: study-plan guide placement. New table `plan_entries` (migration `b4e8d2a6c913`), `parse_guide` in `plan_parser.py`, 162 slots (3 tracks x 8 semesters) in the CS dataset, importer support (idempotent; a file listing a track replaces that track's slots; unverified imports never touch verified rows).
 - Added: chat answers for "what do I take in <year> <semester> [track]" (`app/services/plan_answers.py`). Asks for the track only when the tracks differ; German B1/B2 pair shown as one slot; says the guide excludes remedial courses.
 - Checked: every semester's credit sum equals the PDF's own Total line. Tests: 100 pass (with a scratch Postgres); migration verified against the model and reversible.
+
+## 2026-10-25 (later)
+- Added: `datasets/gju/study_plan_sources.json` (33 plan files across 8 schools: regular and dual-study, newest per program, known gaps listed) and `scripts/fetch_gju_plans.py` (polite 10 s delay, checks the file really is a PDF/Word file, `--zip` for attaching). Offline tests in `tests/test_fetch_plans.py` (81 non-DB tests pass). The site cannot be reached from the sandbox, so the downloader has NOT been run against the real site yet.
+- Changed: `scripts/fetch_gju.py` no longer downloads the old 2022/23 CS plan.

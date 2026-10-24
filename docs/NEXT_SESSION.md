@@ -58,3 +58,8 @@
 - Owner: `git pull`, `alembic upgrade head` (new revision b4e8d2a6c913), re-import `datasets\gju\cs_study_plan_2023_2024.json` (same source text; add `--verified` only after the spot-check of WJ-027). Expect `plan_entries_created: 162`.
 - Try: "what do I take in third year first semester cybersecurity", "first year first semester".
 - Next: other schools' plans (list in docs), simple chat UI, RAG when a free model/embedding quota is confirmed. WJ-028 (CS451 duplicate) is a question for the department.
+
+## Update 2026-10-25 (other schools)
+- Owner: `git pull`, then `python -m scripts.fetch_gju_plans --zip` (about 40 files, 10 s apart = roughly 7 minutes), attach `data\raw\gju\plans.zip` and the printed FAILED lines.
+- Then, per program: read the real PDF layout, extend/generalise `plan_parser.py` (CS layout may differ), generate `datasets/gju/<program>.json`, import, spot-check. Start with Computer Engineering (same school layout as CS), then the other engineering plans.
+- Long-term (ROADMAP): German universities after all GJU plans.
