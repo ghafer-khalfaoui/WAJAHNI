@@ -31,3 +31,4 @@ Evidence key: REPRODUCED = observed by running; INSPECTION = read in code, not e
 | WJ-024 | Medium | Study plans differ by admission year, but `courses` allows one row per code per university. | DESIGN | PARTLY RESOLVED 2026-10-24: only the newest plan (CS 2023/2024, all tracks) is loaded; older versions ignored by owner decision. Still open: plan year may not match a student's admission year; other schools' plans |
 | WJ-025 | Low | Old unverified seed courses stay in the DB after the official plan is imported. | DATA | OPEN: importer only REPORTS them; deleting needs owner approval |
 | WJ-026 | Low | Year/semester placement per track (the 'Study Plan Guide' tables) is not parsed yet. | FEATURE | OPEN |
+| WJ-027 | Medium | CS plan rows are flagged verified without an independent spot-check against the PDF (parser self-checks only). | DATA | OPEN: owner to compare 5 courses |

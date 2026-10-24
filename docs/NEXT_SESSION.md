@@ -48,3 +48,8 @@
 - Owner steps: `git pull`; `docker start wajahni_db`; `alembic upgrade head` (applies d9e1b3c5a728 and f3a9c1d7e054); import calendar, then plan (`datasets\gju\cs_study_plan_2023_2024.json`, source "GJU CS study plan 2023-2024 PDF"); read the "NOT in this plan" list; spot-check against the PDF; re-run with `--verified`. Import staff after a 5-person spot check.
 - Old 2022/23 plan is ignored (owner decision). Ask owner before deleting old unverified courses (WJ-025).
 - Next: owner's admission year; other schools' plans; Study Plan Guide tables (WJ-026); chat UI; RAG once a free model/embedding quota is confirmed.
+
+## Update 2026-10-25
+- Owner ran the migration and imported calendar (84 rows were already verified, kept) and the CS plan (63 created, 40 updated, no leftover list printed), then re-ran with `--verified` WITHOUT the 5-course spot check. Data is flagged verified but not independently compared with the PDF: do that check when convenient.
+- Decision D-005: never ask the admission year; always use the newest plan.
+- Chat smoke test: 4 requests OK, 1 returned 422 (empty or >500-char message, not investigated).

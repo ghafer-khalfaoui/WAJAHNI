@@ -4,3 +4,4 @@
 - D-002: Pin `bcrypt==4.0.1` with `passlib==1.7.4` because bcrypt 5 breaks passlib hashing (reproduced). Revisit by replacing passlib with direct `bcrypt`.
 - D-003: JWT secret, algorithm and expiry come only from validated settings; no literal fallback.
 - D-004: No Gemini calls until exact model + free quota are confirmed in AI Studio (see COST_POLICY).
+- D-005 (2026-10-25): The chatbot serves all students, so no per-student admission-year question. While only one plan version can be stored, always load the NEWEST official study plan of a program (CS: 2023/2024) and ignore versions older than two years. Owner decision. Revisit when `plan_version` support is added (WJ-024).
