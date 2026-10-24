@@ -1590,5 +1590,1465 @@
    "corequisite": false,
    "alt_group": null
   }
+ ],
+ "plan_entries": [
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "CS117",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "CS1170",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "CS201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "CE212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 9,
+   "code": "CE2120",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "CE201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "CS222",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "CS223",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "CS263",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "EE317",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "IE0121",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "CS264",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "CS342",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "CS355",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "CS451",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "CS323",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "CS332",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "CE352",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "CE357",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "CS419",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "CE3570",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "CS330",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "CS356",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "CS391",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "CS416",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "CS477",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": "CS492",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "CS491",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "CS117",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "CS1170",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "CS201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "CE212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 1,
+   "semester": "second",
+   "position": 9,
+   "code": "CE2120",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "CE201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "CS222",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "CS223",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "CS263",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "EE317",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "IE0121",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "CS264",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "CS342",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "CS355",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "CS451",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "CS323",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "CE352",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "CE357",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "CS460",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "CE3570",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "CS330",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "CS356",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "CE377",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "CS391",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "CS416",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "EE570",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": "CS492",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "data-science",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "CS491",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "CS117",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "CS1170",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "CS201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "CE212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 1,
+   "semester": "second",
+   "position": 9,
+   "code": "CE2120",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "CE201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "CS222",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "CS223",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "CS263",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "EE317",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "IE0121",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "CS264",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "CS342",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "CS355",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "CS451",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "CS323",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "CE352",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "CE357",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "CE354",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "CS4713",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "CE3570",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "CE377",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "CS391",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "CS416",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "CS451",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "CS470",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "CS492",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": "CS4714",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "cybersecurity",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "CS491",
+   "label": null,
+   "credit_hours": 12
+  }
  ]
 }

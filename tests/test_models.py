@@ -18,7 +18,7 @@ def test_expected_tables_are_registered():
 
     assert set(Base.metadata.tables) == {
         "universities", "students", "documents", "documentchunks", "admin_users",
-        "courses", "course_prerequisites", "instructors", "academic_events",
+        "courses", "course_prerequisites", "instructors", "academic_events", "plan_entries",
     }
 
 
@@ -26,7 +26,7 @@ def test_migrations_have_a_single_head():
     cfg = Config(str(ROOT / "alembic.ini"))
     cfg.set_main_option("script_location", str(ROOT / "migrations"))
     heads = ScriptDirectory.from_config(cfg).get_heads()
-    assert heads == ["f3a9c1d7e054"]
+    assert heads == ["b4e8d2a6c913"]
 
 
 def test_search_query_is_restricted_to_one_university():

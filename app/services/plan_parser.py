@@ -197,3 +197,99 @@ def build_plan(text: str) -> dict:
         })
     return {"courses": courses, "prerequisites": prerequisites, "warnings": warnings,
             "blocks_not_in_plan": sorted(set(blocks) - known), "memberships": memberships}
+
+
+# ---------------------------------------------------------------------------------------------
+# "Study Plan Guide" tables: which course sits in which year and semester of each track.
+# ---------------------------------------------------------------------------------------------
+TRACK_HEADING_RE = re.compile(r"^\s*[A-C]\.\s+Study Plan Guide for the (General|Data Science|Cybersecurity) Track")
+YEAR_RE = re.compile(r"^\s*(First|Second|Third|Fourth|Fifth) Year\s*$")
+SEMESTER_RE = re.compile(r"^\s*(First|Second|Summer) Semester\s*$")
+PLACEHOLDER_RE = re.compile(r"^\s*(University Elective|elective course)\s+(\d+)\s*$", re.IGNORECASE)
+TOTAL_RE = re.compile(r"^\s*Total\s+(\d+)")
+GUIDE_END_RE = re.compile(r"^\s*[IVX]+\.\s+\S")
+YEAR_NUMBERS = {"First": 1, "Second": 2, "Third": 3, "Fourth": 4, "Fifth": 5}
+TRACK_NAMES = {"General": "general", "Data Science": "data-science", "Cybersecurity": "cybersecurity"}
+
+
+def parse_guide(text: str, credits_by_code: dict[str, int]) -> tuple[list[dict], list[str]]:
+    """Read the year/semester tables of every track.
+
+    Returns (entries, warnings). Each entry: track, year, semester, position, code (or None),
+    label (text for elective placeholders, else None), credit_hours. Credit hours of real courses come
+    from `credits_by_code` (the course data), not from the table row, because wrapped rows are unreliable.
+    German courses are listed as two alternatives (B1/B2 track) that fill ONE slot, so they count once
+    in the semester total. Every semester's credit sum is compared with the PDF's own "Total" line.
+    """
+    entries: list[dict] = []
+    warnings: list[str] = []
+    started = False
+    track = year = semester = None
+    position = 0
+    credit_sum = 0
+    german_counted = False
+    seen_in_track: dict[tuple[str, str], str] = {}
+
+    def check_total(total: int) -> None:
+        if (track, year, semester) != (None, None, None) and credit_sum != total:
+            warnings.append(f"{track} year {year} {semester}: credits add up to {credit_sum}, the PDF says {total}")
+
+    for line in text.split("\n"):
+        if TABLES_END_RE.search(line):
+            started = True
+            continue
+        if not started:
+            continue
+        if GUIDE_END_RE.match(line) and track is not None:
+            break
+        m = TRACK_HEADING_RE.match(line)
+        if m:
+            track, year, semester = TRACK_NAMES[m.group(1)], None, None
+            continue
+        m = YEAR_RE.match(line)
+        if m:
+            year = YEAR_NUMBERS[m.group(1)]
+            continue
+        m = SEMESTER_RE.match(line)
+        if m:
+            semester = m.group(1).lower()
+            position, credit_sum, german_counted = 0, 0, False
+            continue
+        if track is None or year is None or semester is None:
+            continue
+        m = TOTAL_RE.match(line)
+        if m:
+            check_total(int(m.group(1)))
+            continue
+        m = PLACEHOLDER_RE.match(line)
+        if m:
+            position += 1
+            credit_sum += int(m.group(2))
+            entries.append({"track": track, "year": year, "semester": semester, "position": position,
+                            "code": None, "label": m.group(1).title() if m.group(1).islower() else m.group(1),
+                            "credit_hours": int(m.group(2))})
+            continue
+        m = ROW_RE.match(line)
+        if m:
+            code = m.group(1)
+            if code not in credits_by_code:
+                warnings.append(f"{track} year {year} {semester}: {code} is not in the plan's course list")
+                continue
+            hours = credits_by_code[code]
+            if code.startswith("GERL"):
+                if german_counted:  # second alternative of the same German slot
+                    hours_for_sum = 0
+                else:
+                    hours_for_sum, german_counted = hours, True
+            else:
+                hours_for_sum = hours
+            position += 1
+            credit_sum += hours_for_sum
+            key = (track, code)
+            if key in seen_in_track:
+                warnings.append(f"{track}: {code} appears in more than one semester ({seen_in_track[key]} and "
+                                f"year {year} {semester}); both kept, check the PDF")
+            seen_in_track.setdefault(key, f"year {year} {semester}")
+            entries.append({"track": track, "year": year, "semester": semester, "position": position,
+                            "code": code, "label": None, "credit_hours": hours})
+    return entries, warnings

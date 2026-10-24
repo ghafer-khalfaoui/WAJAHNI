@@ -11,7 +11,7 @@ import json
 import sys
 from pathlib import Path
 
-from app.services.plan_parser import build_plan
+from app.services.plan_parser import build_plan, parse_guide
 
 PLAN_NAME = "B.Sc. Computer Science study plan 2023-2024 (all tracks)"
 SOURCE_URL = (
@@ -21,7 +21,10 @@ SOURCE_URL = (
 
 
 def main(text_path: Path, out_path: Path) -> int:
-    plan = build_plan(text_path.read_text(encoding="utf-8"))
+    text = text_path.read_text(encoding="utf-8")
+    plan = build_plan(text)
+    entries, guide_warnings = parse_guide(text, {c["code"]: c["credit_hours"] for c in plan["courses"]})
+    plan["warnings"] = plan["warnings"] + guide_warnings
     data = {
         "plan": PLAN_NAME,
         "source_url": SOURCE_URL,
@@ -34,10 +37,12 @@ def main(text_path: Path, out_path: Path) -> int:
             for c in plan["courses"]
         ],
         "prerequisites": plan["prerequisites"],
+        "plan_entries": entries,
     }
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"courses: {len(data['courses'])}, prerequisite rows: {len(data['prerequisites'])}")
+    print(f"courses: {len(data['courses'])}, prerequisite rows: {len(data['prerequisites'])}, "
+          f"year/semester slots: {len(entries)}")
     print(f"course blocks not part of this plan (ignored): {', '.join(plan['blocks_not_in_plan']) or 'none'}")
     for warning in plan["warnings"]:
         print("WARNING:", warning)

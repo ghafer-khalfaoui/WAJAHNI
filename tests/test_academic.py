@@ -66,7 +66,7 @@ def test_import_and_lookups_in_a_temporary_schema():
 
     import app.models.document  # noqa: F401
     from app.core.database import Base
-    from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor
+    from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor, PlanEntry
     from app.models.university import University
     from app.services.academic import (
         find_instructors, get_course, import_academic_data, list_prerequisites,
@@ -80,7 +80,7 @@ def test_import_and_lookups_in_a_temporary_schema():
         engine = create_async_engine(URL, connect_args={"server_settings": {"search_path": schema}})
         try:
             tables = [University.__table__, Course.__table__, CoursePrerequisite.__table__, Instructor.__table__,
-                      AcademicEvent.__table__]
+                      AcademicEvent.__table__, PlanEntry.__table__]
             async with engine.begin() as conn:
                 await conn.run_sync(lambda sync: Base.metadata.create_all(sync, tables=tables))
             async with async_sessionmaker(engine, expire_on_commit=False)() as db:

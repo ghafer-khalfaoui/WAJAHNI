@@ -11,7 +11,7 @@ from typing import Any
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor
+from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor, PlanEntry
 
 MAX_RESULTS = 20
 SEMESTERS = ("first", "second", "summer")
@@ -28,7 +28,8 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
     Problem messages mention row numbers or course codes only, never personal data.
     """
     problems: list[str] = []
-    parsed: dict = {"courses": [], "instructors": [], "prerequisites": [], "events": [], "replace_prerequisites": False}
+    parsed: dict = {"courses": [], "instructors": [], "prerequisites": [], "events": [], "plan_entries": [],
+              "replace_prerequisites": False}
     if not isinstance(data, dict):
         return parsed, ["top level must be an object with courses/instructors/prerequisites"]
 
@@ -131,6 +132,36 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
             continue
         seen_events.add(key)
         parsed["events"].append({"semester": semester, "start_date": start, "end_date": end, "title": title})
+
+    seen_slots: set[tuple[str, int, str, int]] = set()
+    for i, row in enumerate(data.get("plan_entries") or []):
+        try:
+            track = str(row["track"]).strip().lower()
+            year, position, hours = row["year"], row["position"], row["credit_hours"]
+            semester = str(row["semester"]).strip().lower()
+            code = normalize_code(row["code"]) if row.get("code") else None
+            label = str(row["label"]).strip() if row.get("label") else None
+            for number in (year, position, hours):
+                if isinstance(number, bool) or not isinstance(number, int) or number < 0:
+                    raise ValueError("year, position and credit_hours must be whole numbers")
+            if not track or semester not in SEMESTERS or year < 1 or position < 1:
+                raise ValueError("bad track, semester, year or position")
+            if code is None and label is None:
+                raise ValueError("needs a course code or a label")
+            if code is not None and code not in seen_codes:
+                raise ValueError(f"unknown course code {code}")
+        except (KeyError, TypeError, ValueError) as exc:
+            problems.append(f"plan entry row {i}: skipped ({exc})")
+            continue
+        slot = (track, year, semester, position)
+        if slot in seen_slots:
+            problems.append(f"plan entry row {i}: duplicate slot, skipped")
+            continue
+        seen_slots.add(slot)
+        parsed["plan_entries"].append(
+            {"track": track, "year": year, "semester": semester, "position": position,
+             "code": code, "label": label, "credit_hours": hours}
+        )
     return parsed, problems
 
 
@@ -153,6 +184,7 @@ async def import_academic_data(
         "instructors_created": 0, "instructors_updated": 0,
         "prerequisites_created": 0, "prerequisites_updated": 0, "prerequisites_removed": 0,
         "events_created": 0, "events_updated": 0,
+        "plan_entries_created": 0, "plan_entries_updated": 0, "plan_entries_removed": 0,
         "skipped_already_verified": 0,
     }
 
@@ -250,6 +282,41 @@ async def import_academic_data(
                 else:
                     await db.delete(current)
                     counts["prerequisites_removed"] += 1
+
+    # Study-plan guide slots. A file that lists a track lists ALL of that track's slots, so slots of those
+    # tracks that the file no longer contains are removed (never verified rows from an unverified file).
+    existing_slots = {
+        (e.track, e.year, e.semester, e.position): e
+        for e in (await db.execute(select(PlanEntry).where(PlanEntry.university_id == university_id))).scalars()
+    }
+    wanted_slots: set[tuple[str, int, str, int]] = set()
+    for row in parsed["plan_entries"]:
+        slot = (row["track"], row["year"], row["semester"], row["position"])
+        wanted_slots.add(slot)
+        fields = {
+            "course_id": existing_courses[row["code"]].id if row["code"] else None,
+            "label": row["label"], "credit_hours": row["credit_hours"],
+        }
+        current = existing_slots.get(slot)
+        if current is None:
+            db.add(PlanEntry(university_id=university_id, track=slot[0], year=slot[1], semester=slot[2],
+                             position=slot[3], source=source, verified=verified, **fields))
+            counts["plan_entries_created"] += 1
+        elif current.verified and not verified:
+            counts["skipped_already_verified"] += 1
+        elif _differs(current, fields, source, verified):
+            for k, v in fields.items():
+                setattr(current, k, v)
+            current.source, current.verified = source, verified
+            counts["plan_entries_updated"] += 1
+    tracks_in_file = {slot[0] for slot in wanted_slots}
+    for slot, current in existing_slots.items():
+        if slot[0] in tracks_in_file and slot not in wanted_slots:
+            if current.verified and not verified:
+                counts["skipped_already_verified"] += 1
+            else:
+                await db.delete(current)
+                counts["plan_entries_removed"] += 1
 
     await db.commit()
     return {**counts, "problems": problems}
@@ -353,3 +420,22 @@ async def list_courses(db: AsyncSession, university_id: int, limit: int = 1000) 
         select(Course).where(Course.university_id == university_id).order_by(Course.code).limit(limit)
     )
     return list(result.scalars().all())
+
+
+async def list_plan_entries(
+    db: AsyncSession, university_id: int, year: int, semester: str | None = None, track: str | None = None
+) -> list[tuple[PlanEntry, Course | None]]:
+    """Slots of the study-plan guide for one year (and optionally one semester / track), in table order."""
+    query = (
+        select(PlanEntry, Course)
+        .outerjoin(Course, Course.id == PlanEntry.course_id)
+        .where(PlanEntry.university_id == university_id, PlanEntry.year == year)
+        .order_by(PlanEntry.track, PlanEntry.position)
+    )
+    if semester:
+        query = query.where(PlanEntry.semester == semester)
+    if track:
+        query = query.where(PlanEntry.track == track)
+    rows = (await db.execute(query)).all()
+    order = {name: i for i, name in enumerate(SEMESTERS)}
+    return sorted(((e, c) for e, c in rows), key=lambda r: (r[0].track, order.get(r[0].semester, 9), r[0].position))

@@ -53,3 +53,8 @@
 - Owner ran the migration and imported calendar (84 rows were already verified, kept) and the CS plan (63 created, 40 updated, no leftover list printed), then re-ran with `--verified` WITHOUT the 5-course spot check. Data is flagged verified but not independently compared with the PDF: do that check when convenient.
 - Decision D-005: never ask the admission year; always use the newest plan.
 - Chat smoke test: 4 requests OK, 1 returned 422 (empty or >500-char message, not investigated).
+
+## Update 2026-10-25 (year/semester guide done)
+- Owner: `git pull`, `alembic upgrade head` (new revision b4e8d2a6c913), re-import `datasets\gju\cs_study_plan_2023_2024.json` (same source text; add `--verified` only after the spot-check of WJ-027). Expect `plan_entries_created: 162`.
+- Try: "what do I take in third year first semester cybersecurity", "first year first semester".
+- Next: other schools' plans (list in docs), simple chat UI, RAG when a free model/embedding quota is confirmed. WJ-028 (CS451 duplicate) is a question for the department.

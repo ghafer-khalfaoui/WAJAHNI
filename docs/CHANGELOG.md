@@ -40,3 +40,8 @@
 - Added: study-plan parser (`app/services/plan_parser.py`, `scripts/build_gju_plan.py`) and dataset `datasets/gju/cs_study_plan_2023_2024.json` (103 courses, 106 prerequisite rows; newest CS plan only). Cross-checked: table vs course-block agreement 90/96, credit totals match the PDF.
 - Added: corequisites, "A or B" alternatives, plan groups and non-course conditions (migration `f3a9c1d7e054`); `replace_prerequisites` flag; chat answers for track questions and the new prerequisite wording.
 - Added: importer prints courses in the DB that are not in the plan (never deletes). Sandbox run of import, repeat (no changes) and `--verified` promotion was correct. Tests: 80 pass.
+
+## 2026-10-25
+- Added: study-plan guide placement. New table `plan_entries` (migration `b4e8d2a6c913`), `parse_guide` in `plan_parser.py`, 162 slots (3 tracks x 8 semesters) in the CS dataset, importer support (idempotent; a file listing a track replaces that track's slots; unverified imports never touch verified rows).
+- Added: chat answers for "what do I take in <year> <semester> [track]" (`app/services/plan_answers.py`). Asks for the track only when the tracks differ; German B1/B2 pair shown as one slot; says the guide excludes remedial courses.
+- Checked: every semester's credit sum equals the PDF's own Total line. Tests: 100 pass (with a scratch Postgres); migration verified against the model and reversible.

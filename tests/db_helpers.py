@@ -10,12 +10,12 @@ from sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine
 
 def _tables():
     import app.models  # noqa: F401  (registers every model)
-    from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor
+    from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor, PlanEntry
     from app.models.university import University
 
     return [
         University.__table__, Course.__table__, CoursePrerequisite.__table__, Instructor.__table__,
-        AcademicEvent.__table__,
+        AcademicEvent.__table__, PlanEntry.__table__,
     ]
 
 

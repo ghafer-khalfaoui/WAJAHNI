@@ -77,3 +77,27 @@ class AcademicEvent(WajahniBaseModel):
     title = Column(String(255), nullable=False)
     source = Column(String(255), nullable=True)
     verified = Column(Boolean, nullable=False, default=False)
+
+
+class PlanEntry(WajahniBaseModel):
+    """One slot of a study-plan guide: which course (or elective placeholder) sits in which year and
+    semester of which track. A course may appear in different semesters on different tracks."""
+
+    __tablename__ = "plan_entries"
+    __table_args__ = (
+        UniqueConstraint("university_id", "track", "year", "semester", "position", name="uq_plan_entries_slot"),
+        CheckConstraint("course_id IS NOT NULL OR label IS NOT NULL", name="ck_plan_entry_has_content"),
+    )
+
+    university_id = _university_fk()
+    track = Column(String(30), nullable=False)  # "general", "data-science", "cybersecurity"
+    year = Column(Integer, nullable=False)
+    semester = Column(String(20), nullable=False)  # "first", "second" or "summer"
+    position = Column(Integer, nullable=False)  # order inside the semester table
+    course_id = Column(Integer, ForeignKey("courses.id", ondelete="CASCADE"), nullable=True)
+    label = Column(String(100), nullable=True)  # e.g. "University Elective" when there is no course
+    credit_hours = Column(Integer, nullable=False)
+    source = Column(String(255), nullable=True)
+    verified = Column(Boolean, nullable=False, default=False)
+
+    course = relationship("Course", foreign_keys=[course_id])

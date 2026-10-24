@@ -21,6 +21,7 @@ from app.services.academic import (
     list_prerequisites,
 )
 from app.services.calendar_answers import answer_calendar
+from app.services.plan_answers import answer_plan
 
 COURSE_CODE_RE = re.compile(r"\b([A-Za-z]{2,5})\s?(\d{3,4}(?:[A-Za-z]\d)?)\b")  # CS223, CS 223, GERL201B1
 WORD_RE = re.compile(r"[A-Za-zÀ-ɏ؀-ۿ'’\-]+")
@@ -43,7 +44,7 @@ MAX_CODES = 3
 MAX_NAME_MATCHES = 5
 HELP_TEXT = (
     "I don't have information about that yet. Right now I can answer questions about GJU courses "
-    "(name, credit hours, prerequisites), the staff directory and the academic calendar, for example "
+    "(name, credit hours, prerequisites), what to take in each year and semester of the study plan, the staff directory and the academic calendar, for example "
     "\"What are the prerequisites of CS223?\", \"What is the office of Dr. Khalifeh?\" or "
     "\"When are the midterm exams?\"."
 )
@@ -269,6 +270,10 @@ async def answer_question(
         # question really is about a course; otherwise let the other handlers try.
         if response.status == "answered" or words & (PREREQ_WORDS | COURSE_CUES):
             return response
+    if "year" in words:
+        plan_answer = await answer_plan(db, university_id, message, detect_track(words))
+        if plan_answer is not None:
+            return plan_answer
     if words & {"track", "tracks"}:
         track_answer = await _answer_track(db, university_id, message)
         if track_answer is not None:
