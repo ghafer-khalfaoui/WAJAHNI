@@ -79,18 +79,59 @@ class AcademicEvent(WajahniBaseModel):
     verified = Column(Boolean, nullable=False, default=False)
 
 
+class Program(WajahniBaseModel):
+    """A degree program (or its dual-study variant) with one version of its official study plan."""
+
+    __tablename__ = "programs"
+    __table_args__ = (UniqueConstraint("university_id", "code", name="uq_programs_university_code"),)
+
+    university_id = _university_fk()
+    code = Column(String(60), nullable=False)  # short unique slug, e.g. "cs", "cs-dual", "nursing"
+    name = Column(String(255), nullable=False)  # e.g. "Computer Science"
+    school = Column(String(120), nullable=True)  # e.g. "School of Computing"
+    degree = Column(String(30), nullable=True)  # e.g. "B.Sc."
+    plan_version = Column(String(30), nullable=True)  # e.g. "2023-2024"
+    kind = Column(String(20), nullable=False, default="regular")  # "regular" or "dual"
+    source = Column(String(255), nullable=True)
+    verified = Column(Boolean, nullable=False, default=False)
+
+
+class ProgramCourse(WajahniBaseModel):
+    """Which requirement table of a program a course belongs to (the same course can be in many programs)."""
+
+    __tablename__ = "program_courses"
+    __table_args__ = (
+        UniqueConstraint("program_id", "course_id", "group_title", name="uq_program_courses_entry"),
+    )
+
+    university_id = _university_fk()
+    program_id = Column(Integer, ForeignKey("programs.id", ondelete="CASCADE"), index=True, nullable=False)
+    course_id = Column(Integer, ForeignKey("courses.id", ondelete="CASCADE"), index=True, nullable=False)
+    group_title = Column(String(255), nullable=False)  # the table heading, e.g. "Program Requirements (Compulsory)"
+    scope = Column(String(20), nullable=True)  # "admission", "university", "school" or "program"
+    kind = Column(String(20), nullable=False)  # "compulsory", "elective" or "remedial"
+    track = Column(String(80), nullable=True)  # track slug when the table belongs to one track
+    source = Column(String(255), nullable=True)
+    verified = Column(Boolean, nullable=False, default=False)
+
+    program = relationship("Program", foreign_keys=[program_id])
+    course = relationship("Course", foreign_keys=[course_id])
+
+
 class PlanEntry(WajahniBaseModel):
     """One slot of a study-plan guide: which course (or elective placeholder) sits in which year and
-    semester of which track. A course may appear in different semesters on different tracks."""
+    semester of which track of which program. A course may sit in different semesters on different tracks."""
 
     __tablename__ = "plan_entries"
     __table_args__ = (
-        UniqueConstraint("university_id", "track", "year", "semester", "position", name="uq_plan_entries_slot"),
+        UniqueConstraint("university_id", "program_id", "track", "year", "semester", "position",
+                         name="uq_plan_entries_slot"),
         CheckConstraint("course_id IS NOT NULL OR label IS NOT NULL", name="ck_plan_entry_has_content"),
     )
 
     university_id = _university_fk()
-    track = Column(String(30), nullable=False)  # "general", "data-science", "cybersecurity"
+    program_id = Column(Integer, ForeignKey("programs.id", ondelete="CASCADE"), index=True, nullable=True)
+    track = Column(String(80), nullable=False)  # "general", "cybersecurity"... or "all" when the program has no tracks
     year = Column(Integer, nullable=False)
     semester = Column(String(20), nullable=False)  # "first", "second" or "summer"
     position = Column(Integer, nullable=False)  # order inside the semester table
@@ -100,4 +141,5 @@ class PlanEntry(WajahniBaseModel):
     source = Column(String(255), nullable=True)
     verified = Column(Boolean, nullable=False, default=False)
 
+    program = relationship("Program", foreign_keys=[program_id])
     course = relationship("Course", foreign_keys=[course_id])

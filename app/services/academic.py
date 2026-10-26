@@ -6,15 +6,21 @@ Everything here is scoped to ONE university_id. Imported rows are marked
 from __future__ import annotations
 
 import datetime as dt
+import re
 from typing import Any
 
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.models.academic import AcademicEvent, Course, CoursePrerequisite, Instructor, PlanEntry
+from app.models.academic import (
+    AcademicEvent, Course, CoursePrerequisite, Instructor, PlanEntry, Program, ProgramCourse,
+)
 
 MAX_RESULTS = 20
 SEMESTERS = ("first", "second", "summer")
+PROGRAM_KINDS = ("regular", "dual")
+GROUP_KINDS = ("compulsory", "elective", "remedial")
+MAX_CONFLICTS = 60
 
 
 def normalize_code(code: str) -> str:
@@ -29,7 +35,7 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
     """
     problems: list[str] = []
     parsed: dict = {"courses": [], "instructors": [], "prerequisites": [], "events": [], "plan_entries": [],
-              "replace_prerequisites": False}
+              "program": None, "program_courses": [], "replace_prerequisites": False}
     if not isinstance(data, dict):
         return parsed, ["top level must be an object with courses/instructors/prerequisites"]
 
@@ -133,6 +139,46 @@ def parse_academic_data(data: Any) -> tuple[dict, list[str]]:
         seen_events.add(key)
         parsed["events"].append({"semester": semester, "start_date": start, "end_date": end, "title": title})
 
+    program = data.get("program")
+    if program is not None:
+        try:
+            code = re.sub(r"[^a-z0-9-]+", "-", str(program["code"]).strip().lower()).strip("-")
+            name = str(program["name"]).strip()
+            kind = str(program.get("kind") or "regular").strip().lower()
+            if not code or not name or kind not in PROGRAM_KINDS:
+                raise ValueError("needs a code, a name and kind regular/dual")
+            parsed["program"] = {
+                "code": code, "name": name, "kind": kind,
+                "school": str(program["school"]).strip() if program.get("school") else None,
+                "degree": str(program["degree"]).strip() if program.get("degree") else None,
+                "plan_version": str(program["plan_version"]).strip() if program.get("plan_version") else None,
+            }
+        except (KeyError, TypeError, ValueError, AttributeError) as exc:
+            problems.append(f"program: ignored ({exc})")
+    if parsed["program"] is None and (data.get("program_courses") or data.get("plan_entries")):
+        problems.append("program_courses/plan_entries need a valid 'program' object, they were ignored")
+        data = {**data, "program_courses": [], "plan_entries": []}
+
+    seen_groups: set[tuple[str, str]] = set()
+    for i, row in enumerate(data.get("program_courses") or []):
+        try:
+            code = normalize_code(row["course"])
+            group = str(row["group"]).strip()
+            kind = str(row["kind"]).strip().lower()
+            track = str(row["track"]).strip().lower() if row.get("track") else None
+            scope = str(row["scope"]).strip().lower() if row.get("scope") else None
+            if not group or kind not in GROUP_KINDS or code not in seen_codes:
+                raise ValueError("needs a known course, a group title and a kind (compulsory/elective/remedial)")
+        except (KeyError, TypeError, ValueError, AttributeError) as exc:
+            problems.append(f"program course row {i}: skipped ({exc})")
+            continue
+        if (code, group) in seen_groups:
+            problems.append(f"program course row {i}: duplicate, skipped")
+            continue
+        seen_groups.add((code, group))
+        parsed["program_courses"].append({"course": code, "group_title": group, "scope": scope, "kind": kind,
+                                          "track": track})
+
     seen_slots: set[tuple[str, int, str, int]] = set()
     for i, row in enumerate(data.get("plan_entries") or []):
         try:
@@ -175,18 +221,33 @@ def _differs(current, row: dict, source: str, verified: bool) -> bool:
 
 
 async def import_academic_data(
-    db: AsyncSession, university_id: int, data: Any, source: str, verified: bool = False
+    db: AsyncSession, university_id: int, data: Any, source: str, verified: bool = False,
+    overwrite_conflicts: bool = False,
 ) -> dict:
-    """Insert or update rows for one university. Safe to run repeatedly (idempotent)."""
+    """Insert or update rows for one university. Safe to run repeatedly (idempotent).
+
+    Courses and prerequisites are shared by every program of the university. When a row already exists
+    from a DIFFERENT source with different data, the importer reports a conflict and keeps the existing
+    data unless `overwrite_conflicts` is true. Program-specific rows (requirement tables, year/semester
+    slots) belong to one program and are replaced for that program only.
+    """
     parsed, problems = parse_academic_data(data)
     counts = {
         "courses_created": 0, "courses_updated": 0,
         "instructors_created": 0, "instructors_updated": 0,
         "prerequisites_created": 0, "prerequisites_updated": 0, "prerequisites_removed": 0,
         "events_created": 0, "events_updated": 0,
+        "programs_created": 0, "programs_updated": 0,
+        "program_courses_created": 0, "program_courses_updated": 0, "program_courses_removed": 0,
         "plan_entries_created": 0, "plan_entries_updated": 0, "plan_entries_removed": 0,
-        "skipped_already_verified": 0,
+        "skipped_already_verified": 0, "conflicts_kept": 0,
     }
+    conflicts: list[str] = []
+
+    def note_conflict(text: str) -> None:
+        counts["conflicts_kept"] += 1
+        if len(conflicts) < MAX_CONFLICTS:
+            conflicts.append(text)
 
     existing_courses = {
         c.code: c
@@ -202,7 +263,14 @@ async def import_academic_data(
         elif current.verified and not verified:
             counts["skipped_already_verified"] += 1  # an unverified import never overwrites verified rows
         elif _differs(current, row, source, verified):
+            changed = {k: (getattr(current, k), v) for k, v in row.items()
+                       if k in ("name", "credit_hours") and getattr(current, k) != v}
+            if changed and current.source != source and not overwrite_conflicts:
+                note_conflict(f"course {row['code']}: kept " + "; ".join(f"{k} '{o}' (file says '{n}')" for k, (o, n) in changed.items()))
+                continue
             for k, v in row.items():
+                if k == "plan_groups" and v is None:
+                    continue  # plan groups now live in program_courses; never wipe the old column
                 setattr(current, k, v)
             current.source, current.verified = source, verified
             counts["courses_updated"] += 1
@@ -243,16 +311,37 @@ async def import_academic_data(
 
     await db.flush()  # assigns ids to new courses
 
+    # ---- prerequisites (shared by all programs) ----
     existing = {
         (p.course_id, p.prerequisite_id): p
         for p in (
             await db.execute(select(CoursePrerequisite).where(CoursePrerequisite.university_id == university_id))
         ).scalars()
     }
+    file_pairs: dict[int, set[tuple[int, bool, int | None]]] = {}
+    for course_code, prereq_code, corequisite, alt_group in parsed["prerequisites"]:
+        file_pairs.setdefault(existing_courses[course_code].id, set()).add(
+            (existing_courses[prereq_code].id, corequisite, alt_group))
+    db_pairs: dict[int, set[tuple[int, bool, int | None]]] = {}
+    for (course_id, prereq_id), p in existing.items():
+        db_pairs.setdefault(course_id, set()).add((prereq_id, bool(p.corequisite), p.alt_group))
+    id_to_code = {c.id: code for code, c in existing_courses.items()}
+    blocked: set[int] = set()  # courses whose prerequisites differ from another source: left untouched
+    if not overwrite_conflicts:
+        for course_id in {existing_courses[row["code"]].id for row in parsed["courses"]}:
+            old, new = db_pairs.get(course_id, set()), file_pairs.get(course_id, set())
+            others = [p for (c, _), p in existing.items() if c == course_id and p.source != source]
+            if old and others and old != new and not parsed["replace_prerequisites"]:
+                blocked.add(course_id)
+                names = lambda pairs: ", ".join(sorted(id_to_code[pid] + ("(co)" if co else "") for pid, co, _ in pairs)) or "none"
+                note_conflict(f"prerequisites of {id_to_code[course_id]}: kept [{names(old)}] (file says [{names(new)}])")
+
     wanted: set[tuple[int, int]] = set()
     for course_code, prereq_code, corequisite, alt_group in parsed["prerequisites"]:
         pair = (existing_courses[course_code].id, existing_courses[prereq_code].id)
         wanted.add(pair)
+        if pair[0] in blocked:
+            continue
         current = existing.get(pair)
         flags = {"corequisite": corequisite, "alt_group": alt_group}
         if current is None:
@@ -283,43 +372,96 @@ async def import_academic_data(
                     await db.delete(current)
                     counts["prerequisites_removed"] += 1
 
-    # Study-plan guide slots. A file that lists a track lists ALL of that track's slots, so slots of those
-    # tracks that the file no longer contains are removed (never verified rows from an unverified file).
-    existing_slots = {
-        (e.track, e.year, e.semester, e.position): e
-        for e in (await db.execute(select(PlanEntry).where(PlanEntry.university_id == university_id))).scalars()
-    }
-    wanted_slots: set[tuple[str, int, str, int]] = set()
-    for row in parsed["plan_entries"]:
-        slot = (row["track"], row["year"], row["semester"], row["position"])
-        wanted_slots.add(slot)
-        fields = {
-            "course_id": existing_courses[row["code"]].id if row["code"] else None,
-            "label": row["label"], "credit_hours": row["credit_hours"],
-        }
-        current = existing_slots.get(slot)
-        if current is None:
-            db.add(PlanEntry(university_id=university_id, track=slot[0], year=slot[1], semester=slot[2],
-                             position=slot[3], source=source, verified=verified, **fields))
-            counts["plan_entries_created"] += 1
-        elif current.verified and not verified:
+    # ---- one program: requirement tables and year/semester slots ----
+    if parsed["program"] is not None:
+        row = parsed["program"]
+        program = (await db.execute(
+            select(Program).where(Program.university_id == university_id, Program.code == row["code"])
+        )).scalar_one_or_none()
+        if program is None:
+            program = Program(university_id=university_id, source=source, verified=verified, **row)
+            db.add(program)
+            counts["programs_created"] += 1
+        elif program.verified and not verified:
             counts["skipped_already_verified"] += 1
-        elif _differs(current, fields, source, verified):
-            for k, v in fields.items():
-                setattr(current, k, v)
-            current.source, current.verified = source, verified
-            counts["plan_entries_updated"] += 1
-    tracks_in_file = {slot[0] for slot in wanted_slots}
-    for slot, current in existing_slots.items():
-        if slot[0] in tracks_in_file and slot not in wanted_slots:
-            if current.verified and not verified:
+        elif _differs(program, row, source, verified):
+            for k, v in row.items():
+                setattr(program, k, v)
+            program.source, program.verified = source, verified
+            counts["programs_updated"] += 1
+        await db.flush()
+
+        existing_groups = {
+            (g.course_id, g.group_title): g
+            for g in (await db.execute(select(ProgramCourse).where(ProgramCourse.program_id == program.id))).scalars()
+        }
+        wanted_groups: set[tuple[int, str]] = set()
+        for g in parsed["program_courses"]:
+            key = (existing_courses[g["course"]].id, g["group_title"])
+            wanted_groups.add(key)
+            fields = {"scope": g["scope"], "kind": g["kind"], "track": g["track"]}
+            current = existing_groups.get(key)
+            if current is None:
+                db.add(ProgramCourse(university_id=university_id, program_id=program.id, course_id=key[0],
+                                     group_title=key[1], source=source, verified=verified, **fields))
+                counts["program_courses_created"] += 1
+            elif current.verified and not verified:
                 counts["skipped_already_verified"] += 1
-            else:
+            elif _differs(current, fields, source, verified):
+                for k, v in fields.items():
+                    setattr(current, k, v)
+                current.source, current.verified = source, verified
+                counts["program_courses_updated"] += 1
+        for key, current in existing_groups.items():
+            if key not in wanted_groups:
+                if current.verified and not verified:
+                    counts["skipped_already_verified"] += 1
+                else:
+                    await db.delete(current)
+                    counts["program_courses_removed"] += 1
+
+        existing_slots = {
+            (e.track, e.year, e.semester, e.position): e
+            for e in (await db.execute(
+                select(PlanEntry).where(PlanEntry.university_id == university_id, PlanEntry.program_id == program.id)
+            )).scalars()
+        }
+        wanted_slots: set[tuple[str, int, str, int]] = set()
+        for e in parsed["plan_entries"]:
+            slot = (e["track"], e["year"], e["semester"], e["position"])
+            wanted_slots.add(slot)
+            fields = {"course_id": existing_courses[e["code"]].id if e["code"] else None,
+                      "label": e["label"], "credit_hours": e["credit_hours"]}
+            current = existing_slots.get(slot)
+            if current is None:
+                db.add(PlanEntry(university_id=university_id, program_id=program.id, track=slot[0], year=slot[1],
+                                 semester=slot[2], position=slot[3], source=source, verified=verified, **fields))
+                counts["plan_entries_created"] += 1
+            elif current.verified and not verified:
+                counts["skipped_already_verified"] += 1
+            elif _differs(current, fields, source, verified):
+                for k, v in fields.items():
+                    setattr(current, k, v)
+                current.source, current.verified = source, verified
+                counts["plan_entries_updated"] += 1
+        listed_tracks = {slot[0] for slot in wanted_slots}  # a file never touches tracks it does not list
+        for slot, current in existing_slots.items():
+            if slot not in wanted_slots and slot[0] in listed_tracks:
+                if current.verified and not verified:
+                    counts["skipped_already_verified"] += 1
+                else:
+                    await db.delete(current)
+                    counts["plan_entries_removed"] += 1
+        if parsed["plan_entries"]:  # slots saved before programs existed are superseded by this file
+            legacy = (await db.execute(
+                select(PlanEntry).where(PlanEntry.university_id == university_id, PlanEntry.program_id.is_(None))
+            )).scalars().all()
+            for current in legacy:
                 await db.delete(current)
                 counts["plan_entries_removed"] += 1
 
     await db.commit()
-    return {**counts, "problems": problems}
+    return {**counts, "problems": problems, "conflicts": conflicts}
 
 
 async def get_course(db: AsyncSession, university_id: int, code: str) -> Course | None:

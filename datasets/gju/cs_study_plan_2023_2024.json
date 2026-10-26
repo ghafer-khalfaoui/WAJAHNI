@@ -3050,5 +3050,890 @@
    "label": null,
    "credit_hours": 12
   }
+ ],
+ "program": {
+  "code": "cs",
+  "name": "B.Sc. Computer Science",
+  "school": "School of Computing",
+  "degree": "B.Sc.",
+  "plan_version": "2023-2024",
+  "kind": "regular"
+ },
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission requirements (remedial courses)",
+   "scope": "university",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University requirements - compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University requirements - elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE201",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE212",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE2120",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE352",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE354",
+   "group": "Program requirements - Cybersecurity track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CE357",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE3570",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE377",
+   "group": "Program requirements - Data Science track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "data-science"
+  },
+  {
+   "course": "CS116",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1160",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS117",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1170",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS201",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS222",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS223",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS263",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS264",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS323",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS330",
+   "group": "Program requirements - General track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "general"
+  },
+  {
+   "course": "CS330",
+   "group": "Program requirements - Data Science track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "data-science"
+  },
+  {
+   "course": "CS332",
+   "group": "Program requirements - General track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "general"
+  },
+  {
+   "course": "CS333",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS342",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS354",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS355",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS356",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS357",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS357",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS358",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS358",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS359",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS359",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS359",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS364",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS364",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS365",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS370",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS371",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS371",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS372",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS373",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS374",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS391",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS416",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS419",
+   "group": "Program requirements - General track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "general"
+  },
+  {
+   "course": "CS430",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS432",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS432",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS439",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS450",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS450",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS451",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS4511",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS4512",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS4512",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS456",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS457",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS457",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS458",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS458",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS460",
+   "group": "Program requirements - Data Science track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "data-science"
+  },
+  {
+   "course": "CS460",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS462",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS462",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS470",
+   "group": "Program requirements - Cybersecurity track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS4711",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS4712",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS4713",
+   "group": "Program requirements - Cybersecurity track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS4714",
+   "group": "Program requirements - Cybersecurity track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS4715",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS477",
+   "group": "Program requirements - General track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "general"
+  },
+  {
+   "course": "CS481",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS4811",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS4811",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS4812",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS4813",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS482",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS4831",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS4831",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS4831",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS4832",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS4832",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS4832",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS4833",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS4833",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS4833",
+   "group": "Program electives - Cybersecurity track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "cybersecurity"
+  },
+  {
+   "course": "CS484",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS484",
+   "group": "Program electives - Data Science track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "data-science"
+  },
+  {
+   "course": "CS489",
+   "group": "Program electives - General track",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS491",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS492",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University requirements - elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE317",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE570",
+   "group": "Program requirements - Data Science track",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "data-science"
+  },
+  {
+   "course": "EI101",
+   "group": "University requirements - elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission requirements (remedial courses)",
+   "scope": "university",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission requirements (remedial courses)",
+   "scope": "university",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University requirements - compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University requirements - compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University requirements - compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University requirements - compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University requirements - compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University requirements - elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0121",
+   "group": "Program requirements - common to all tracks",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission requirements (remedial courses)",
+   "scope": "university",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH101",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH102",
+   "group": "School requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University requirements - compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University requirements - compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NEE101",
+   "group": "University requirements - compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University requirements - elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University requirements - elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University requirements - elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University requirements - elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  }
  ]
 }

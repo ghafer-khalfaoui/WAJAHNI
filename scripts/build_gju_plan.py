@@ -20,6 +20,36 @@ SOURCE_URL = (
 )
 
 
+# Old group name -> (title shown to students, scope, kind, track)
+GROUP_INFO = {
+    "remedial": ("Admission requirements (remedial courses)", "university", "remedial", None),
+    "university-compulsory": ("University requirements - compulsory", "university", "compulsory", None),
+    "university-elective": ("University requirements - elective", "university", "elective", None),
+    "school": ("School requirements", "school", "compulsory", None),
+    "program-common": ("Program requirements - common to all tracks", "program", "compulsory", None),
+    "track-general": ("Program requirements - General track", "program", "compulsory", "general"),
+    "track-data-science": ("Program requirements - Data Science track", "program", "compulsory", "data-science"),
+    "track-cybersecurity": ("Program requirements - Cybersecurity track", "program", "compulsory", "cybersecurity"),
+    "elective-general": ("Program electives - General track", "program", "elective", "general"),
+    "elective-data-science": ("Program electives - Data Science track", "program", "elective", "data-science"),
+    "elective-cybersecurity": ("Program electives - Cybersecurity track", "program", "elective", "cybersecurity"),
+}
+
+
+def add_program(data: dict) -> dict:
+    """Add the `program` and `program_courses` parts (new format) derived from each course's plan_groups."""
+    data["program"] = {
+        "code": "cs", "name": "B.Sc. Computer Science", "school": "School of Computing",
+        "degree": "B.Sc.", "plan_version": "2023-2024", "kind": "regular",
+    }
+    data["program_courses"] = [
+        {"course": c["code"], "group": GROUP_INFO[g][0], "scope": GROUP_INFO[g][1],
+         "kind": GROUP_INFO[g][2], "track": GROUP_INFO[g][3]}
+        for c in data["courses"] for g in (c.get("plan_groups") or [])
+    ]
+    return data
+
+
 def main(text_path: Path, out_path: Path) -> int:
     text = text_path.read_text(encoding="utf-8")
     plan = build_plan(text)
@@ -39,6 +69,7 @@ def main(text_path: Path, out_path: Path) -> int:
         "prerequisites": plan["prerequisites"],
         "plan_entries": entries,
     }
+    add_program(data)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"courses: {len(data['courses'])}, prerequisite rows: {len(data['prerequisites'])}, "
