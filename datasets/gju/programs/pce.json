@@ -1,0 +1,2954 @@
+{
+ "plan": "Pharmaceutical and Chemical Engineering study plan 2023 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Pharmaceutical%20%26amp%3B%20Chemical%20Engineering/programs/pce_study_plan_2023_updated_23.9.2023_nr.7.7.2025.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "pce",
+  "name": "Pharmaceutical and Chemical Engineering",
+  "school": "SAMS",
+  "degree": "B.Sc.",
+  "plan_version": "2023",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ACC435",
+   "name": "Accounting Ethics and Corporate Governance",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC453",
+   "name": "Investment Analysis and Portfolio Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC455",
+   "name": "Islamic Finance and Accounting",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM331",
+   "name": "Biomaterials",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM333",
+   "name": "Biomaterials lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM352",
+   "name": "Biomedical Sensors and Transducers",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM358",
+   "name": "Biomedical Sensors and Transducers lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM371",
+   "name": "Numerical Methods for Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM562",
+   "name": "BioMEMS",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM563",
+   "name": "Artificial Organs and Limbs",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM592",
+   "name": "Selected Topics I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM593",
+   "name": "Selected Topics II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM594",
+   "name": "Selected Topics III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE500",
+   "name": "Environmental Engineering and Sustainability Concepts",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE512",
+   "name": "Air Pollution Control",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE513",
+   "name": "Air Pollution Control lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE515",
+   "name": "Water and Wastewater Treatment Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE516",
+   "name": "Water and Wastewater Treatment Engineering lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE562",
+   "name": "Engineering Projects and Construction Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CHEM103",
+   "name": "General Chemistry",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CHEM106",
+   "name": "General Chemistry Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS116",
+   "name": "Computing Fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1160",
+   "name": "Computing Fundamentals Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENE436",
+   "name": "Renewable Energy Lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE534",
+   "name": "Low Carbon Buildings",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE537",
+   "name": "Energy Efficiency, Management and Laws",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-Track GERL102B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "B2-Track GERL201B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B1",
+   "name": "German V B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B2",
+   "name": "B2-Track GERL202B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B1",
+   "name": "German VI B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B2",
+   "name": "B2-Track GERL301B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0141",
+   "name": "Engineering Workshop",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0516",
+   "name": "Facility and Asset Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0533",
+   "name": "Supply Chain Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE583",
+   "name": "Supply Chain Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MATH0099",
+   "name": "Pre-Math",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "MATH101",
+   "name": "Calculus I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH102",
+   "name": "Calculus II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH203",
+   "name": "Applied Mathematics for Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH205",
+   "name": "Differential Equations",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT414",
+   "name": "International Business and Globalization",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT418",
+   "name": "Quality Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE2101",
+   "name": "Analytical Chemistry",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE211",
+   "name": "Introduction to Pharmaceutical and Chemical Engineering",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE212",
+   "name": "Principles of Chemical Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE2201",
+   "name": "Organic Chemistry for PCE",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE2202",
+   "name": "Organic Chemistry Lab for PCE",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE221",
+   "name": "Thermodynamics for Pharmaceutical and Chemical Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE222",
+   "name": "Fluid Mechanics for Chemical and Medical Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE242",
+   "name": "Pharmaceutical Physical Chemistry",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE272",
+   "name": "Pharmaceutical Physical Chemistry Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE281",
+   "name": "Analytical Chemistry Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE3101",
+   "name": "Instrumental Analysis",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE311",
+   "name": "Transport Phenomena",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE312",
+   "name": "Separation Processes",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE3201",
+   "name": "Mass Transfer",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE321",
+   "name": "Chemical Reaction Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE332",
+   "name": "Chemical Engineering Economics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE343",
+   "name": "Pharmaceutical Technology – Liquid Forms",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE344",
+   "name": "Pharmaceutical Technology – Solid Forms",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE3513",
+   "name": "Biochemistry",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE362",
+   "name": "Fluid, Heat and Reaction Engineering Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE372",
+   "name": "Instrumental Analysis Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE373",
+   "name": "Pharmaceutical Technology – Liquid Forms Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE374",
+   "name": "Pharmaceutical Technology – Solid Forms Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE381",
+   "name": "Biochemistry Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE391",
+   "name": "Field Training* -",
+   "hours": 6,
+   "prerequisite_note": "Dept. approval"
+  },
+  {
+   "code": "PCE4001",
+   "name": "Microbiology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE401",
+   "name": "Biotechnology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE402",
+   "name": "Gene Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE403",
+   "name": "Nutrition",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE404",
+   "name": "Introduction to Polymer Science",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE405",
+   "name": "Colloids and Surface Chemistry",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE406",
+   "name": "Corrosion Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE407",
+   "name": "Chemical & Physical Sensors",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE408",
+   "name": "Shale Oil Production Processes",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE409",
+   "name": "Introduction to Oil and Gas Production",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE412",
+   "name": "Nanotechnology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE413",
+   "name": "Membrane Separation Processes",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE421",
+   "name": "Fluid Mixing Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE422",
+   "name": "Chemical Reaction Engineering II",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE431",
+   "name": "Chemical Process Safety",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE444",
+   "name": "Antibiotics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE445",
+   "name": "Particle Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE446",
+   "name": "Pharmacokinetics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE447",
+   "name": "Toxicology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE448",
+   "name": "Modern Drug Forms & Delivery Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE491",
+   "name": "Environmental Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE492",
+   "name": "Special Topics in Pharmaceutical and Chemical Engineering I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE493",
+   "name": "Special Topics in Pharmaceutical and Chemical Engineering II",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE494",
+   "name": "Special Topics in Pharmaceutical and Chemical Engineering III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE495",
+   "name": "Special Topics in Pharmaceutical and Chemical Engineering IV",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE499",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": "Dept. approval"
+  },
+  {
+   "code": "PCE5101",
+   "name": "Unit Operations",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE5102",
+   "name": "Chemical process dynamics and control",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE5103",
+   "name": "Chemical process dynamics and control Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE5104",
+   "name": "Process Safety and Hazardous Waste Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE5105",
+   "name": "Computer-Aided Plant Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE5106",
+   "name": "Computer-Aided Plant Design Lab",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE5201",
+   "name": "Statistical Analysis and Quality Assurance",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE5202",
+   "name": "Pharmaceutical Packaging",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE5312",
+   "name": "Industrial Processes Management and Industrial Safety",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE541",
+   "name": "Medicinal Chemistry",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE562",
+   "name": "Separation Processes Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE591",
+   "name": "Graduation Project I",
+   "hours": 1,
+   "prerequisite_note": "Dept. approval"
+  },
+  {
+   "code": "PCE592",
+   "name": "Graduation Project II",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE593",
+   "name": "Special Topics in Pharmaceutical and Chemical Engineering V",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE594",
+   "name": "Special Topics in Pharmaceutical and Chemical Engineering VI",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE595",
+   "name": "Special Field Projects",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS103",
+   "name": "Physics I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS104",
+   "name": "Physics II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS106",
+   "name": "General Physics Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM371",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM371",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM371",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CHEM106",
+   "prereq": "CHEM103",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CS1160",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EI101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH101",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH102",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE2101",
+   "prereq": "CHEM103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE211",
+   "prereq": "CHEM103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE212",
+   "prereq": "PCE221",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE212",
+   "prereq": "PCE211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE2201",
+   "prereq": "CHEM103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE2202",
+   "prereq": "CHEM103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE2202",
+   "prereq": "CHEM106",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE2202",
+   "prereq": "PCE2201",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE221",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE222",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE242",
+   "prereq": "PCE221",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE272",
+   "prereq": "PCE221",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE272",
+   "prereq": "PCE242",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE281",
+   "prereq": "CHEM103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE281",
+   "prereq": "CHEM106",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE281",
+   "prereq": "PCE2101",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE3101",
+   "prereq": "PCE2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE311",
+   "prereq": "PCE212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE311",
+   "prereq": "PCE222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE312",
+   "prereq": "PCE311",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE3201",
+   "prereq": "PCE212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE321",
+   "prereq": "PCE212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE332",
+   "prereq": "PCE212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE343",
+   "prereq": "PCE242",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE344",
+   "prereq": "PCE242",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE3513",
+   "prereq": "PCE2201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE362",
+   "prereq": "PCE222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE362",
+   "prereq": "PCE311",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE362",
+   "prereq": "PCE321",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE372",
+   "prereq": "PCE2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE372",
+   "prereq": "PCE281",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE372",
+   "prereq": "PCE3101",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE373",
+   "prereq": "PCE242",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE373",
+   "prereq": "PCE343",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE374",
+   "prereq": "PCE242",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE374",
+   "prereq": "PCE344",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE381",
+   "prereq": "PCE2201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE381",
+   "prereq": "PCE2202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE381",
+   "prereq": "PCE3513",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5101",
+   "prereq": "PCE312",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5102",
+   "prereq": "PCE321",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5103",
+   "prereq": "PCE321",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5103",
+   "prereq": "PCE5102",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5104",
+   "prereq": "PCE312",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5105",
+   "prereq": "PCE312",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5105",
+   "prereq": "PCE332",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5106",
+   "prereq": "PCE5105",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5201",
+   "prereq": "PCE344",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5201",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE5202",
+   "prereq": "PCE343",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "PCE5202",
+   "prereq": "PCE344",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "PCE541",
+   "prereq": "PCE3513",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE562",
+   "prereq": "PCE312",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PCE562",
+   "prereq": "PCE5101",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "PCE592",
+   "prereq": "PCE591",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS104",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS104",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "SE301",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MATH101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH102",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS116",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1160",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0141",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CHEM103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CHEM106",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS104",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS106",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH203",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH205",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM371",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE2101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE281",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE222",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE211",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE2201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE2202",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE242",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE272",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE212",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE221",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE3513",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE381",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE332",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE321",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE391",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE362",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE3101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE372",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE3201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE343",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE373",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE344",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE374",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE312",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE311",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE499",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE5102",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE5103",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE5105",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE5106",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE591",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE592",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE541",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE5202",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE5104",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE562",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE5201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE5101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PCE444",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE401",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE407",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE431",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE422",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE405",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE406",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE491",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE421",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE402",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE5312",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE409",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE404",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE413",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE4001",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE448",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE412",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE403",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE445",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE446",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE408",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE595",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE492",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE493",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE494",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE495",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE593",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE594",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PCE447",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC435",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE512",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE513",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BM563",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BM331",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BM333",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BM352",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BM358",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BM562",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE537",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE500",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE534",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT418",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BM592",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BM593",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BM594",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE515",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE516",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE562",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0516",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0533",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE583",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC453",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC455",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE436",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT414",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "PHYS103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "CHEM103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "CHEM106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "PHYS104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "PHYS106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 9,
+   "code": "IE0141",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 10,
+   "code": "PCE211",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "PCE2101",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "PCE281",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "PCE221",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "MATH203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "MATH205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": null,
+   "label": "- University Elective I",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "PCE2201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "PCE2202",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "PCE212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "PCE222",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "PCE242",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "PCE272",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 9,
+   "code": null,
+   "label": "- University elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "PCE311",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "PCE3101",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "PCE372",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "PCE321",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "PCE343",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "PCE373",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "PCE391",
+   "label": null,
+   "credit_hours": 6
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "PCE312",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "PCE344",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "PCE374",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "PCE3513",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "PCE381",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": "PCE3201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Program Elective I",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Program Elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Program Elective III",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Program Elective IV",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 1,
+   "code": "BM371",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 2,
+   "code": "PCE332",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 3,
+   "code": "PCE5104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 4,
+   "code": "PCE5101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 5,
+   "code": "PCE5102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 6,
+   "code": "PCE5103",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 7,
+   "code": "PCE5105",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 8,
+   "code": "PCE5106",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 9,
+   "code": "PCE591",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 1,
+   "code": "PCE362",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 2,
+   "code": "PCE5202",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 3,
+   "code": "PCE5201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 4,
+   "code": "PCE541",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 5,
+   "code": "PCE562",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 6,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 7,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 8,
+   "code": "PCE592",
+   "label": null,
+   "credit_hours": 2
+  }
+ ],
+ "review_warnings": [
+  "guide all year 3 second: credits add up to 23, the PDF says 17",
+  "guide all year 4 second: credits add up to 0, the PDF says 30",
+  "guide all year 4 second: credits add up to 0, the PDF says 12",
+  "guide all year 5 second: NEE101 has no credit hours",
+  "NEE101: could not read credit hours from any table",
+  "table 'Program Requirements (Compulsory)': courses add up to 100, the PDF's Total line says 94",
+  "table 'Program Requirements (Compulsory)': courses add up to 100, the heading says 94"
+ ]
+}

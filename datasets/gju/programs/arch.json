@@ -1,0 +1,3260 @@
+{
+ "plan": "Architecture / Interior Architecture study plan 2024 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Department%20of%20Architecture%20and%20Interior%20Architecture/programs/b.sc_._regular_programs_architecture_interior_architecture_21-7-2025-_final.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "arch",
+  "name": "Architecture / Interior Architecture",
+  "school": "SABE",
+  "degree": "B.Sc.",
+  "plan_version": "2024",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "AC323",
+   "name": "Heritage Conservation and Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC111",
+   "name": "Fundamentals of Design I",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC2102",
+   "name": "Architectural Design II",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC211",
+   "name": "Architectural Design: Methods and Typologies",
+   "hours": 5,
+   "prerequisite_note": "Math0099"
+  },
+  {
+   "code": "ARC311",
+   "name": "High-Rise Buildings Design and Planning*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC312",
+   "name": "Design of Large Span Buildings*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC313",
+   "name": "Design of Cultural and Civic Buildings*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC341",
+   "name": "Housing",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARC344",
+   "name": "Infill Architecture*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC345",
+   "name": "Housing Planning and Design*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC346",
+   "name": "Urban Studies",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC371",
+   "name": "Design of Sustainable Buildings*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC411",
+   "name": "Healthcare Facilities Planning and Design*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC412",
+   "name": "Tourist Facilities Design*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC413",
+   "name": "Design of Mixed-Use Buildings*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC414",
+   "name": "Advanced Architectural Design Project*",
+   "hours": 5,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARC441",
+   "name": "Adaptive Re-Use of Buildings and Sites",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC453",
+   "name": "Building and Site Documentation",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARC541",
+   "name": "Urban Design",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1011",
+   "name": "Technical Writing",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1131",
+   "name": "Technical Illustration I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1132",
+   "name": "Technical Illustration II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1134",
+   "name": "Fundamentals of Design II",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1140",
+   "name": "Experiencing the Built Environment",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1201",
+   "name": "Architectural Rendering and Presentation Techniques",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1202",
+   "name": "Computer Visualization",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1301",
+   "name": "Comparative History of Architecture",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH150",
+   "name": "Physics for Architects",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH221",
+   "name": "Modern Foundations of Architecture",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH2302",
+   "name": "Islamic Art and Architecture",
+   "hours": 3,
+   "prerequisite_note": "Math0099"
+  },
+  {
+   "code": "ARCH2501",
+   "name": "Building Construction Materials and Processes I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH2502",
+   "name": "Building Construction Materials and Processes II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH2505",
+   "name": "Interior Construction Works I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH2506",
+   "name": "Interior Construction Works II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH261",
+   "name": "Structural Systems I",
+   "hours": 3,
+   "prerequisite_note": "Math0099"
+  },
+  {
+   "code": "ARCH262",
+   "name": "Utility Planning and Design I",
+   "hours": 3,
+   "prerequisite_note": "Math0099"
+  },
+  {
+   "code": "ARCH3101",
+   "name": "Parametric Architecture",
+   "hours": 5,
+   "prerequisite_note": "for Architecture; for Interior Architecture"
+  },
+  {
+   "code": "ARCH315",
+   "name": "Furniture Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH323",
+   "name": "Contemporary Architecture",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH341",
+   "name": "Landscape Architecture",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH350",
+   "name": "Local Internship",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH3507",
+   "name": "Digital Surveying of Built Environment",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH354",
+   "name": "Project Management and Site Organization I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH361",
+   "name": "Structural Systems II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH362",
+   "name": "Utility Planning and Design II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH363",
+   "name": "Lighting Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH401",
+   "name": "Special Topics in Architecture I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH402",
+   "name": "Special Topics in Interior Architecture I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH403",
+   "name": "Special Topics in Architecture II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH404",
+   "name": "Special Topics in Interior Architecture II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH405",
+   "name": "Special Topics in Architecture III",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH406",
+   "name": "Special Topics in Interior Architecture III",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH422",
+   "name": "Contemporary Issues in Interior Architecture",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH423",
+   "name": "Contemporary Issues in Architectural Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH425",
+   "name": "Regional and Vernacular Architecture",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH426",
+   "name": "Environmental Psychology and Sociology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH432",
+   "name": "Geographic Information Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH442",
+   "name": "Human Response to the Built Environment",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH4501",
+   "name": "Contracts, Specifications, and Quantity Surveying",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH451",
+   "name": "Design and Build",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH454",
+   "name": "Interior Textiles, Accessories, and Resources",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH455",
+   "name": "Contracts, Specifications, and Quantity Surveying",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH457",
+   "name": "Advanced Construction Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH459",
+   "name": "International Internship d",
+   "hours": 12,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "ARCH4904",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "ARCH554",
+   "name": "Project Management and Site Organization II",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH571",
+   "name": "Architectural Environmental Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARCH591",
+   "name": "Graduation Project I (Arch.)",
+   "hours": 1,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "ARCH592",
+   "name": "Graduation Project II (Arch.)",
+   "hours": 6,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH593",
+   "name": "Graduation Project I (Int.)",
+   "hours": 1,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "ARCH594",
+   "name": "Graduation Project II (Int.)",
+   "hours": 6,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES1201",
+   "name": "Freehand sketching",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-Track GERL102B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "B2-Track GERL201B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B1",
+   "name": "German V B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B2",
+   "name": "B2-Track GERL202B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B1",
+   "name": "German VI B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B2",
+   "name": "B2-Track GERL301B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC2101",
+   "name": "Interior Architectural Design",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC311",
+   "name": "Domestic Environments Design Studio*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC312",
+   "name": "Learning Environments Design Studio*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC313",
+   "name": "Workplace Design Studio*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC314",
+   "name": "Cultural and Civic Environments Design Studio*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC315",
+   "name": "Theatre Set Design*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC316",
+   "name": "Principles of Interior Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IARC317",
+   "name": "Core and Shell Design*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC318",
+   "name": "Site-Specific Furniture Design*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC3507",
+   "name": "Material & Space",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC371",
+   "name": "Sustainable Environments Design Studio*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC411",
+   "name": "Healthcare Design Studio*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC412",
+   "name": "Hospitality Design Studio*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC413",
+   "name": "Museum and Exhibition Design*",
+   "hours": 5,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IARC414",
+   "name": "Advanced Interior Design Studio*",
+   "hours": 5,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH0099",
+   "name": "Pre-Math",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "MATH101",
+   "name": "Calculus I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SABE231",
+   "name": "Computing Fundamentals for Architects and Designers",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "AC323",
+   "prereq": "ARCH1301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC2102",
+   "prereq": "ARC211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC211",
+   "prereq": "ARCH1134",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC211",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC211",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC311",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC312",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC313",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC344",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC345",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC346",
+   "prereq": "ARC211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC371",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC411",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC412",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC413",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC441",
+   "prereq": "IARC3507",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARC541",
+   "prereq": "ARC346",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH1132",
+   "prereq": "ARCH1131",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH1134",
+   "prereq": "ARC111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH1201",
+   "prereq": "ARCH1131",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH1202",
+   "prereq": "ARCH1131",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH1202",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH1202",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH221",
+   "prereq": "ARCH1301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH221",
+   "prereq": "ARCH2302",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH221",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH221",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2302",
+   "prereq": "ARCH1301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2302",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2302",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2501",
+   "prereq": "ARCH1131",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2501",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2501",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2501",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2502",
+   "prereq": "ARCH2501",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2505",
+   "prereq": "ARCH1131",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2505",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2505",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2505",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2506",
+   "prereq": "ARCH2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2506",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2506",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2506",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH261",
+   "prereq": "ARCH150",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH261",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH261",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH262",
+   "prereq": "ARCH150",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH262",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH262",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH3101",
+   "prereq": "ARC2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH3101",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH315",
+   "prereq": "ARC211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH323",
+   "prereq": "ARCH221",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH341",
+   "prereq": "ARC211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH3507",
+   "prereq": "ARCH1202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH354",
+   "prereq": "ARC211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH361",
+   "prereq": "ARCH261",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH362",
+   "prereq": "ARCH262",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH363",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH4501",
+   "prereq": "ARCH354",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH455",
+   "prereq": "ARCH354",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH592",
+   "prereq": "ARCH591",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH592",
+   "prereq": "ARC541",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH594",
+   "prereq": "ARCH593",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH594",
+   "prereq": "ARC441",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EI101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "IARC2101",
+   "prereq": "ARCH2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC311",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC312",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC313",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC314",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC315",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC317",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC318",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC3507",
+   "prereq": "ARC211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC371",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC411",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC412",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IARC413",
+   "prereq": "IARC2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH101",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SABE231",
+   "prereq": "ARCH1202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SABE231",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SABE231",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SE301",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARC111",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1131",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES1201",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1011",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH2302",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1140",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1134",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1132",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH150",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH101",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1201",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1202",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1301",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "SABE231",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARC211",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH221",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH261",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH262",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH323",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH341",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH350",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH354",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH362",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH4501",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "AC323",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH3101",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH4904",
+   "group": "Program - Compulsory Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH2501",
+   "group": "Program - Compulsory Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH2502",
+   "group": "Program - Compulsory Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC2102",
+   "group": "Program - Compulsory Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH3507",
+   "group": "Program - Compulsory Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH361",
+   "group": "Program - Compulsory Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC346",
+   "group": "Program - Compulsory Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC541",
+   "group": "Program - Compulsory Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH591",
+   "group": "Program - Compulsory Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH592",
+   "group": "Program - Compulsory Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH2505",
+   "group": "Program - Compulsory Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH2506",
+   "group": "Program - Compulsory Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC2101",
+   "group": "Program - Compulsory Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH315",
+   "group": "Program - Compulsory Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC3507",
+   "group": "Program - Compulsory Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH363",
+   "group": "Program - Compulsory Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARC441",
+   "group": "Program - Compulsory Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH593",
+   "group": "Program - Compulsory Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH594",
+   "group": "Program - Compulsory Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARC311",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC312",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC313",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC344",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC345",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC371",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC341",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "IARC316",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC411",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC412",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC413",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC441",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC414",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH401",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH403",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH405",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH423",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH425",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH426",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH432",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH442",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH451",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARC453",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH457",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH554",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "ARCH571",
+   "group": "Program - Elective Requirements (Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "architecture"
+  },
+  {
+   "course": "IARC311",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC312",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC313",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC314",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC315",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC318",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC317",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC371",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC411",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC412",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC413",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "IARC414",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH402",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH404",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH406",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH422",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH451",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARC453",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH454",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH554",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  },
+  {
+   "course": "ARCH571",
+   "group": "Program - Elective Requirements (Interior Architecture Track)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "interior-architecture"
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ARC111",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "ARCH1131",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "DES1201",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "ARCH150",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "ARCH1134",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "ARCH1132",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "ARCH1201",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "ARCH1301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "ARCH1140",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "ARC211",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "ARCH1202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "ARCH2501",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "ARCH2302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "ARCH262",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "ARC2102",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "SABE231",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "ARCH2502",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "ARCH3507",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "ARCH221",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "ARCH3101 or ARC3** Parametric Architecture Or Project Elective",
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "ARCH341",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "ARCH323",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "ARCH261",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "AC323",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": null,
+   "label": "ARCH3101 Or ARC4** Parametric Architecture Or Project Elective",
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "ARCH350",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "ARCH1011",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "ARC346",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "ARC414",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "ARCH362",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "ARCH361",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Theory and Technical Electives Elective I",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": null,
+   "label": "Theory and Technical Electives Elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": null,
+   "label": "Theory and Technical Electives Elective III",
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "ARCH4904",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 1,
+   "code": "ARCH591",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 2,
+   "code": "ARC541",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 3,
+   "code": "ARCH354",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 4,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 5,
+   "code": null,
+   "label": "University Elective Requirement",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 1,
+   "code": "ARCH592",
+   "label": null,
+   "credit_hours": 6
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 2,
+   "code": "ARCH4501",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 3,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 4,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 5,
+   "code": null,
+   "label": "University Elective Requirement",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ARC111",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "ARCH1131",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "DES1201",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "ARCH150",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "ARCH1134",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "ARCH1132",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "ARCH1201",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "ARCH1301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "ARCH1140",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "ARC211",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "ARCH1202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "ARCH2505",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "ARCH2302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "ARCH262",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "IARC2101",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "SABE231",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "ARCH2506",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "IARC3507",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "ARCH221",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "ARCH3101 Or IARC3** Parametric Architecture Or Project Elective",
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "ARCH341",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "ARCH323",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "ARCH261",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "ARCH363",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": null,
+   "label": "ARCH3101 Or IARC400 Parametric Architecture Or Project Elective",
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "ARCH350",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "ARCH1011",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "ARCH315",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "IARC414",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "ARCH362",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "AC323",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Theory and Technical Electives Elective I",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": null,
+   "label": "Theory and Technical Electives Elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": null,
+   "label": "Theory and Technical Electives Elective III",
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "ARCH459",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 1,
+   "code": "ARCH593",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 2,
+   "code": "ARC441",
+   "label": null,
+   "credit_hours": 5
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 3,
+   "code": "ARCH354",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 4,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 5,
+   "code": null,
+   "label": "University Elective Requirement",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 1,
+   "code": "ARCH594",
+   "label": null,
+   "credit_hours": 6
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 2,
+   "code": "ARCH455",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 3,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 4,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 5,
+   "code": null,
+   "label": "University Elective Requirement",
+   "credit_hours": 3
+  }
+ ],
+ "review_warnings": [
+  "guide all year 1 second: credits add up to 18, the PDF says 21",
+  "guide all: GERL302B1 appears twice (year 3 second and year 3 second)",
+  "guide all: ARC111 appears twice (year 1 first and year 1 first)",
+  "guide all: ARCH1131 appears twice (year 1 first and year 1 first)",
+  "guide all: DES1201 appears twice (year 1 first and year 1 first)",
+  "guide all: ARCH150 appears twice (year 1 first and year 1 first)",
+  "guide all: MATH101 appears twice (year 1 first and year 1 first)",
+  "guide all: GERL101B1 appears twice (year 1 first and year 1 first)",
+  "guide all: ARCH1134 appears twice (year 1 second and year 1 second)",
+  "guide all: ARCH1132 appears twice (year 1 second and year 1 second)",
+  "guide all: ARCH1201 appears twice (year 1 second and year 1 second)",
+  "guide all: ARCH1301 appears twice (year 1 second and year 1 second)",
+  "guide all: ARCH1140 appears twice (year 1 second and year 1 second)",
+  "guide all: ENGL1001 appears twice (year 1 second and year 1 second)",
+  "guide all year 1 second: credits add up to 18, the PDF says 21",
+  "guide all: ARC211 appears twice (year 2 first and year 2 first)",
+  "guide all: ARCH1202 appears twice (year 2 first and year 2 first)",
+  "guide all: ARCH2302 appears twice (year 2 first and year 2 first)",
+  "guide all: ARCH262 appears twice (year 2 first and year 2 first)",
+  "guide all: GERL201B1 appears twice (year 2 first and year 2 first)",
+  "guide all: GERL201B2 appears twice (year 2 first and year 2 first)",
+  "guide all: SABE231 appears twice (year 2 second and year 2 second)",
+  "guide all: ARCH221 appears twice (year 2 second and year 2 second)",
+  "guide all: GERL202B1 appears twice (year 2 second and year 2 second)",
+  "guide all: GERL202B2 appears twice (year 2 second and year 2 second)",
+  "guide all: ARCH341 appears twice (year 3 first and year 3 first)",
+  "guide all: ARCH323 appears twice (year 3 first and year 3 first)",
+  "guide all: ARCH261 appears twice (year 3 first and year 3 first)",
+  "guide all: GERL301B1 appears twice (year 3 first and year 3 first)",
+  "guide all: GERL301B2 appears twice (year 3 first and year 3 first)",
+  "guide all: ARCH350 appears twice (year 3 second and year 3 second)",
+  "guide all: ARCH1011 appears twice (year 3 second and year 3 second)",
+  "guide all: ENGL1002 appears twice (year 3 second and year 3 second)",
+  "guide all: GERL302B1 appears twice (year 3 second and year 3 second)",
+  "guide all: ARCH362 appears twice (year 4 first and year 4 first)",
+  "guide all: AC323 appears twice (year 3 first and year 4 first)",
+  "guide all: ARCH354 appears twice (year 5 first and year 5 first)",
+  "guide all: ARB100 appears twice (year 5 first and year 5 first)",
+  "guide all: MILS100 appears twice (year 5 second and year 5 second)",
+  "guide all: NE101 appears twice (year 5 second and year 5 second)",
+  "ARC441: prerequisites differ between tables: IARC3507 | ARC2102",
+  "ARCH455: only in the year/semester guide, not in a requirement table",
+  "ARCH459: only in the year/semester guide, not in a requirement table",
+  "NEE101: could not read credit hours from any table",
+  "ARCH1201: prerequisite DES1200 is not a course of this plan, skipped"
+ ]
+}

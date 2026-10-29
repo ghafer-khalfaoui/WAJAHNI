@@ -63,3 +63,10 @@
 - Owner: `git pull`, then `python -m scripts.fetch_gju_plans --zip` (about 40 files, 10 s apart = roughly 7 minutes), attach `data\raw\gju\plans.zip` and the printed FAILED lines.
 - Then, per program: read the real PDF layout, extend/generalise `plan_parser.py` (CS layout may differ), generate `datasets/gju/<program>.json`, import, spot-check. Start with Computer Engineering (same school layout as CS), then the other engineering plans.
 - Long-term (ROADMAP): German universities after all GJU plans.
+
+## Update 2026-10-29 (multi-program backend + datasets built, chat not yet program-aware)
+- Done and tested (106 tests pass, DB tests included): Program/ProgramCourse models, migration c5f1a7d3e826 (verified up/down/up on a scratch DB), importer with per-program slots and conflict report (shared courses are never silently overwritten; `--overwrite` replaces), table parser `app/services/plan_template.py`, `scripts/build_gju_program.py` (dev tool, needs `pip install pdfplumber`).
+- 30 program datasets generated in `datasets/gju/programs/` (regular + dual). Each file lists its parser doubts in `review_warnings`. Importing all of them into a scratch DB worked: 269 distinct real disagreements between plans (names written differently, prerequisites one plan does not list). They were kept, not applied.
+- NOT done: chat still answers from the CS data only (`answer_plan`/`_answer_track` ignore programs). Next code task: detect the program in the question, pick the newest `plan_version`, ask which program when ambiguous, regular before dual.
+- Not done: gebc dual (scan PDF), gebc guide supplement, Energy Engineering (.docx 404), Management Sciences (no link). Warnings in arch, arch-dual, cee, translation, bida, gdmi need reading against the PDFs before these are called reliable. Everything imports as UNVERIFIED.
+- Owner (when ready): `git pull`, `alembic upgrade head` (b4e8d2a6c913 then c5f1a7d3e826), re-import the CS file, then the files in `datasets\gju\programs\` one by one. Read the "DIFFERENCES" lines the importer prints.

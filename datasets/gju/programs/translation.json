@@ -1,0 +1,1878 @@
+{
+ "plan": "Translation (German, English, Arabic) study plan 2024-2025 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Department%20of%20Applied%20Humanities/programs/translation_german_english_arabic_._tracks_2024-_2025.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "translation",
+  "name": "Translation (German, English, Arabic)",
+  "school": "SAHSS",
+  "degree": "B.Sc.",
+  "plan_version": "2024-2025",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS115",
+   "name": "Computing Fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1150",
+   "name": "Computing Fundamentals LAB",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0089",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC232",
+   "name": "Literary and Cultural Studies",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC253",
+   "name": "Written Business Communication",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC315",
+   "name": "German for Tourism Communication",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC322",
+   "name": "Research Concept Development (GE\\EN)",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC331",
+   "name": "Creative Practice",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC341",
+   "name": "Overview: Politics and Institutions",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERS202",
+   "name": "German IV",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERS301",
+   "name": "German V",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERS302",
+   "name": "German VI",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GLS2101",
+   "name": "German Language Skills: Speaking and Listening",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GLS2102",
+   "name": "German Language Skills: Reading and Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GLS303",
+   "name": "German Language Skills: Business German and Application Training",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GLS3101",
+   "name": "German Language Skills: Language Training",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "LOGS315",
+   "name": "Inventory Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "LOGS316",
+   "name": "Warehouse Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT314",
+   "name": "Human Resources Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT322",
+   "name": "Consumer Behavior",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SL111",
+   "name": "Introduction to Linguistics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SL200",
+   "name": "Field training -",
+   "hours": 6,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "SL320",
+   "name": "Academic Research Techniques",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SL330",
+   "name": "Contrastive Culture Studies",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA117",
+   "name": "Arabic Syntax and Morphology",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA121",
+   "name": "Basic Principles of Translation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA2103",
+   "name": "Arabic in Professional Contexts",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA2105",
+   "name": "Contrastive Linguistics (AR-EN- GE)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA211",
+   "name": "English Syntax and Morphology",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA212",
+   "name": "Arabic Rhetoric and Semantics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA218",
+   "name": "English Semantics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA220",
+   "name": "General Translation I (EN-AR-EN)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA221",
+   "name": "General Translation II (GE-AR)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA243",
+   "name": "Lexicology and Terminology (EN-AR)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA244",
+   "name": "English Discourse Analysis",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA246",
+   "name": "Translation of Scientific and Technical Texts (AR- EN)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA311",
+   "name": "Contrastive Linguistics II (AR-GE)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA312",
+   "name": "Translation of Literary Texts (AR- EN-GE)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA320",
+   "name": "General Translation III (AR-GE)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA322",
+   "name": "Translation of Legal Texts",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA323",
+   "name": "Interpreting I (EN-AR -GE)",
+   "hours": 3,
+   "prerequisite_note": "221"
+  },
+  {
+   "code": "TRA324",
+   "name": "Research Topics and Practice in Translation (AR-EN-GE)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA329",
+   "name": "Interpreting II (EN-GE-EN)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA3305",
+   "name": "Introduction to Artificial",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA3306",
+   "name": "Machine Translation in Practice",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA3307",
+   "name": "Machine Translation Evaluation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA3308",
+   "name": "Applications of Artificial Intelligence in Screen Translation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA3309",
+   "name": "Research Topics in Translation and",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA4101",
+   "name": "German Language Course I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA4102",
+   "name": "German Language Course II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA4103",
+   "name": "German Language Course III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA446",
+   "name": "Interpreting II (EN-GE-EN)",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA447",
+   "name": "General Translation IV (GE-EN-GE)",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA448",
+   "name": "Specialized Translation (AR-GE-AR)",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA449",
+   "name": "Advanced English Grammar",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA460",
+   "name": "Intercultural Competence",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA470",
+   "name": "Special Topics in Translation",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA4701",
+   "name": "Special Topic I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA4702",
+   "name": "Special Topic II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA4703",
+   "name": "Special Topic III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA471",
+   "name": "Translation as Intercultural Communication",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA481",
+   "name": "German Literary Studies",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA482",
+   "name": "Culture Studies USA",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA483",
+   "name": "Culture Studies Arab World",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA491",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS115",
+   "prereq": "CS1150",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1150",
+   "prereq": "CS115",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERS301",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERS302",
+   "prereq": "GERS301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GLS303",
+   "prereq": "GERS301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GLS3101",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SL111",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SL320",
+   "prereq": "ENGL1002",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SL320",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SL330",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SL330",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA117",
+   "prereq": "ARB100",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA2103",
+   "prereq": "TRA212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA2105",
+   "prereq": "ENGL1002",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA2105",
+   "prereq": "ARB100",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA211",
+   "prereq": "SL111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA211",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA212",
+   "prereq": "ARB100",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA218",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA220",
+   "prereq": "TRA121",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA220",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA221",
+   "prereq": "TRA121",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA243",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA243",
+   "prereq": "TRA117",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA246",
+   "prereq": "TRA220",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA311",
+   "prereq": "SL111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA311",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA312",
+   "prereq": "TRA220",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA312",
+   "prereq": "TRA221",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA320",
+   "prereq": "TRA221",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA322",
+   "prereq": "GERS301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA322",
+   "prereq": "ENGL1002",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA323",
+   "prereq": "TRA220",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA324",
+   "prereq": "SL320",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA329",
+   "prereq": "TRA323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3305",
+   "prereq": "CS1150",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3305",
+   "prereq": "CS115",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3305",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3306",
+   "prereq": "CS1150",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3306",
+   "prereq": "CS115",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3306",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3307",
+   "prereq": "TRA3305",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3308",
+   "prereq": "GERS301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3309",
+   "prereq": "TRA3305",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA3309",
+   "prereq": "SL320",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TRA491",
+   "prereq": "GERS302",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0089",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS115",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1150",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "SL111",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERS202",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GLS2101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GLS2102",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GLS3101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GLS303",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "SL320",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "SL330",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA117",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA121",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA212",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA211",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA220",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA2105",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA2103",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA218",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA221",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA243",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA246",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA323",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERS301",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERS302",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA320",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA322",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA3308",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "SL200",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA491",
+   "group": "Program - Program Requirements (Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "TRA311",
+   "group": "Program - Program Requirements (Compulsory for Track: Applied Translation)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "applied-translation"
+  },
+  {
+   "course": "TRA312",
+   "group": "Program - Program Requirements (Compulsory for Track: Applied Translation)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "applied-translation"
+  },
+  {
+   "course": "TRA329",
+   "group": "Program - Program Requirements (Compulsory for Track: Applied Translation)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "applied-translation"
+  },
+  {
+   "course": "TRA324",
+   "group": "Program - Program Requirements (Compulsory for Track: Applied Translation)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "applied-translation"
+  },
+  {
+   "course": "TRA3305",
+   "group": "Program - Program Requirements (Compulsory for Track: Artificial Intelligence in Translation)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "artificial-intelligence-in-translation"
+  },
+  {
+   "course": "TRA3306",
+   "group": "Program - Program Requirements (Compulsory for Track: Artificial Intelligence in Translation)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "artificial-intelligence-in-translation"
+  },
+  {
+   "course": "TRA3307",
+   "group": "Program - Program Requirements (Compulsory for Track: Artificial Intelligence in Translation)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "artificial-intelligence-in-translation"
+  },
+  {
+   "course": "TRA3309",
+   "group": "Program - Program Requirements (Compulsory for Track: Artificial Intelligence in Translation)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "artificial-intelligence-in-translation"
+  },
+  {
+   "course": "TRA4101",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA4102",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA4103",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA244",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA470",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA471",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA460",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA446",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA447",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA448",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA449",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA481",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA482",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA483",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA4701",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA4702",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA4703",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT314",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT322",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "LOGS315",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "LOGS316",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC232",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC253",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC315",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC322",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC331",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC341",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "- University Requirement Elective I",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "CS115",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "SL111",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": null,
+   "label": "- University Requirement Elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "TRA117",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "TRA121",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "TRA212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GLS2101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "TRA211",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "TRA220",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "TRA243",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "TRA2103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERS202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "GLS2102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "TRA218",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "TRA221",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "TRA246",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "TRA2105",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "CS1150",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "SL200",
+   "label": null,
+   "credit_hours": 6
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERS302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "TRA329",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "GLS303",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "SL330",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "TRA322",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "TRA3308",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "TRA324",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "GERS301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GLS3101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "TRA3305",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "TRA3306",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "TRA323",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "SL320",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "TRA320",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERS302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "TRA3307",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "GLS303",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "SL330",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "TRA322",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "TRA3308",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "TRA3309",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "- Elective Course 1",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "- Elective Course 2",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "- Elective Course 3",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "- Elective Course 4",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "TRA491",
+   "label": null,
+   "credit_hours": 12
+  }
+ ],
+ "review_warnings": [
+  "guide all year 1 second: credits add up to 18, the PDF says 21",
+  "guide all year 2 first: credits add up to 18, the PDF says 21",
+  "guide all year 2 second: credits add up to 25, the PDF says 19",
+  "guide all year 2 first: credits add up to 0, the PDF says 21",
+  "guide all: GERS302 appears twice (year 2 second and year 2 second)",
+  "guide all: GLS303 appears twice (year 2 second and year 2 second)",
+  "guide all: SL330 appears twice (year 2 second and year 2 second)",
+  "guide all: TRA322 appears twice (year 2 second and year 2 second)",
+  "guide all year 2 second: credits add up to 15, the PDF says 3",
+  "guide all: TRA3308 appears twice (year 2 second and year 2 second)",
+  "guide all year 4 first: credits add up to 12, the PDF says 20",
+  "EI101: could not read credit hours from any table",
+  "ENGL0098: could not read a name from any table",
+  "GERL102B1: could not read a name from any table",
+  "GERL102B2: could not read a name from any table",
+  "GERL201B1: could not read credit hours from any table",
+  "GERL201B2: could not read credit hours from any table",
+  "NEE101: could not read credit hours from any table",
+  "BE302: prerequisite ENGL0098 is not a course of this plan, skipped",
+  "DES101: prerequisite ARB0098 is not a course of this plan, skipped",
+  "ENGL0099: prerequisite ENGL0098 is not a course of this plan, skipped",
+  "GERS202: prerequisite GERL201B1 is not a course of this plan, skipped",
+  "GERS202: prerequisite GERL201B2 is not a course of this plan, skipped",
+  "GLS2101: prerequisite GERL102B1 is not a course of this plan, skipped",
+  "GLS2101: prerequisite GERL102B2 is not a course of this plan, skipped",
+  "GLS2102: prerequisite GERL201B1 is not a course of this plan, skipped",
+  "GLS2102: prerequisite GERL201B2 is not a course of this plan, skipped",
+  "IC101: prerequisite ENGL0098 is not a course of this plan, skipped",
+  "SFTS101: prerequisite ENGL0098 is not a course of this plan, skipped",
+  "TRA121: prerequisite ENGL0098 is not a course of this plan, skipped",
+  "TRA2105: prerequisite GERL201B1 is not a course of this plan, skipped",
+  "TRA2105: prerequisite GERL201B2 is not a course of this plan, skipped",
+  "TRA221: prerequisite GERL201B1 is not a course of this plan, skipped",
+  "TRA221: prerequisite GERL201B2 is not a course of this plan, skipped",
+  "TW303: prerequisite ENGL0098 is not a course of this plan, skipped",
+  "table 'Compulsory': courses add up to 18, the PDF's Total line says 21",
+  "table 'Compulsory': courses add up to 18, the heading says 21",
+  "table 'School Requirements': courses add up to 28, the PDF's Total line says 3",
+  "table 'School Requirements': courses add up to 28, the heading says 31",
+  "table 'Program Requirements (Compulsory All Tracks)': courses add up to 69, the PDF's Total line says 63",
+  "table 'Program Requirements (Compulsory All Tracks)': courses add up to 69, the heading says 60"
+ ]
+}

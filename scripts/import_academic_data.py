@@ -20,7 +20,7 @@ from app.models.university import University
 from app.services.academic import import_academic_data
 
 
-async def main(path: Path, domain: str, name: str, source: str, verified: bool) -> int:
+async def main(path: Path, domain: str, name: str, source: str, verified: bool, overwrite: bool = False) -> int:
     data = json.loads(path.read_text(encoding="utf-8"))
     async with AsyncSessionLocal() as db:
         uni = (await db.execute(select(University).where(University.domain == domain))).scalars().first()
@@ -33,7 +33,8 @@ async def main(path: Path, domain: str, name: str, source: str, verified: bool) 
         else:
             print(f"Using existing university id {uni.id} ({domain})")
         try:
-            result = await import_academic_data(db, uni.id, data, source=source, verified=verified)
+            result = await import_academic_data(db, uni.id, data, source=source, verified=verified,
+                                            overwrite_conflicts=overwrite)
         except ProgrammingError as exc:
             if "does not exist" in str(exc):
                 print("A database table is missing. Run this first, then try again:")
@@ -48,6 +49,7 @@ async def main(path: Path, domain: str, name: str, source: str, verified: bool) 
             leftovers = sorted(code for code, verified_flag in rows.all() if code not in in_file)
     await async_engine.dispose()
     problems = result.pop("problems")
+    conflicts = result.pop("conflicts")
     for key, value in result.items():
         print(f"  {key}: {value}")
     print(f"  rows skipped or flagged: {len(problems)}")
@@ -55,6 +57,10 @@ async def main(path: Path, domain: str, name: str, source: str, verified: bool) 
         print(f"  courses in the database that are NOT in this plan: {len(leftovers)}")
         print("    " + ", ".join(leftovers))
         print("    (nothing was deleted; ask before removing old data)")
+    if conflicts:
+        print(f"  DIFFERENCES from data already stored (kept, not overwritten; use --overwrite to replace): {result['conflicts_kept']}")
+        for line in conflicts[:15]:
+            print(f"    ~ {line}")
     for line in problems[:20]:
         print(f"    - {line}")
     return 0
@@ -75,5 +81,7 @@ if __name__ == "__main__":
         action="store_true",
         help="Mark rows verified. Use only after you compared a sample with the official source.",
     )
+    parser.add_argument("--overwrite", action="store_true",
+                        help="Replace shared course data that came from another file (default: keep it and report)")
     args = parser.parse_args()
-    raise SystemExit(asyncio.run(main(args.file, args.domain, args.name, args.source, args.verified)))
+    raise SystemExit(asyncio.run(main(args.file, args.domain, args.name, args.source, args.verified, args.overwrite)))

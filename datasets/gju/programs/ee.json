@@ -1,0 +1,2887 @@
+{
+ "plan": "Electrical Engineering study plan 2025 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Electrical%20and%20Energy%20Engineering/programs/2025_ee_studyplan.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "ee",
+  "name": "Electrical Engineering",
+  "school": "SSSE",
+  "degree": "B.Sc.",
+  "plan_version": "2025",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE212",
+   "name": "Digital Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE342",
+   "name": "Microprocessor and Microcomputer Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE354",
+   "name": "Computer Security",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE377",
+   "name": "Machine learning",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE452",
+   "name": "Network Protocols",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE521",
+   "name": "Robotics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE552",
+   "name": "Advanced Computer Networks",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE561",
+   "name": "Deep Learning",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE565",
+   "name": "Computer Vision",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE596",
+   "name": "Advanced topics in Project Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CHEM103",
+   "name": "General Chemistry I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS116",
+   "name": "Computing Fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1160",
+   "name": "Computing Fundamentals lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS330",
+   "name": "Image Understanding",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS332",
+   "name": "Computer Graphics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS357",
+   "name": "Cybersecurity",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS416",
+   "name": "Systems Programming",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS460",
+   "name": "Data Mining",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS4611",
+   "name": "Big Data",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE2101",
+   "name": "Electrical Circuits",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE2102",
+   "name": "Electrical Circuits Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE2103",
+   "name": "Linear Algebra",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE2104",
+   "name": "Frequency and System Response",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE2105",
+   "name": "Electronics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE2106",
+   "name": "Electronics Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE2107",
+   "name": "Computer Aided Mathematics for EE",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3101",
+   "name": "Random Variables and Stochastic Processes",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3102",
+   "name": "Electromagnetics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3103",
+   "name": "Modeling and Simulation of Electrical and Energy Systems",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3104",
+   "name": "Artificial Intelligence in Electrical and Energy Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3105",
+   "name": "Embedded Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3201",
+   "name": "Electrical Power and Machines",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3202",
+   "name": "Electrical Power and Machines Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3203",
+   "name": "Power Electronics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3401",
+   "name": "Communication Systems and IoT Protocols",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3402",
+   "name": "Communication Systems and IoT Protocols Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3403",
+   "name": "Digital Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3404",
+   "name": "Digital Communications Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE3901",
+   "name": "Field Training a",
+   "hours": 0,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "EE4101",
+   "name": "Modeling and Simulation",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4102",
+   "name": "Instrumentation and Measurements",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4103",
+   "name": "Electronic Circuit Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4104",
+   "name": "Integrated Circuits and Chip Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4105",
+   "name": "Sensors and Actuators",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4106",
+   "name": "Introduction to Optimization",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4107",
+   "name": "Special Topics in Electrical Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4108",
+   "name": "Special Topics in Electronics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4202",
+   "name": "Special Electrical Machines",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4206",
+   "name": "Smart-Grids",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4207",
+   "name": "High Voltage Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4209",
+   "name": "Power System Quality",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4210",
+   "name": "Power Electronic Applications in Power Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4211",
+   "name": "Power System Protection",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4212",
+   "name": "Power System Stability",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4213",
+   "name": "Power System Reliability",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4214",
+   "name": "Power System Integration",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4215",
+   "name": "Special Topics in Power Electronics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4216",
+   "name": "Special Topics in Power Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4301",
+   "name": "Solar Energy",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4309",
+   "name": "Advanced Renewable Energy Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4314",
+   "name": "Energy Efficiency, Management, and Laws",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4315",
+   "name": "PV Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4316",
+   "name": "Wind Energy Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4318",
+   "name": "Data Analytics for Power and Energy Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4319",
+   "name": "Special Topics Renewable Energy",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4401",
+   "name": "Digital Signal Processing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4402",
+   "name": "Satellite Communication Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4403",
+   "name": "Multimedia Communications",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4404",
+   "name": "5G",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4405",
+   "name": "Antennas",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4406",
+   "name": "RF and Microwave Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4407",
+   "name": "Optical Fiber Communications",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4408",
+   "name": "Wireless Sensor Networks",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4409",
+   "name": "Next Generation Network Technologies",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4410",
+   "name": "Industrial IoT",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4411",
+   "name": "Special Topics in Communication Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4412",
+   "name": "Special Topics in Signal Processing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE4901",
+   "name": "International Internship b",
+   "hours": 12,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "EE5101",
+   "name": "Control Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE5201",
+   "name": "Power Systems Analysis",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE5202",
+   "name": "Power System Generation, Transmission and Distribution",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE5203",
+   "name": "Power Systems Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE5204",
+   "name": "Motor Drives Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE5401",
+   "name": "Wireless and Mobile Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE5402",
+   "name": "Wireless and Mobile Communication lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE5403",
+   "name": "Digital and Communication Electronics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE5404",
+   "name": "Quantum Communication and Computing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE5405",
+   "name": "Satellite and Optical Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE5901",
+   "name": "Graduation Project I",
+   "hours": 1,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "EE5902",
+   "name": "Graduation Project II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102",
+   "name": "German II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201",
+   "name": "German III",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-Track ARB0099, ENGL0099, GERL102B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202",
+   "name": "German IV",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "B2-Track ARB0099, ENGL0099, GERL201B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301",
+   "name": "German V",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B1",
+   "name": "German V B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B2",
+   "name": "B2-Track GERL202B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302",
+   "name": "German VI",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B1",
+   "name": "German VI B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B2",
+   "name": "B2-Track GERL301B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0141",
+   "name": "Engineering Workshop",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0281",
+   "name": "Technical Writing and Engineering Ethics",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0361",
+   "name": "Engineering Economics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0515",
+   "name": "Product Development and Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0516",
+   "name": "Facilities and Asset Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0533",
+   "name": "Supply Chain Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0562",
+   "name": "Industrial Cost Analysis",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MATH0099",
+   "name": "Pre-Math",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "MATH101",
+   "name": "Calculus I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH102",
+   "name": "Calculus II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH203",
+   "name": "Applied Mathematics for Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH205",
+   "name": "Differential Equations",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ME0111",
+   "name": "Computer Aided Engineering Drawing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT418",
+   "name": "Quality Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS103",
+   "name": "Physics I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS104",
+   "name": "Physics II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS106",
+   "name": "General Physics Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE212",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE212",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE212",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE212",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1160",
+   "prereq": "CS116",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "EE2101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2101",
+   "prereq": "PHYS104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2101",
+   "prereq": "MATH205",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "EE2102",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2102",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2102",
+   "prereq": "EE2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2102",
+   "prereq": "PHYS106",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2103",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2103",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2103",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2104",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2104",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2104",
+   "prereq": "EE2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2105",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2105",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2105",
+   "prereq": "EE2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2106",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2106",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2106",
+   "prereq": "EE2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2106",
+   "prereq": "EE2105",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2107",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2107",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2107",
+   "prereq": "CS1160",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2107",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2107",
+   "prereq": "EE2103",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "EE3101",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3102",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3102",
+   "prereq": "EE2104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3103",
+   "prereq": "EE3201",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "EE3103",
+   "prereq": "EE3401",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "EE3104",
+   "prereq": "EE2107",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3104",
+   "prereq": "EE2103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3105",
+   "prereq": "CE212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3201",
+   "prereq": "EE2104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3201",
+   "prereq": "EE3102",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "EE3202",
+   "prereq": "EE2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3202",
+   "prereq": "EE3201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3203",
+   "prereq": "EE2105",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3203",
+   "prereq": "EE3201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3401",
+   "prereq": "EE2104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3402",
+   "prereq": "EE3401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3403",
+   "prereq": "EE3401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3403",
+   "prereq": "EE3101",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "EE3404",
+   "prereq": "EE3402",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE3404",
+   "prereq": "EE3403",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE4901",
+   "prereq": "EE3901",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5101",
+   "prereq": "EE2103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5101",
+   "prereq": "EE3201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5202",
+   "prereq": "EE2103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5203",
+   "prereq": "EE5202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5401",
+   "prereq": "EE3401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5402",
+   "prereq": "EE5401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5402",
+   "prereq": "EE3402",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5403",
+   "prereq": "EE2105",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5403",
+   "prereq": "EE3401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5404",
+   "prereq": "EE3401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5405",
+   "prereq": "EE3401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5901",
+   "prereq": "EE3901",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE5902",
+   "prereq": "EE5901",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201",
+   "prereq": "GERL102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202",
+   "prereq": "GERL201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301",
+   "prereq": "GERL202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302",
+   "prereq": "GERL301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "IE0281",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IE0361",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH101",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH102",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0111",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS104",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS104",
+   "corequisite": true,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CHEM103",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS116",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS1160",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0141",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0281",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MATH101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MATH102",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MATH203",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MATH205",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ME0111",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PHYS103",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PHYS104",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PHYS106",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE2101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE2102",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE2103",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE2104",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE2105",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE2106",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE2107",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3102",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3103",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3104",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3105",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3202",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3203",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3401",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3402",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3403",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3404",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE3901",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE4901",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5202",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5203",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5401",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5402",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5403",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5404",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5405",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5901",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE5902",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE212",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0361",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE4101",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4102",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4103",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4104",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4105",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4106",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4107",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4108",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4202",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4206",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4207",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4209",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4210",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4211",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4212",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4213",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4214",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4215",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4216",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4301",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4309",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4314",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4315",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4316",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4318",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4319",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4401",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4402",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4403",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4404",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4405",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4406",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4407",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4408",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4409",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4410",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4411",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE4412",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE5201",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EE5204",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE342",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE354",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE377",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE452",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE521",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE552",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE561",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE565",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE596",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS330",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS332",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS357",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS416",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS460",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS4611",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0515",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0516",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0533",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0562",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT418",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "CHEM103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "PHYS103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "GERL102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "ME0111",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "PHYS104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "EE2101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "IE0281",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "MATH203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "MATH205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "PHYS106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "EE2102",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "EE2103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "EE2104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "EE2105",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "EE2107",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "CE212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "EE3101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "EE3102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "EE3201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "EE3401",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "EE3105",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "EE2106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "EE3103",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "EE3104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "EE3202",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "EE3203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "EE3402",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "EE3403",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "GERL302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": null,
+   "label": "University Elective I",
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "summer",
+   "position": 1,
+   "code": "EE3901",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Electives",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Electives",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Electives",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Electives",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "EE4901",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 1,
+   "code": "EE5101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 2,
+   "code": "EE5202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 3,
+   "code": "EE5401",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 4,
+   "code": "EE5403",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 5,
+   "code": "EE5901",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 6,
+   "code": "IE0361",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 7,
+   "code": null,
+   "label": "University Elective II",
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 1,
+   "code": "EE5203",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 2,
+   "code": "EE3404",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 3,
+   "code": "EE5402",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 4,
+   "code": "EE5404",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 5,
+   "code": "EE5405",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 6,
+   "code": "EE5902",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 7,
+   "code": "IE0141",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 8,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 9,
+   "code": null,
+   "label": "University Elective III",
+   "credit_hours": 2
+  }
+ ],
+ "review_warnings": [
+  "GERL102: only in the year/semester guide, not in a requirement table",
+  "GERL201: only in the year/semester guide, not in a requirement table",
+  "GERL202: only in the year/semester guide, not in a requirement table",
+  "GERL301: only in the year/semester guide, not in a requirement table",
+  "GERL302: only in the year/semester guide, not in a requirement table",
+  "NEE101: could not read credit hours from any table",
+  "EE3402: prerequisite CE201 is not a course of this plan, skipped",
+  "GERL102: prerequisite GERL101 is not a course of this plan, skipped"
+ ]
+}

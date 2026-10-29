@@ -1,0 +1,1608 @@
+{
+ "plan": "International Accounting study plan undated (dual)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/International%20Accounting/programs/9_international_accounting_dual_study.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "accounting-dual",
+  "name": "International Accounting",
+  "school": "BS",
+  "degree": "B.Sc.",
+  "plan_version": "undated",
+  "kind": "dual"
+ },
+ "courses": [
+  {
+   "code": "ACC1001",
+   "name": "Principle of Accounting I",
+   "hours": 3,
+   "prerequisite_note": "3"
+  },
+  {
+   "code": "ACC1002",
+   "name": "Principles of Accounting II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC2101",
+   "name": "Cost Accounting",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC2104",
+   "name": "Intermediate Accounting II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC2501",
+   "name": "Fundamentals of Finance",
+   "hours": 3,
+   "prerequisite_note": "3"
+  },
+  {
+   "code": "ACC2506",
+   "name": "Financial Institutions and Insurance",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC3205",
+   "name": "International Accounting & IFRS",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC3303",
+   "name": "Auditing I and Assurance Services",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC3308",
+   "name": "Computerized Accounting and Accounting Information Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC3403",
+   "name": "International Taxation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC3502",
+   "name": "International Corporate Finance",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC3900",
+   "name": "Bachelor’s Thesis",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC4104",
+   "name": "Advanced Accounting",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC4204",
+   "name": "Financial Statement Analysis",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC4304",
+   "name": "Auditing II and Forensic Accounting",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC4503",
+   "name": "Investment Analysis and Portfolio Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC4505",
+   "name": "Islamic Finance and Accounting",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC4705",
+   "name": "Advanced Cost Accounting",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4706",
+   "name": "Accounting for Banking Operations",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4707",
+   "name": "Contemporary Issues in Accounting",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4708",
+   "name": "Accounting for Public Sector",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4709",
+   "name": "Financial Planning and Forecasting",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4901",
+   "name": "Business elective I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4902",
+   "name": "Business elective II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4903",
+   "name": "Business elective III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4904",
+   "name": "Business elective IV",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4905",
+   "name": "Business elective V",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4906",
+   "name": "Business elective VI",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4907",
+   "name": "Special Topics in Accounting I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4908",
+   "name": "Special Topics in Accounting II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4909",
+   "name": "Special Topics in Accounting III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4999",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS115",
+   "name": "Computing Fundamentals for Business & Logistics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1150",
+   "name": "Computing Fundamentals for Business & Logistics (Lab)",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DS1001",
+   "name": "Dual Study Practical I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DS2001",
+   "name": "Dual Study Practical II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DS3001",
+   "name": "Dual Study Practical III",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-Track GERL102B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "B2-Track GERL201B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B1",
+   "name": "German V B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B2",
+   "name": "B2-Track GERL202B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B1",
+   "name": "German VI B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B2",
+   "name": "B2-Track GERL301B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "LOGS1001",
+   "name": "Introduction to Logistics",
+   "hours": 3,
+   "prerequisite_note": "3"
+  },
+  {
+   "code": "LOGS4702",
+   "name": "Contemporary Issues in Logistics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MATH0099",
+   "name": "Pre-Math",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "MGT1001",
+   "name": "Principles of Management",
+   "hours": 3,
+   "prerequisite_note": "3"
+  },
+  {
+   "code": "MGT1202",
+   "name": "Business Statistics",
+   "hours": 3,
+   "prerequisite_note": "3"
+  },
+  {
+   "code": "MGT1206",
+   "name": "Fundamentals of Microeconomics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT2103",
+   "name": "Research Methods for Business",
+   "hours": 3,
+   "prerequisite_note": "3"
+  },
+  {
+   "code": "MGT3105",
+   "name": "Business Law",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT4102",
+   "name": "Corporate Strategies and Policies",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT4104",
+   "name": "International Business and Globalization",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT4106",
+   "name": "Organizational Development & Change",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT4108",
+   "name": "Quality Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT4903",
+   "name": "Leadership",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ACC1002",
+   "prereq": "ACC1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC2101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC2101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC2104",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "ACC2104",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC2506",
+   "prereq": "ACC1002",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC2506",
+   "prereq": "ACC2501",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC2506",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC2506",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC3205",
+   "prereq": "ACC2104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC3303",
+   "prereq": "ACC2104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC3502",
+   "prereq": "ACC2501",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC3900",
+   "prereq": "MGT2103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC4104",
+   "prereq": "ACC2104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC4204",
+   "prereq": "ACC2104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC4204",
+   "prereq": "ACC3502",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC4304",
+   "prereq": "ACC3303",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC4503",
+   "prereq": "ACC3502",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ACC4505",
+   "prereq": "ACC3502",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1150",
+   "prereq": "CS115",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "DS2001",
+   "prereq": "DS1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DS3001",
+   "prereq": "DS2001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B2",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B2",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B2",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "MGT3105",
+   "prereq": "MGT1001",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DS1001",
+   "group": "University - Dual Study",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DS2001",
+   "group": "University - Dual Study",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DS3001",
+   "group": "University - Dual Study",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC1001",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC2501",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "LOGS1001",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT1001",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT1202",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT2103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC1002",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC2101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC2104",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC2506",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC3205",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC3303",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC3308",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC3403",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC3502",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC4104",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC4204",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC4304",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC4503",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC4505",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC4999",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC3900",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS115",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1150",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT1206",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT3105",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC4901",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4902",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4903",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4904",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4905",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4906",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4907",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4908",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4909",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4705",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4706",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4707",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4708",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4709",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "LOGS4702",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT4102",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT4104",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT4106",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT4108",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT4903",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "MGT1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "ACC1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "LOGS1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "MGT2103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "ACC1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "ACC2501",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "MGT1206",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "summer",
+   "position": 1,
+   "code": "DS1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "ACC2101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "CS115",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "CS1150",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "ACC2506",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "ACC2104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "ACC3308",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "ACC3303",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "MGT1202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "summer",
+   "position": 1,
+   "code": "DS2001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "MGT3105",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "ACC3205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "ACC3502",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "ACC4304",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "ACC3403",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "ACC4104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "ACC4503",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "ACC4505",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "ACC4204",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "ACC3900",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "summer",
+   "position": 1,
+   "code": "DS3001",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "ACC4901",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "ACC4902",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "ACC4903",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": "ACC4904",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "ACC4999",
+   "label": null,
+   "credit_hours": 12
+  }
+ ],
+ "review_warnings": [
+  "guide all year 1 summer: credits add up to 3, the PDF says 6",
+  "guide all year 2 second: credits add up to 18, the PDF says 21",
+  "guide all year 2 summer: credits add up to 3, the PDF says 6",
+  "guide all year 3 second: credits add up to 18, the PDF says 28.5",
+  "guide all year 3 summer: credits add up to 0, the PDF says 3",
+  "guide all year 4 first: credits add up to 9, the PDF says 12",
+  "NEE101: could not read credit hours from any table",
+  "ACC2101: prerequisite ACC102 is not a course of this plan, skipped",
+  "ACC2104: prerequisite ACC2103 is not a course of this plan, skipped",
+  "ACC3308: prerequisite ACC2103 is not a course of this plan, skipped",
+  "ACC3403: prerequisite ACC2103 is not a course of this plan, skipped",
+  "table 'Program Requirements (Compulsory)': courses add up to 73, the PDF's Total line says 82",
+  "table 'Program Requirements (Compulsory)': courses add up to 73, the heading says 82"
+ ]
+}

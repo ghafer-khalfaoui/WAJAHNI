@@ -1,0 +1,3314 @@
+{
+ "plan": "Biomedical Engineering study plan 2023-2024 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Biomedical%20Engineering/programs/bme_study_plan_2023-2024_finalversion_7_4_2025.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "bme",
+  "name": "Biomedical Engineering",
+  "school": "SAMS",
+  "degree": "B.Sc.",
+  "plan_version": "2023-2024",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ACC435",
+   "name": "Accounting Ethics and Corporate Governance",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIO112",
+   "name": "Human Biology",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM2002",
+   "name": "Medical Ethics and communication skills",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM211",
+   "name": "Anatomy and Physiology",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM213",
+   "name": "Anatomy and Physiology Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM242",
+   "name": "Biofluid mechanics and transport phenomena",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM252",
+   "name": "Medical Electronics I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM321",
+   "name": "Medical Signal Processing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM323",
+   "name": "Medical Signal Processing Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM3255",
+   "name": "Physiological Modelling and Control Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM326",
+   "name": "Medical Image Processing lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM3288",
+   "name": "Physiological Modelling and Control Systems Lab.",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM331",
+   "name": "Biomaterials",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM333",
+   "name": "Biomaterials Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM334",
+   "name": "Principle of Tissue Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM341",
+   "name": "Biomechanics and Rehabilitation I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM342",
+   "name": "Biomechanics and Rehabilitation II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM344",
+   "name": "Biomechanics and Rehabilitation Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM351",
+   "name": "Optics for Medical Applications",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM352",
+   "name": "Biomedical Sensors and Transducers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM357",
+   "name": "Medical Electronics II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM358",
+   "name": "Biomedical Sensors and Transducers Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM371",
+   "name": "Numerical Methods for Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM3712",
+   "name": "Numerical Methods for Engineers Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM391",
+   "name": "Field Training*",
+   "hours": 0,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "BM401",
+   "name": "Medical Physics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM432",
+   "name": "Biophysics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM436",
+   "name": "Biomaterials-Tissue Interaction",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM439",
+   "name": "Advanced Biomaterials in the Design of Medical Devices",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM445",
+   "name": "Cardiovascular Mechanics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM447",
+   "name": "Tissue Mechanics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM453",
+   "name": "Magnetic Resonance Imaging",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM454",
+   "name": "Fundamentals of X-ray Modalities",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM455",
+   "name": "Introduction to Ultrasound Technique",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM456",
+   "name": "Photo medicine",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM458",
+   "name": "Laser Applications in Medicine and Biology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM459",
+   "name": "Biotechnology and Bioprocess Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM461",
+   "name": "Introduction to Nanomaterials",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM465",
+   "name": "Micro/Nano Fabrication Techniques",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM471",
+   "name": "Biomedical Modeling and Simulation",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM472",
+   "name": "Computer-Aided Design & Prototyping",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM499",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "BM513",
+   "name": "Hygiene and Sterilization",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM515",
+   "name": "Molecular Biotechnology and Genetics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM5201",
+   "name": "Medical Telemetry",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM5203",
+   "name": "Medical Image Processing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM5204",
+   "name": "Medical Signal Processing II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM524",
+   "name": "Fundamentals of Computer Tomography",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM526",
+   "name": "Quantitative and Functional Imaging",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM527",
+   "name": "Laser-Tissue Interaction",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM528",
+   "name": "Introduction to Ionizing Radiation",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM536",
+   "name": "Drug Delivery",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM537",
+   "name": "Materials Biocompatibility",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM538",
+   "name": "Nanotechnology & Nanomedicine",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM539",
+   "name": "Transport Phenomena in Cells and Organs",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM541",
+   "name": "Bio robotics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM542",
+   "name": "Human Anthropometric and Physical Measurements",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM543",
+   "name": "Surgery for Engineers",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM547",
+   "name": "Sport Biomechanics & Rehabilitation",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM551",
+   "name": "Medical Instrumentation I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM5513",
+   "name": "Rehabilitation and Assistive Instrumentation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM552",
+   "name": "Medical Instrumentation II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM555",
+   "name": "System Safety & Safety Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM557",
+   "name": "Medical Instrumentation Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM559",
+   "name": "Pacemaker Technologies",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM5602",
+   "name": "Digital Bioelectronics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM561",
+   "name": "Neuroengineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM562",
+   "name": "BioMEMS",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM563",
+   "name": "Artificial Organs and Limbs",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM565",
+   "name": "BioMEMS Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM571",
+   "name": "Pattern Recognition of Bio-Medical Applications",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM576",
+   "name": "Bio media",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM5811",
+   "name": "Health care managements and Engineering Economy",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM583",
+   "name": "Tenders & Technical Specifications",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM584",
+   "name": "Biomedical Engineering Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM5906",
+   "name": "Selected Topics in BE",
+   "hours": 3,
+   "prerequisite_note": "Dept. Approval."
+  },
+  {
+   "code": "BM592",
+   "name": "Special Topics I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM593",
+   "name": "Special Topics II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM594",
+   "name": "Special Topics III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BM598",
+   "name": "Graduation Project I",
+   "hours": 1,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "BM599",
+   "name": "Graduation Project II",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE212",
+   "name": "Digital systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE2120",
+   "name": "Digital systems Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE342",
+   "name": "Microprocessor and Embedded Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE3420",
+   "name": "Microprocessor and Embedded Systems Lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE513",
+   "name": "Air pollution control lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE515",
+   "name": "Water and Wastewater Treatment Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE531",
+   "name": "Transportation Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE532",
+   "name": "Pavement Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE533",
+   "name": "Highway Lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE562",
+   "name": "Engineering Economy and Construction Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CHEM103",
+   "name": "General Chemistry",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CHEM106",
+   "name": "General Chemistry Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS116",
+   "name": "Computing Fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1160",
+   "name": "Computing Fundamentals Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ECE317",
+   "name": "Linear Algebra",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENE213",
+   "name": "Electrical Circuits Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENE435",
+   "name": "Wind Energy Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE437",
+   "name": "Energy Engineering Economics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE534",
+   "name": "Low Carbon Buildings",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE537",
+   "name": "Energy Efficiency, management and laws",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101",
+   "name": "German I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102",
+   "name": "German II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201",
+   "name": "German III",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-Track GERL102B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202",
+   "name": "German IV",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "B2-Track GERL201B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301",
+   "name": "German V",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B1",
+   "name": "German V B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B2",
+   "name": "B2-Track GERL202B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302",
+   "name": "German VI",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B1",
+   "name": "German VI B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B2",
+   "name": "B2-Track GERL301B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0121",
+   "name": "Probability and Statistics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0141",
+   "name": "Engineering Workshop",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0353",
+   "name": "Ergonomics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0515",
+   "name": "Product Development and Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0546",
+   "name": "Modern Manufacturing Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE121",
+   "name": "Engineering Workshop",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE382",
+   "name": "Engineering Marketing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE582",
+   "name": "Facilities Layout",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE583",
+   "name": "Supply Chain Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE589",
+   "name": "Special Topics in Operations Management and Managerial",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "LOGS446",
+   "name": "Humanitarian Logistics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MATH0099",
+   "name": "Pre-Math",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "MATH101",
+   "name": "Calculus I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH102",
+   "name": "Calculus II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH203",
+   "name": "Applied Mathematics for Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH205",
+   "name": "Differential Equations",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ME0111",
+   "name": "Computer Aided Engineering Drawing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ME0212",
+   "name": "Electrical Circuits and Machines",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ME0346",
+   "name": "Instrumentation & Measurements",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ME0551",
+   "name": "Robotics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ME0577",
+   "name": "Automation and industry 4.0",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ME347",
+   "name": "Instrumentation and Measurements Lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT313",
+   "name": "Knowledge Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT314",
+   "name": "Human Resources Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT599C",
+   "name": "Special Topics in Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MILS101",
+   "name": "Military Sciences",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PCE311",
+   "name": "Transport Phenomena",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE5333",
+   "name": "Hazardous Waste and Risk Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE541",
+   "name": "Medicinal Chemistry",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PCE5423",
+   "name": "Pharmaceutical Packaging Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS103",
+   "name": "Physics I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS104",
+   "name": "Physics II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS106",
+   "name": "General Physics Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TME323",
+   "name": "Thermofluids Lab",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TME523",
+   "name": "Internal Combustion Engines",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TME596",
+   "name": "Special Topics I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM2002",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM211",
+   "prereq": "BIO112",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM213",
+   "prereq": "BIO112",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM213",
+   "prereq": "BM211",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "BM242",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM242",
+   "prereq": "BM211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM252",
+   "prereq": "ME0212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM321",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM321",
+   "prereq": "ME0212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM323",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM323",
+   "prereq": "ME0212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM323",
+   "prereq": "BM321",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "BM3255",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM3255",
+   "prereq": "PHYS104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM326",
+   "prereq": "BM321",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM326",
+   "prereq": "BM5203",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "BM3288",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM3288",
+   "prereq": "PHYS104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM3288",
+   "prereq": "BM3255",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "BM331",
+   "prereq": "BM211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM333",
+   "prereq": "BM211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM333",
+   "prereq": "BM331",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "BM341",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM341",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM342",
+   "prereq": "BM341",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM344",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM344",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM344",
+   "prereq": "BM341",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "BM352",
+   "prereq": "BM321",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM357",
+   "prereq": "BM252",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM358",
+   "prereq": "BM321",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM358",
+   "prereq": "BM352",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "BM371",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM371",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM371",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM3712",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM3712",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM3712",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM3712",
+   "prereq": "BM371",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "BM5201",
+   "prereq": "BM321",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM5203",
+   "prereq": "BM321",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM5204",
+   "prereq": "BM321",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM551",
+   "prereq": "BM252",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM5513",
+   "prereq": "BM551",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM552",
+   "prereq": "BM551",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM557",
+   "prereq": "BM252",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM557",
+   "prereq": "BM551",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "BM5602",
+   "prereq": "BM252",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM563",
+   "prereq": "BM341",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM5811",
+   "prereq": "IE0121",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM599",
+   "prereq": "BM598",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE212",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE2120",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE2120",
+   "prereq": "CE212",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CHEM106",
+   "prereq": "CHEM103",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CS1160",
+   "prereq": "CS116",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EI101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE213",
+   "prereq": "PHYS104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE213",
+   "prereq": "ME0212",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301",
+   "prereq": "GERL202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IE0121",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH101",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH102",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0111",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0212",
+   "prereq": "PHYS104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS104",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS104",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "SE301",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH102",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CHEM103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CHEM106",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS104",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS106",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS116",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1160",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM2002",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM211",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM213",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM252",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM5204",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM321",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM323",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM3255",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM3288",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM341",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM344",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM331",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM352",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM358",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM357",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM371",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM3712",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM391",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM499",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM5201",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM5203",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM551",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM557",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM5811",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM598",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM599",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIO112",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE212",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE2120",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENE213",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0121",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0141",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH203",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH205",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ME0212",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ME0111",
+   "group": "Program - Program Requirements (Compulsory for all tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM552",
+   "group": "Program - Program Requirements (Compulsory for Track 1: Biomedical Instrumentation Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "biomedical-instrumentation-engineering"
+  },
+  {
+   "course": "BM5906",
+   "group": "Program - Program Requirements (Compulsory for Track 1: Biomedical Instrumentation Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "biomedical-instrumentation-engineering"
+  },
+  {
+   "course": "BM326",
+   "group": "Program - Program Requirements (Compulsory for Track 1: Biomedical Instrumentation Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "biomedical-instrumentation-engineering"
+  },
+  {
+   "course": "BM5602",
+   "group": "Program - Program Requirements (Compulsory for Track 1: Biomedical Instrumentation Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "biomedical-instrumentation-engineering"
+  },
+  {
+   "course": "BM242",
+   "group": "Program - Program Requirements (Compulsory for Track 1: Biomedical Instrumentation Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "biomedical-instrumentation-engineering"
+  },
+  {
+   "course": "BM5513",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM5906",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM563",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM333",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM342",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM584",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "CE342",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "CE3420",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM334",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM351",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM401",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM432",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM436",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM439",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM445",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM447",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM453",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM454",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM455",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM456",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM458",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM459",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM461",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM465",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM471",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM472",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM513",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM515",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM526",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM527",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM528",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM536",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM537",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM538",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM539",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM541",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM542",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM543",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM547",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM524",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM555",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM576",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM559",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM561",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM562",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM565",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM571",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM583",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM592",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM593",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "BM594",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "PCE5333",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "PCE5423",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "IE589",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ENE537",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ME0346",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "CEE515",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "IE583",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "IE382",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "PCE541",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ENE435",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "IE0353",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "TME323",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "CEE533",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "CEE562",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "IE582",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ENE437",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "CEE531",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ME347",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "CEE532",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ECE317",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "TME523",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "TME596",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ME0551",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "IE0515",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "IE0546",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ME0577",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "CEE513",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ENE534",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "PCE311",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "MGT313",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "ACC435",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "MGT599C",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "LOGS446",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  },
+  {
+   "course": "MGT314",
+   "group": "Program - Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "bionic-and-biomechanical-engineering"
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "PHYS103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "CHEM103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "CHEM106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "PHYS104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "PHYS106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "BIO112",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "IE121",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 9,
+   "code": "ME0111",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "ME0212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "ENE213",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "MATH205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "MATH203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "BM211",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "BM252",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "CE212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "BM341",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "BM2002",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "BM213",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "IE0121",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "BM321",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "BM331",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "BM344",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "BM3712",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "BM371",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "CE2120",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "BM391",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "BM3255",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "BM352",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "BM358",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "BM357",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "BM323",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "BM3288",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Program Elective I",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Program Elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Program Elective III",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Program Elective IV",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": "BM5204",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "BM499",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 1,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 2,
+   "code": "BM598",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 4,
+   "code": "BM5203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 5,
+   "code": "BM557",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 6,
+   "code": "BM5201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 7,
+   "code": "BM5811",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 8,
+   "code": "BM551",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 1,
+   "code": "BM599",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 2,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 3,
+   "code": "MILS101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 4,
+   "code": "BM5906",
+   "label": null,
+   "credit_hours": 3
+  }
+ ],
+ "review_warnings": [
+  "guide all year 4 first: credits add up to 15, the PDF says 18",
+  "guide all year 5 second: credits add up to 11, the PDF says 18",
+  "GERL101: only in the year/semester guide, not in a requirement table",
+  "GERL102: only in the year/semester guide, not in a requirement table",
+  "GERL201: only in the year/semester guide, not in a requirement table",
+  "GERL202: only in the year/semester guide, not in a requirement table",
+  "GERL301: only in the year/semester guide, not in a requirement table",
+  "GERL302: only in the year/semester guide, not in a requirement table",
+  "IE121: only in the year/semester guide, not in a requirement table",
+  "MILS101: only in the year/semester guide, not in a requirement table",
+  "NEE101: could not read credit hours from any table",
+  "GERL102: prerequisite GER101 is not a course of this plan, skipped",
+  "GERL201: prerequisite GER102 is not a course of this plan, skipped",
+  "GERL202: prerequisite GER201 is not a course of this plan, skipped",
+  "GERL302: prerequisite GER301 is not a course of this plan, skipped",
+  "table 'Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)': courses add up to 237, the PDF's Total line says 13",
+  "table 'Program Requirements (Compulsory for Track 2: Bionic and Biomechanical Engineering)': courses add up to 237, the heading says 13"
+ ]
+}

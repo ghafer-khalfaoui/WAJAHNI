@@ -1,0 +1,3001 @@
+{
+ "plan": "Sustainable Infrastructure Systems (Civil and Environmental) Engineering study plan 2023 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Departments%20of%20Civil%20%26amp%3B%20Environmental%20Engineering/programs/cee_study_plan_2023_0.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "cee",
+  "name": "Sustainable Infrastructure Systems (Civil and Environmental) Engineering",
+  "school": "SSSE",
+  "degree": "B.Sc.",
+  "plan_version": "2023",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ARB099",
+   "name": "Arabic 99a",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC453",
+   "name": "Building and Site Documentation",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ARCH262",
+   "name": "Utility Planning and Design I",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ARCH361",
+   "name": "Structural Systems II",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ARCH362",
+   "name": "Utility Planning and Design II",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ARCH403",
+   "name": "Special Topics in Architecture II",
+   "hours": 2,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ARCH426",
+   "name": "Environmental Psychology and Sociology",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ARCH451",
+   "name": "Design and Build",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ARCH457",
+   "name": "Advanced Construction Systems",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ARCH554",
+   "name": "Project Management and Site Organization II",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ARCH571",
+   "name": "Architectural Environmental Systems",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE101",
+   "name": "General Chemistry II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE201",
+   "name": "Statics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE2020",
+   "name": "Engineering Geology and Lab",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE2025",
+   "name": "Engineering Geology lab",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE2050",
+   "name": "Civil and Environmental Data Analysis and Lab",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE2055",
+   "name": "Civil and Environmental Data Analytics Lab",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE2130",
+   "name": "Fluid Mechanics and Hydraulics and Lab",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE2135",
+   "name": "Fluids and Hydraulics Lab",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE221",
+   "name": "Applied Structural Mechanics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE3110",
+   "name": "Hydrology and Open Channel Flow and Lab",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE313",
+   "name": "Water Chemistry",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE315",
+   "name": "Environmental Impact Assessment",
+   "hours": 2,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE323",
+   "name": "Reinforced Concrete (1)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE324",
+   "name": "Structural Analysis",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE325",
+   "name": "Applied Dynamics of Structures",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE3310",
+   "name": "Surveying and Lab",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE3315",
+   "name": "Surveying lab",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE333",
+   "name": "Highway and Traffic Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE3340",
+   "name": "Pavement Materials and Design and lab",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE3350",
+   "name": "Transportation Engineering",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE3410",
+   "name": "Geotechnical Engineering and Lab",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE3415",
+   "name": "Geotechnical engineering lab",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE3510",
+   "name": "Building Materials and Lab",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE3515",
+   "name": "Building materials lab",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE362",
+   "name": "Professional Skills and Career Ethics",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE363",
+   "name": "Civil Engineering Computer Aided Drawing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE372",
+   "name": "International Internship in Germany",
+   "hours": 12,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE390",
+   "name": "Field Training in Jordan",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE425",
+   "name": "Timber structures",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE429",
+   "name": "Advanced Topics in Structural engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE452",
+   "name": "Construction Machines",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE479",
+   "name": "Advanced topics in Environmental engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE480",
+   "name": "Independent Studies",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE481",
+   "name": "Special topics",
+   "hours": 1,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE482",
+   "name": "Special topics",
+   "hours": 2,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE483",
+   "name": "Special topics",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE500",
+   "name": "Environmental Engineering and Sustainability Concepts",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE5001",
+   "name": "Solid Waste Management and circular economy",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE5002",
+   "name": "Water Food Energy Ecosystem Nexus",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE501",
+   "name": "Irrigation Engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE502",
+   "name": "Introduction to Biotechnology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE503",
+   "name": "Environmental and Water Microbiology",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE504",
+   "name": "Disposal logistics",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE505",
+   "name": "Pollution Control of the Aquatic Environment",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE506",
+   "name": "Water Supply and Wastewater collection",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE507",
+   "name": "International Environmental Law",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE508",
+   "name": "Process Engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE509",
+   "name": "Process Operation",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE510",
+   "name": "Advanced Wastewater treatment",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE512",
+   "name": "Air Pollution Control",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE513",
+   "name": "Air Pollution Control lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE514",
+   "name": "Water resources Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE515",
+   "name": "Water and wastewater Treatment Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE516",
+   "name": "Water and Waste water Treatment Engineering Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE518",
+   "name": "Environmental unit process and operation",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE519",
+   "name": "Hydraulic Structures",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE520",
+   "name": "Rehabilitation of Structures",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE522",
+   "name": "Steel Structures",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE523",
+   "name": "Advanced reinforced concrete",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE524",
+   "name": "Pre-stressed concrete",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE526",
+   "name": "Earthquake Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE527",
+   "name": "Advanced Steel Structures",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE528",
+   "name": "Structural Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE529",
+   "name": "Modeling Structural Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE530",
+   "name": "Traffic safety and management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE534",
+   "name": "Highway Maintenance and Planning",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE535",
+   "name": "Urban Mobility & Public Transportation",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE536",
+   "name": "Railway Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE537",
+   "name": "Airport Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE542",
+   "name": "Dam Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE5430",
+   "name": "Geographic Information Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE5435",
+   "name": "Geographic Information Systems Lab",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE545",
+   "name": "Soil Dynamics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE546",
+   "name": "Soil and Rock Exploration",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE547",
+   "name": "Foundation Engineering",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE550",
+   "name": "Computer Application in Civil Engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE551",
+   "name": "Building Construction",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE5510",
+   "name": "Smart Construction Technology",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE553",
+   "name": "Building Physics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE555",
+   "name": "Sustainable Infrastructures and Smart Cities",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE556",
+   "name": "Building Information Modeling",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE561",
+   "name": "Contracts, Specifications and Quantity Surveying",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE562",
+   "name": "Engineering Economy & Construction Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CEE570",
+   "name": "Drinking water abstraction and distribution",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE571",
+   "name": "Groundwater Modeling and dynamics",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE572",
+   "name": "Environmental and Water Law and Policy",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE573",
+   "name": "Heat and Mass transfer",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE574",
+   "name": "Water and Wastewater Reuse",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CEE591",
+   "name": "Advanced topics in water and environmental engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE593",
+   "name": "Advanced topics in Transportation engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE594",
+   "name": "Advanced Topics in Geotechnical Engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE595",
+   "name": "Advanced Topics in Construction",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE596",
+   "name": "Advanced topics in Project Management",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE597",
+   "name": "Advanced Topics in Water Engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "CEE5980",
+   "name": "Graduation project 1",
+   "hours": 1,
+   "prerequisite_note": "passing 120 cr"
+  },
+  {
+   "code": "CEE5990",
+   "name": "Graduation project 2",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CHEM103",
+   "name": "General Chemistry I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CHEM106",
+   "name": "General Chemistry lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS116",
+   "name": "Computing Fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1160",
+   "name": "Computing Fundamentals Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENE431",
+   "name": "Energy Conversion",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ENE528",
+   "name": "Energy Storage",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ENE531",
+   "name": "Environmental and Energy Engineering",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ENE534",
+   "name": "Low Carbon Buildings",
+   "hours": 3,
+   "prerequisite_note": "Dept. approval; BSC001"
+  },
+  {
+   "code": "ENGL098",
+   "name": "English I*",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL099",
+   "name": "English IIa",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL101",
+   "name": "English III",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL102",
+   "name": "English IV",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL201",
+   "name": "English V",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL202",
+   "name": "English VI",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101",
+   "name": "German I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1 track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102",
+   "name": "German II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201",
+   "name": "German III",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202",
+   "name": "German IV",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301",
+   "name": "German V",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302",
+   "name": "German VI",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0141",
+   "name": "Engineering Workshops",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH101",
+   "name": "Calculus I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH102",
+   "name": "Calculus II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH203",
+   "name": "Applied Mathematics for Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH205",
+   "name": "Differential equations",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS103",
+   "name": "Physics I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS104",
+   "name": "Physics II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS106",
+   "name": "General Physics Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "CEE101",
+   "prereq": "CHEM103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE201",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE201",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE2020",
+   "prereq": "CEE2025",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE2025",
+   "prereq": "CEE2020",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE2050",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE2055",
+   "prereq": "CEE2050",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE2130",
+   "prereq": "CEE201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE2135",
+   "prereq": "CEE2130",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE221",
+   "prereq": "CEE201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE3110",
+   "prereq": "CEE2020",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE313",
+   "prereq": "CEE101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE323",
+   "prereq": "CEE324",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE324",
+   "prereq": "CEE221",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE325",
+   "prereq": "CEE221",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE3310",
+   "prereq": "CEE2050",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE3315",
+   "prereq": "CEE3310",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE3410",
+   "prereq": "CEE221",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE3415",
+   "prereq": "CEE3410",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE3510",
+   "prereq": "CEE3515",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE3515",
+   "prereq": "CEE3510",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE362",
+   "prereq": "ENGL102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE425",
+   "prereq": "CEE324",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE5002",
+   "prereq": "CEE500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE510",
+   "prereq": "CEE515",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE512",
+   "prereq": "CEE500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE513",
+   "prereq": "CEE512",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE516",
+   "prereq": "CEE515",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE518",
+   "prereq": "CEE515",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE520",
+   "prereq": "CEE323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE523",
+   "prereq": "CEE323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE524",
+   "prereq": "CEE323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE526",
+   "prereq": "CEE323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE526",
+   "prereq": "CEE325",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE527",
+   "prereq": "CEE522",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE528",
+   "prereq": "CEE324",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE529",
+   "prereq": "CEE323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE530",
+   "prereq": "CEE333",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE534",
+   "prereq": "CEE333",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE535",
+   "prereq": "CEE333",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE536",
+   "prereq": "CEE333",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE537",
+   "prereq": "CEE333",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE542",
+   "prereq": "CEE323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE5435",
+   "prereq": "CEE5430",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE547",
+   "prereq": "CEE323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE555",
+   "prereq": "CEE551",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE556",
+   "prereq": "CEE529",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE561",
+   "prereq": "CEE323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE562",
+   "prereq": "CEE323",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE562",
+   "prereq": "CEE333",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE573",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE574",
+   "prereq": "CEE515",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE5980",
+   "prereq": "CEE372",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CEE5990",
+   "prereq": "CEE5980",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CHEM106",
+   "prereq": "CHEM103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1160",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL102",
+   "prereq": "ENGL101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL201",
+   "prereq": "ENGL102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL202",
+   "prereq": "ENGL201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH102",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS104",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS104",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB099",
+   "group": "University - Prerequisite courses",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL099",
+   "group": "University - Prerequisite courses",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL102",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL201",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL202",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - University Electives",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - University Electives",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - University Electives",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - University Electives",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - University Electives",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - University Electives",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - University Electives",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - University Electives",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS116",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1160",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CHEM103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CHEM106",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH102",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH203",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS104",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS106",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0141",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH205",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE2020",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE2050",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE221",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE3310",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE2130",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE3110",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE324",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE333",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE3410",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE3510",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE3350",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE325",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE323",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE362",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE363",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE390",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE372",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE522",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE547",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE500",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE561",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE562",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE5980",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE5990",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CEE5510",
+   "group": "Program - Program Requirements (Smart Mobility and Sustainable Structures Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "smart-mobility-and-sustainable-structures"
+  },
+  {
+   "course": "CEE529",
+   "group": "Program - Program Requirements (Smart Mobility and Sustainable Structures Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "smart-mobility-and-sustainable-structures"
+  },
+  {
+   "course": "CEE555",
+   "group": "Program - Program Requirements (Smart Mobility and Sustainable Structures Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "smart-mobility-and-sustainable-structures"
+  },
+  {
+   "course": "CEE556",
+   "group": "Program - Program Requirements (Smart Mobility and Sustainable Structures Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "smart-mobility-and-sustainable-structures"
+  },
+  {
+   "course": "CEE519",
+   "group": "Program - Program Requirements (Environmental Engineering and Sustainable Development Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "environmental-engineering-and-sustainable-development"
+  },
+  {
+   "course": "CEE5001",
+   "group": "Program - Program Requirements (Environmental Engineering and Sustainable Development Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "environmental-engineering-and-sustainable-development"
+  },
+  {
+   "course": "CEE5002",
+   "group": "Program - Program Requirements (Environmental Engineering and Sustainable Development Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "environmental-engineering-and-sustainable-development"
+  },
+  {
+   "course": "CEE501",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE502",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE503",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE504",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE505",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE506",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE507",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE508",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE509",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE510",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE512",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE513",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE514",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE518",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE313",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE315",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE479",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE570",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE571",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE572",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE573",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE574",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE591",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE597",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE520",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE523",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE524",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE526",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE425",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE527",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE528",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE429",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE530",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE534",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE535",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE536",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE537",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE593",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE542",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE5430",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE5435",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE545",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE546",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE594",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE550",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE551",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE452",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE553",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE595",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE596",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARCH403",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARCH426",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARCH451",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARC453",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARCH457",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARCH554",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARCH571",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARCH262",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARCH362",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARCH361",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE534",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE531",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE528",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE431",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE480",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE481",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE482",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CEE483",
+   "group": "Program - Program Requirements (Electives): (12 credit hours chosen from the",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ENGL098",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "CHEM103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "CHEM106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 8,
+   "code": "PHYS103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 9,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "ENGL099",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "PHYS104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "PHYS106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "CEE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": null,
+   "label": "---- University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "ENGL101",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "MATH203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "CEE201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "CEE2020",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "CEE2025",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "CEE2050",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": "CEE2055",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "ENGL102",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "MATH205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "CEE2130",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "CEE2135",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "CEE221",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "CEE3310",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 9,
+   "code": "CEE3315",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "IE0141",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "CEE3110",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "CEE324",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "CEE333",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "CEE3410",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "CEE3415",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "ENGL202",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "ENGL201",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "CEE325",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "CEE3340",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "CEE323",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "CEE390",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "CEE363",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Department Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Department Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Department Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Department Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": "CEE3510",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": "CEE3515",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 7,
+   "code": "CEE362",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "CEE372",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "CEE547",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "CEE561",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "CEE500",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": "CEE529",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": "CEE5980",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": "CEE5510",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "CEE522",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 2,
+   "code": "CEE562",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 3,
+   "code": "CEE555",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 4,
+   "code": "CEE556",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 5,
+   "code": null,
+   "label": "---- University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 6,
+   "code": "CEE5990",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "CEE547",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "CEE561",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "CEE500",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": "CEE519",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": "CEE5980",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": null,
+   "label": "---- University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "CEE522",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 2,
+   "code": "CEE562",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 3,
+   "code": "CEE515",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 4,
+   "code": "CEE516",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 5,
+   "code": "CEE5001",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 6,
+   "code": "CEE5990",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 7,
+   "code": "CEE5002",
+   "label": null,
+   "credit_hours": 2
+  }
+ ],
+ "review_warnings": [
+  "guide all year 2 first: credits add up to 16, the PDF says 17",
+  "guide all year 3 second: CEE3345 has no credit hours",
+  "guide all: CEE547 appears twice (year 4 first and year 4 first)",
+  "guide all: CEE561 appears twice (year 4 first and year 4 first)",
+  "guide all: CEE500 appears twice (year 4 first and year 4 first)",
+  "guide all: CEE5980 appears twice (year 4 first and year 4 first)",
+  "guide all: CEE522 appears twice (year 4 second and year 4 second)",
+  "guide all: CEE562 appears twice (year 4 second and year 4 second)",
+  "guide all: CEE5990 appears twice (year 4 second and year 4 second)",
+  "CEE2025: only in the year/semester guide, not in a requirement table",
+  "CEE2055: only in the year/semester guide, not in a requirement table",
+  "CEE2135: only in the year/semester guide, not in a requirement table",
+  "CEE3315: only in the year/semester guide, not in a requirement table",
+  "CEE3340: only in the year/semester guide, not in a requirement table",
+  "CEE3345: could not read credit hours from any table",
+  "CEE3415: only in the year/semester guide, not in a requirement table",
+  "CEE3515: only in the year/semester guide, not in a requirement table",
+  "CEE515: only in the year/semester guide, not in a requirement table",
+  "CEE516: only in the year/semester guide, not in a requirement table",
+  "ENGL098: only in the year/semester guide, not in a requirement table",
+  "GERL101: only in the year/semester guide, not in a requirement table",
+  "GERL102: only in the year/semester guide, not in a requirement table",
+  "GERL201: only in the year/semester guide, not in a requirement table",
+  "GERL202: only in the year/semester guide, not in a requirement table",
+  "GERL301: only in the year/semester guide, not in a requirement table",
+  "GERL302: only in the year/semester guide, not in a requirement table",
+  "NE101: only in the year/semester guide, not in a requirement table",
+  "ARB100: prerequisite 'ARB099' looks like a typo for ARB0099; used ARB0099",
+  "ARB100: prerequisite ARB0099 is not a course of this plan, skipped",
+  "CEE323: prerequisite CEE351 is not a course of this plan, skipped",
+  "CEE3340: prerequisite CEE3345 is not a course of this plan, skipped",
+  "CEE452: prerequisite CEE351 is not a course of this plan, skipped",
+  "CEE500: prerequisite CEE311 is not a course of this plan, skipped",
+  "CEE5001: prerequisite CEE341 is not a course of this plan, skipped",
+  "CEE502: prerequisite CEE311 is not a course of this plan, skipped",
+  "CEE505: prerequisite CEE311 is not a course of this plan, skipped",
+  "CEE506: prerequisite CEE311 is not a course of this plan, skipped",
+  "CEE506: prerequisite CEE341 is not a course of this plan, skipped",
+  "CEE514: prerequisite CEE213 is not a course of this plan, skipped",
+  "CEE514: prerequisite CEE311 is not a course of this plan, skipped",
+  "CEE519: prerequisite CEE311 is not a course of this plan, skipped",
+  "CEE522: prerequisite CEE321 is not a course of this plan, skipped",
+  "CEE542: prerequisite CEE341 is not a course of this plan, skipped",
+  "CEE5430: prerequisite CEE331 is not a course of this plan, skipped",
+  "CEE545: prerequisite CEE341 is not a course of this plan, skipped",
+  "CEE546: prerequisite CEE341 is not a course of this plan, skipped",
+  "CEE547: prerequisite CEE341 is not a course of this plan, skipped",
+  "CEE551: prerequisite CEE351 is not a course of this plan, skipped",
+  "CEE5510: prerequisite CEE351 is not a course of this plan, skipped",
+  "CEE553: prerequisite CEE351 is not a course of this plan, skipped",
+  "CEE561: prerequisite CEE331 is not a course of this plan, skipped",
+  "CEE570: prerequisite CEE311 is not a course of this plan, skipped",
+  "ENGL101: prerequisite 'ENGL099' looks like a typo for ENGL0099; used ENGL0099",
+  "ENGL101: prerequisite ENGL0099 is not a course of this plan, skipped",
+  "IE0141: prerequisite ME111 is not a course of this plan, skipped",
+  "table 'Prerequisite courses': courses add up to 0, the heading says 6",
+  "table 'Compulsory': courses add up to 15, the PDF's Total line says 21",
+  "table 'Compulsory': courses add up to 15, the heading says 21",
+  "table 'School Requirements': courses add up to 28, the PDF's Total line says 34",
+  "table 'School Requirements': courses add up to 28, the heading says 34",
+  "table 'Program Requirements (Compulsory)': courses add up to 80, the PDF's Total line says 89",
+  "table 'Program Requirements (Compulsory)': courses add up to 80, the heading says 89",
+  "table 'Program Requirements (Environmental Engineering and Sustainable Development Track Compulsory)': courses add up to 7, the PDF's Total line says 11",
+  "table 'Program Requirements (Environmental Engineering and Sustainable Development Track Compulsory)': courses add up to 7, the heading says 12"
+ ]
+}

@@ -1,0 +1,3417 @@
+{
+ "plan": "Design and Visual Communication study plan 2024 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Department%20of%20Design%20and%20Visual%20Communication/programs/design_and_visual_comunication_studyplan2024_22-07-2025.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "dvc",
+  "name": "Design and Visual Communication",
+  "school": "SABE",
+  "degree": "B.Sc.",
+  "plan_version": "2024",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC111",
+   "name": "Fundamentals of Design I",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1011",
+   "name": "Technical Writing",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH1131",
+   "name": "Technical Illustration I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARCH2302",
+   "name": "Islamic Art and Architecture",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES1201",
+   "name": "Freehand sketching",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES1202",
+   "name": "Anatomy for Art and Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES1203",
+   "name": "Typography Latin",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES1204",
+   "name": "Visual Design: Tools",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES1400",
+   "name": "Photography",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES1500",
+   "name": "Fundamentals of Design and Visual Communication",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2101",
+   "name": "World Art History",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2200",
+   "name": "Typography Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2201",
+   "name": "Ornaments and Calligraphy",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2205",
+   "name": "3D Modelling for Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2206",
+   "name": "Storyboarding and Animatics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2207",
+   "name": "Product Sketching and Rendering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2208",
+   "name": "Fashion Illustration",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2400",
+   "name": "Printmaking Workshop",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2401",
+   "name": "Digital Image and Photo Editing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2402",
+   "name": "Print and Bookbinding Techniques",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2403",
+   "name": "Composing & Audio techniques",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2404",
+   "name": "Ergonomics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2405",
+   "name": "Model Making",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2406",
+   "name": "Woven textile",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2500",
+   "name": "Product Design and Development",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2501",
+   "name": "Editorial Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2502",
+   "name": "Poster Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2503",
+   "name": "Filmmaking",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2504",
+   "name": "Documentary Film",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2505",
+   "name": "Intro to Animation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2506",
+   "name": "Experimental Film",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2507",
+   "name": "Web Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2508",
+   "name": "Character Animation",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2509",
+   "name": "Packaging Design Solutions",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2510",
+   "name": "Furniture Design and Lighting",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2511",
+   "name": "Pattern making",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2512",
+   "name": "Textile Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3101",
+   "name": "History of Design and Visual Communication",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3102",
+   "name": "Theories of Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3103",
+   "name": "Screen writing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3104",
+   "name": "Design Awareness",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3105",
+   "name": "Fashion History",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3200",
+   "name": "Illustration Techniques",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3201",
+   "name": "Portfolio and Presentation Techniques",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3202",
+   "name": "Semiotics and Symbol Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3203",
+   "name": "Set Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3204",
+   "name": "Character Design and Illustration",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3205",
+   "name": "Digital Fashion Illustration",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3300",
+   "name": "Brand Identity",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3400",
+   "name": "Film Editing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3401",
+   "name": "Film Production",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3402",
+   "name": "Web Design and Application",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3403",
+   "name": "Packaging Prototype",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3404",
+   "name": "Product Realization",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3405",
+   "name": "Non-woven textile",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3406",
+   "name": "Fashion Photography",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3500",
+   "name": "Information Design and Data Visualization",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3501",
+   "name": "Advertising Campaigns",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3502",
+   "name": "Font Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3503",
+   "name": "Cinematic Marketing and Promotion",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3504",
+   "name": "Film Directing",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3505",
+   "name": "Motion Graphics Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3506",
+   "name": "Social-Media and Content Creation",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3507",
+   "name": "Immersive Exhibition Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3508",
+   "name": "Environmental Graphics and Signages",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3509",
+   "name": "Accessory Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3510",
+   "name": "Fashion Design Studio",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3900",
+   "name": "Local Internship",
+   "hours": 0,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "DES4100",
+   "name": "Copywriting and Content Creation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4101",
+   "name": "Special Topics in Visual Communication A",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DES4102",
+   "name": "Special Topics in Visual Communication B",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DES4103",
+   "name": "Special Topics in Visual Communication C",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4104",
+   "name": "Design Thinking and Methodology",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4201",
+   "name": "Environmental graphic design (EGD)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4202",
+   "name": "Design Visualization I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DES4203",
+   "name": "Design Visualization II",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DES4204",
+   "name": "Design Visualization III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DES4205",
+   "name": "Costume design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4300",
+   "name": "Design Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4301",
+   "name": "Film Marketing and Promotion",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4302",
+   "name": "Fashion Show Production",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4400",
+   "name": "Game Development",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4401",
+   "name": "Design for Virtual and Augmented Reality",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4403",
+   "name": "Design Technology I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DES4404",
+   "name": "Design Technology II",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DES4405",
+   "name": "Design Technology III",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4500",
+   "name": "Public Relations and Marketing",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4501",
+   "name": "Advanced Photography",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4502",
+   "name": "Interaction UI-UX Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4503",
+   "name": "Bionic Perception",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4504",
+   "name": "Fashion Design Merchandising",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES4505",
+   "name": "Creative Studio",
+   "hours": 4,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DES459",
+   "name": "International Internshipd",
+   "hours": 12,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "DES4900",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "DES5101",
+   "name": "Design Psychology",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5102",
+   "name": "Design Ethics and Sustainability",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5103",
+   "name": "Design Criticism",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5500",
+   "name": "Advanced TV Productions",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5501",
+   "name": "Game Design Studio",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5502",
+   "name": "Advanced Product Design",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5503",
+   "name": "Fashion Design Advanced",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5504",
+   "name": "Creative Design Studio",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5505",
+   "name": "Emerging Technologies",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5901",
+   "name": "Advanced Studies in Design and Visual Communication",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES5902",
+   "name": "Graduation Project",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-Track GERL102B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "B2-Track GERL201B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B1",
+   "name": "German V B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B2",
+   "name": "B2-Track GERL202B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B1",
+   "name": "German VI B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B2",
+   "name": "B2-Track GERL301B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2302",
+   "prereq": "DES2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2302",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARCH2302",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES1203",
+   "prereq": "ARC111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES1500",
+   "prereq": "ARC111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2200",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2200",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2200",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2201",
+   "prereq": "ARC111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2201",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2201",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2205",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2205",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2205",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2205",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2206",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2206",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2206",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2207",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2207",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2207",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2208",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2208",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2208",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2400",
+   "prereq": "DES1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2400",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2400",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2401",
+   "prereq": "DES1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2401",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2401",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2402",
+   "prereq": "DES1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2402",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2402",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2403",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2403",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2403",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2404",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2404",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2404",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2405",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2405",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2405",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2406",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2406",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2406",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2500",
+   "prereq": "DES1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2500",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2500",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2501",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2501",
+   "prereq": "DES2200",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2501",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2501",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2502",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2502",
+   "prereq": "DES2200",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2502",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2502",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2503",
+   "prereq": "DES1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2503",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2503",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2504",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2504",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2504",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2505",
+   "prereq": "DES1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2505",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2505",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2506",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2506",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2506",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2507",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2507",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2507",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2508",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2508",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2508",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2509",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2509",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2509",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2510",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2510",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2510",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2511",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2511",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2511",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2512",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2512",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2512",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3101",
+   "prereq": "DES2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3102",
+   "prereq": "DES3101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3103",
+   "prereq": "ARCH1011",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3103",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3104",
+   "prereq": "ARCH1011",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3104",
+   "prereq": "DES3101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3104",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3104",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3105",
+   "prereq": "ARCH1011",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3105",
+   "prereq": "DES3101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3105",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3105",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3200",
+   "prereq": "DES1202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3201",
+   "prereq": "DES1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3201",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3201",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3202",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3202",
+   "prereq": "DES2200",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3203",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3204",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3205",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3300",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3300",
+   "prereq": "DES2200",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3400",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3401",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3402",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3403",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3404",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3405",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3406",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3500",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3500",
+   "prereq": "DES2200",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3501",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3501",
+   "prereq": "DES2200",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3502",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3502",
+   "prereq": "DES2200",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3503",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3504",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3505",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3506",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3507",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3508",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3508",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3509",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES3510",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4100",
+   "prereq": "ARCH1011",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4100",
+   "prereq": "DES3101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4100",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4103",
+   "prereq": "ARCH1011",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4103",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4103",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4104",
+   "prereq": "ARCH1011",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4104",
+   "prereq": "DES3101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4104",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4104",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4201",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4205",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4300",
+   "prereq": "DES1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4301",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4302",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4400",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4401",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4500",
+   "prereq": "DES1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4501",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4501",
+   "prereq": "DES3400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4502",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4502",
+   "prereq": "DES2205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4503",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4504",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES4900",
+   "prereq": "DES3900",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5101",
+   "prereq": "ARCH1011",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5101",
+   "prereq": "DES3102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5102",
+   "prereq": "ARCH1011",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5102",
+   "prereq": "DES3102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5103",
+   "prereq": "DES3102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5500",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5500",
+   "prereq": "DES3400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5501",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5501",
+   "prereq": "DES2205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5502",
+   "prereq": "DES2205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5502",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5503",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5504",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5504",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5504",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5504",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5505",
+   "prereq": "DES2500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5505",
+   "prereq": "DES2505",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5505",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5505",
+   "prereq": "DES1203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5901",
+   "prereq": "DES4900",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES5902",
+   "prereq": "DES5901",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EI101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SE301",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARC111",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1131",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES1201",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH2302",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARCH1011",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES2101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES3101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES3102",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES1400",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES1202",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES1500",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES1203",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES1204",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES2200",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES2201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES2500",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES2505",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES2503",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES2205",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES3200",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES3400",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES3900",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES3300",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES4900",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES4300",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES5901",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES5902",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES2501",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2502",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3500",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3501",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3502",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4500",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2504",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2506",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3503",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3504",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4501",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES5500",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2507",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2508",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3505",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3506",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4502",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES5501",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2509",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2510",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3507",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3508",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4503",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES5502",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2511",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2512",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3509",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3510",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4504",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES5503",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES5504",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES5505",
+   "group": "Program - Program Elective Courses (Creative Studios): Total of 4 courses",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2400",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2401",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2402",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3201",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3202",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2403",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3203",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3401",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4301",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3103",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2206",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3402",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3204",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4400",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4401",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2404",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2207",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2405",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3403",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3404",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4201",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2208",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES2406",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3405",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3205",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3406",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4302",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4205",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3105",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4103",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES3104",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4100",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4104",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES5101",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES5102",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES5103",
+   "group": "Program - Program Elective courses (Technical, Visualization, and Theory)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4202",
+   "group": "Program - German Year Program elective course",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4203",
+   "group": "Program - German Year Program elective course",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4204",
+   "group": "Program - German Year Program elective course",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4403",
+   "group": "Program - German Year Program elective course",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4404",
+   "group": "Program - German Year Program elective course",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4405",
+   "group": "Program - German Year Program elective course",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4101",
+   "group": "Program - German Year Program elective course",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4102",
+   "group": "Program - German Year Program elective course",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "DES4505",
+   "group": "Program - German Year Program elective course",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ARC111",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "ARCH1131",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "DES1201",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "DES1400",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "DES1500",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "DES1203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "DES1204",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "DES1202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "ARCH1011",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "DES2503",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "DES2505",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "DES2500",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "DES2200",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "DES2101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": null,
+   "label": "Creative-Studio Elective 1",
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "DES2205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "ARCH2302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "DES2201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Creative-Studio Elective 2",
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "DES3101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "DES3200",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "DES3400",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": null,
+   "label": "Creative-Studio Elective 3",
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "DES3102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "DES3300",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "DES3900",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "GY/ Technical Or Visualization Elective 1",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "GY/ Technical Or Visualization Elective 2",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "GY/ Technical Or Visualization Elective 3",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "DES459",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Creative-Studio Elective 4",
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Technical, Visualization, or Theory Elective 1",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 3,
+   "code": "DES4300",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 4,
+   "code": "DES5901",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "first",
+   "position": 5,
+   "code": null,
+   "label": "University Elective Requirement 1",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 1,
+   "code": null,
+   "label": "Technical, Visualization, or Theory Elective 2",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 2,
+   "code": null,
+   "label": "Technical, Visualization, or Theory Elective 3",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 3,
+   "code": "DES5902",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 5,
+   "semester": "second",
+   "position": 4,
+   "code": null,
+   "label": "University Elective Requirement 2",
+   "credit_hours": 3
+  }
+ ],
+ "review_warnings": [
+  "guide all year 1 second: credits add up to 14, the PDF says 17",
+  "guide all year 4 first: credits add up to 9, the PDF says 13",
+  "guide all year 5 second: credits add up to 13, the PDF says 16",
+  "DES459: only in the year/semester guide, not in a requirement table",
+  "NEE101: could not read credit hours from any table",
+  "DES1202: prerequisite DES1200 is not a course of this plan, skipped",
+  "DES4405: prerequisite SC001 is not a course of this plan, skipped",
+  "DES5103: prerequisite RCH1011 is not a course of this plan, skipped"
+ ]
+}

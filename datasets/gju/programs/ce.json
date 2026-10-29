@@ -1,0 +1,5148 @@
+{
+ "plan": "Computer Engineering study plan 2023-2024 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Computer%20Engineering/programs/study_plan_all_tracks_2023-2024.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "ce",
+  "name": "Computer Engineering",
+  "school": "SC",
+  "degree": "B.Sc.",
+  "plan_version": "2023-2024",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BM371",
+   "name": "Numerical Methods for Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE201",
+   "name": "Computer Architecture and Organization",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE212",
+   "name": "Digital Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE2120",
+   "name": "Digital Systems Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE331",
+   "name": "Signals and Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE342",
+   "name": "Microprocessor and Microcomputer Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE3420",
+   "name": "Microprocessor and Microcomputer Systems Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE352",
+   "name": "Computer Networks",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE354",
+   "name": "Computer Security",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE355",
+   "name": "Data Communication",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE3561",
+   "name": "Computer Networks Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE357",
+   "name": "Operating Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE3570",
+   "name": "Operating Systems Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE377",
+   "name": "Machine Learning",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE391",
+   "name": "Field Training *",
+   "hours": 0,
+   "prerequisite_note": "Dept. approval"
+  },
+  {
+   "code": "CE4201",
+   "name": "Robot Mechanics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4202",
+   "name": "3D Machine Vision",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4203",
+   "name": "Actuators",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4204",
+   "name": "Dynamics of Industrial Robotics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4205",
+   "name": "Automation and Production Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4206",
+   "name": "Collaborative Robotics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4207",
+   "name": "Localization and Mapping",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4208",
+   "name": "Aerial Drones",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4209",
+   "name": "Navigation and Mobile Platforms",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4300",
+   "name": "Speech Recognition and Synthesis",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE441",
+   "name": "Embedded System Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE444",
+   "name": "Microcomputer Interface and Peripheral Devices",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE452",
+   "name": "Network Protocols",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE453",
+   "name": "Distributed Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4602",
+   "name": "Neural Networks",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4604",
+   "name": "AI Programming",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4605",
+   "name": "Knowledge Representation and Reasoning",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4606",
+   "name": "Data Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4607",
+   "name": "Data Visualization",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4608",
+   "name": "Reinforcement Learning",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE4609",
+   "name": "Intelligent Transportation Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE461",
+   "name": "Image Processing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE463",
+   "name": "Advanced Image Processing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE471",
+   "name": "Software Design and Architecture",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE473",
+   "name": "Software Requirements Analysis",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE474",
+   "name": "Software Quality Assurance and Testing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE493",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": "Dept. approval"
+  },
+  {
+   "code": "CE501",
+   "name": "Advanced Computer Architecture",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE502",
+   "name": "Parallel Architectures and Parallel Algorithms",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE512",
+   "name": "Advanced Digital Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE520",
+   "name": "Cognitive robotics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE521",
+   "name": "Robotics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE551",
+   "name": "Advanced Operating Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE552",
+   "name": "Advanced Computer Networks",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE558",
+   "name": "Special topics in Computer Networks",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE559",
+   "name": "Special topics in Operating Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE5606",
+   "name": "AI Applications in Cybersecurity",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE5607",
+   "name": "AI Applications in Networks",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE5608",
+   "name": "AI Applications in Economy",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE5609",
+   "name": "AI Applications in Business",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE561",
+   "name": "Deep Learning",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE563",
+   "name": "Human Computer Interaction",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE564",
+   "name": "Pattern Recognition",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE565",
+   "name": "Computer Vision",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE570",
+   "name": "Optimization Methods",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE579",
+   "name": "Special topics in Software Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE587",
+   "name": "Special Topics in Gaming",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE588",
+   "name": "Special Topics in Deep Learning",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE590",
+   "name": "Special Topics in Computer Vision",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE592",
+   "name": "Senior Project I **",
+   "hours": 1,
+   "prerequisite_note": "Dept. approval"
+  },
+  {
+   "code": "CE594",
+   "name": "Senior Project II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE595",
+   "name": "Special Topics in Robotics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE596",
+   "name": "Special topics in Intelligent Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE597",
+   "name": "Special Topics in Computer Engineering I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE598",
+   "name": "Special Topics in Computer Engineering II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CE599",
+   "name": "Special Topics in Computer Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CHEM103",
+   "name": "General Chemistry",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS116",
+   "name": "Computing Fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1160",
+   "name": "Computing Fundamentals Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS117",
+   "name": "Object Oriented Programming",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1170",
+   "name": "Object Oriented Programming Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS201",
+   "name": "Discrete Structures",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS222",
+   "name": "Theory of Algorithms",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS223",
+   "name": "Data Structures",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS263",
+   "name": "Database Management Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS323",
+   "name": "Computational Theory",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS330",
+   "name": "Image Understanding",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS332",
+   "name": "Computer Graphics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS342",
+   "name": "Software Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS355",
+   "name": "Web Technologies",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS356",
+   "name": "Information Security",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS358",
+   "name": "Multimedia Systems Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS359",
+   "name": "Internet of Things",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS364",
+   "name": "Information Retrieval",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS371",
+   "name": "Bioinformatics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS374",
+   "name": "Hardware Security",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS416",
+   "name": "Systems Programming",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS419",
+   "name": "Compiler Construction",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS430",
+   "name": "Virtual and Augmented Reality",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS450",
+   "name": "Operations Optimization",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS451",
+   "name": "Artificial Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS4512",
+   "name": "Natural Language Processing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS457",
+   "name": "Decision Support Systems and Intelligent Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS458",
+   "name": "Wireless Networks",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS460",
+   "name": "Data Mining",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS470",
+   "name": "Cryptography",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS4714",
+   "name": "Digital Forensics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS477",
+   "name": "Mobile Computing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE241",
+   "name": "Electronics 1",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE2410",
+   "name": "Electronics 1 Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE315",
+   "name": "Probability, Statistics and Random Processes",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE317",
+   "name": "Linear Algebra",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE343",
+   "name": "Digital Electronics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE371",
+   "name": "IoT Architecture and Protocols",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE461",
+   "name": "Digital Signal Processing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE472",
+   "name": "Cloud Computing and Big Data",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE514",
+   "name": "Multimedia Communications",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE560",
+   "name": "Entrepreneurship in Electrical Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE562",
+   "name": "Wireless Sensor Networks",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE563",
+   "name": "Emerging Technologies in Electrical Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EE570",
+   "name": "Cloud Computing and Big Data",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE599",
+   "name": "Special Topics in Signal Processing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENE211",
+   "name": "Fundamentals of Electrical Circuit",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENE2111",
+   "name": "Fundamentals of Electrical Circuits",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENE213",
+   "name": "Electrical Circuits Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-track GERL102B2, ARB0099, ENGL0099",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "B2-track GERL201B2, ARB0099, ENGL0099",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B1",
+   "name": "German V B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B2",
+   "name": "B2-Track GERL202B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B1",
+   "name": "German VI B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B2",
+   "name": "B2-Track GERL301B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0141",
+   "name": "Engineering Workshop",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH0099",
+   "name": "Pre-Math",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "MATH101",
+   "name": "Calculus I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH102",
+   "name": "Calculus II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH203",
+   "name": "Applied Mathematics for Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH205",
+   "name": "Differential Equations",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS103",
+   "name": "Physics I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS104",
+   "name": "Physics II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS106",
+   "name": "Physics Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM371",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM371",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BM371",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE201",
+   "prereq": "CE212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE201",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE201",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE201",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE212",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE212",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE212",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE212",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE2120",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE2120",
+   "prereq": "CE212",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CE2120",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE2120",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE2120",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE331",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE342",
+   "prereq": "CE212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE3420",
+   "prereq": "CE212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE3420",
+   "prereq": "CE342",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CE352",
+   "prereq": "CE201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE354",
+   "prereq": "CE352",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE355",
+   "prereq": "CE331",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE3561",
+   "prereq": "CE201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE3561",
+   "prereq": "CE352",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CE357",
+   "prereq": "CE201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE3570",
+   "prereq": "CE201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE3570",
+   "prereq": "CE357",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CE377",
+   "prereq": "EE315",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE377",
+   "prereq": "EE317",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE441",
+   "prereq": "CE201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE452",
+   "prereq": "CE352",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE461",
+   "prereq": "CE331",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE502",
+   "prereq": "CE201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE502",
+   "prereq": "CS222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE502",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE521",
+   "prereq": "EE317",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE561",
+   "prereq": "EE317",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE561",
+   "prereq": "EE315",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE565",
+   "prereq": "CE461",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CE594",
+   "prereq": "CE592",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1160",
+   "prereq": "CS116",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CS117",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS117",
+   "prereq": "CS1160",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CS1170",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1170",
+   "prereq": "CS1160",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CS1170",
+   "prereq": "CS117",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "CS201",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS201",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS201",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "CS1160",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "CS201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS223",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS223",
+   "prereq": "CS1160",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS223",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS223",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS223",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS263",
+   "prereq": "CS117",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS263",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS263",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS263",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS342",
+   "prereq": "CS117",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS342",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS416",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS451",
+   "prereq": "CS222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS451",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE241",
+   "prereq": "ENE2111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE241",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE241",
+   "prereq": "CS1160",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE241",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE241",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE241",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2410",
+   "prereq": "ENE2111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2410",
+   "prereq": "EE241",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "EE2410",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2410",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE2410",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE315",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE317",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE343",
+   "prereq": "EE241",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE472",
+   "prereq": "CE201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE472",
+   "prereq": "CE352",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "EE570",
+   "prereq": "CE352",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EI101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE211",
+   "prereq": "PHYS104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE211",
+   "prereq": "MATH203",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "ENE211",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE211",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE211",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE2111",
+   "prereq": "PHYS104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE2111",
+   "prereq": "MATH203",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "ENE2111",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE2111",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE2111",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE213",
+   "prereq": "ENE2111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE213",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE213",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENE213",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH101",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH102",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS104",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS104",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "SE301",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH102",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE317",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS116",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1160",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS117",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1170",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE212",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE2120",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE201",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE331",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE342",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE3420",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE352",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE354",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE355",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE3561",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE357",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE3570",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE377",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE391",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE441",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE493",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE502",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE592",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE594",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BM371",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CHEM103",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS201",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS222",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS223",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS263",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE241",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE2410",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE315",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENE2111",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENE213",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0141",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH203",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH205",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS103",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS104",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS106",
+   "group": "Program - Program Requirements (Common Compulsory All Tracks)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CE452",
+   "group": "Program - Program Requirements (General Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "general"
+  },
+  {
+   "course": "EE343",
+   "group": "Program - Program Requirements (General Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "general"
+  },
+  {
+   "course": "CS342",
+   "group": "Program - Program Requirements (General Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "general"
+  },
+  {
+   "course": "CS416",
+   "group": "Program - Program Requirements (General Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "general"
+  },
+  {
+   "course": "CE461",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE561",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CS451",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "EE570",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE461",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE521",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE561",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE565",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4201",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4202",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4203",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4204",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4205",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4206",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4207",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4208",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4209",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4300",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE444",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE453",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE461",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4602",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE463",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4604",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4605",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4606",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4607",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4608",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4609",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE471",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE473",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE474",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE501",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE512",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE520",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE521",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE551",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE552",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE558",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE559",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE561",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE563",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE564",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE565",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE5606",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE5607",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE5608",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE5609",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE570",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE579",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE587",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE588",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE596",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE597",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE598",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE599",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS323",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS330",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS332",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS355",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS356",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS358",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS359",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS374",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS419",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS430",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS450",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS451",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS4512",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS457",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS458",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS460",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS470",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS4714",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CS477",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "EE371",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "EE461",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "EE514",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "EE560",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "EE562",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "EE563",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "EE570",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "EE599",
+   "group": "Program - Program Requirements (General Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "general"
+  },
+  {
+   "course": "CE4300",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE4602",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE463",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE4604",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE4605",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE4606",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE4607",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE4608",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE4609",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE521",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE563",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE564",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE565",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE5606",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE5607",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE5608",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE5609",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE570",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE587",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE588",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE596",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CS330",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CS364",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CS371",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CS430",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CS4512",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CS460",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CS477",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "EE371",
+   "group": "Program - Program Requirements (Artificial Intelligence and Machine Learning Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "artificial-intelligence-and-machine-learning"
+  },
+  {
+   "course": "CE4201",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4202",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4203",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4204",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4205",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4206",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4207",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4208",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4209",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE4300",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE463",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE520",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE561",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE564",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE570",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE587",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE590",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE595",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CE596",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CS330",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CS430",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "CS451",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  },
+  {
+   "course": "EE371",
+   "group": "Program - Program Requirements (Computer Vision and Robotics Track Electives b)",
+   "scope": "program",
+   "kind": "elective",
+   "track": "computer-vision-and-robotics"
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "PHYS103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "CHEM103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "CS201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "CS117",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "CS1170",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "PHYS104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 1,
+   "semester": "second",
+   "position": 9,
+   "code": "PHYS106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "CE212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "CE2120",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "CS222",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "CS223",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": "MATH203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "CE201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "CS263",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "MATH205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "ENE2111",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "EE317",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "EE315",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "CE331",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "EE241",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "EE2410",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "CE357",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "CE3570",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "CE352",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "first",
+   "position": 9,
+   "code": "CE377",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "ENE213",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "CE3561",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "EE343",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "CE391",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "CE342",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "CE3420",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": "CE354",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 10,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 3,
+   "semester": "second",
+   "position": 11,
+   "code": null,
+   "label": "University Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "CE493",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "first",
+   "position": 1,
+   "code": "BM371",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "first",
+   "position": 2,
+   "code": "CE592",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "first",
+   "position": 3,
+   "code": "CS416",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "first",
+   "position": 4,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "first",
+   "position": 5,
+   "code": "CE355",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "first",
+   "position": 6,
+   "code": "CS342",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "second",
+   "position": 1,
+   "code": "CE502",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "second",
+   "position": 2,
+   "code": "CE452",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "second",
+   "position": 3,
+   "code": "CE594",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "second",
+   "position": 4,
+   "code": "CE441",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "second",
+   "position": 5,
+   "code": "IE0141",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "general",
+   "year": 5,
+   "semester": "second",
+   "position": 6,
+   "code": null,
+   "label": "University Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "PHYS103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "CHEM103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "CS201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "CS117",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "CS1170",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "PHYS104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 1,
+   "semester": "second",
+   "position": 9,
+   "code": "PHYS106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "CE212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "CE2120",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "CS222",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "CS223",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": "MATH203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "CE201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "EE315",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "MATH205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "EE317",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "CS263",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "CE331",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "ENE2111",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "CE357",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "CE3570",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "CE352",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "CE3561",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "first",
+   "position": 9,
+   "code": "CE377",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "EE241",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "BM371",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "CE391",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "CE342",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "CE3420",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "CE354",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "CE493",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "first",
+   "position": 1,
+   "code": "CS451",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "University Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "first",
+   "position": 3,
+   "code": "CE592",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "first",
+   "position": 4,
+   "code": "EE2410",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "first",
+   "position": 5,
+   "code": "ENE213",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "first",
+   "position": 6,
+   "code": "CE355",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "first",
+   "position": 7,
+   "code": "EE472",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "first",
+   "position": 8,
+   "code": "CE461",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "second",
+   "position": 1,
+   "code": "CE502",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "second",
+   "position": 2,
+   "code": "CE561",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "second",
+   "position": 3,
+   "code": "CE594",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "second",
+   "position": 4,
+   "code": "CE441",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "second",
+   "position": 5,
+   "code": "IE0141",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "artificial-intelligence-and-machine-learning",
+   "year": 5,
+   "semester": "second",
+   "position": 6,
+   "code": null,
+   "label": "University Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "PHYS103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "CHEM103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "CS201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "CS117",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "CS1170",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "PHYS104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 1,
+   "semester": "second",
+   "position": 9,
+   "code": "PHYS106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "CE212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "CE2120",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "CS222",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "ENE211",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": "MATH203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "CE201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "EE315",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "MATH205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "EE317",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "CS263",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "CS223",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "CE331",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "CE357",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "CE3570",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "CE352",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "CE3561",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "first",
+   "position": 9,
+   "code": "CE377",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "EE241",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "CE461",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "CE391",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "CE342",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "CE3420",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "BM371",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Program Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "CE493",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "first",
+   "position": 1,
+   "code": "CE565",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "University Elective Course",
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "first",
+   "position": 3,
+   "code": "CE592",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "first",
+   "position": 4,
+   "code": "CE561",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "first",
+   "position": 5,
+   "code": "EE2410",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "first",
+   "position": 6,
+   "code": "ENE213",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "first",
+   "position": 7,
+   "code": "CE355",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "first",
+   "position": 8,
+   "code": "CE521",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "second",
+   "position": 1,
+   "code": "CE502",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "second",
+   "position": 2,
+   "code": "CE354",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "second",
+   "position": 3,
+   "code": "CE594",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "second",
+   "position": 4,
+   "code": "CE441",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "second",
+   "position": 5,
+   "code": "IE0141",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "computer-vision-and-robotics",
+   "year": 5,
+   "semester": "second",
+   "position": 6,
+   "code": null,
+   "label": "University Elective Course",
+   "credit_hours": 3
+  }
+ ],
+ "review_warnings": [
+  "guide computer-vision-and-robotics year 2 second: credits add up to 21, the PDF says 0",
+  "CE461: prerequisites differ between tables: CE331 | BSC001",
+  "CE521: prerequisites differ between tables: EE317 | BSC001",
+  "CE561: prerequisites differ between tables: EE317, EE315 | BSC001",
+  "CE565: prerequisites differ between tables: CE461 | BSC001",
+  "CS451: prerequisites differ between tables: CS222, CS223 | BSC001",
+  "EE472: only in the year/semester guide, not in a requirement table",
+  "EE570: prerequisites differ between tables: CE352 | BSC001",
+  "ENE211: only in the year/semester guide, not in a requirement table",
+  "NEE101: could not read credit hours from any table"
+ ]
+}

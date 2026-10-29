@@ -1,0 +1,3863 @@
+{
+ "plan": "Mechanical and Maintenance Engineering study plan 2023 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Mechanical%20and%20Maintenance%20Engineering/programs/mech_study_plan_2023.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "mme",
+  "name": "Mechanical and Maintenance Engineering",
+  "school": "SATS",
+  "degree": "B.Sc.",
+  "plan_version": "2023",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CE441",
+   "name": "Embedded System Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CHEM103",
+   "name": "General Chemistry",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS116",
+   "name": "Computing Fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1160",
+   "name": "Computing Fundamentals Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENE432",
+   "name": "Power Plants Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE433",
+   "name": "Solar Energy I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE520",
+   "name": "Thermal Energy Storage",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE525",
+   "name": "Fuel Cell & Hydrogen Production Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE531",
+   "name": "Environmental and Energy Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENE537",
+   "name": "Energy Efficiency, Management, and Laws",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-Track ARB0099,ENGL0099, GERL102B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "B2-Track ARB0099,ENGL0099, GERL201B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B1",
+   "name": "German V B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B2",
+   "name": "B2-Track GERL202B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B1",
+   "name": "German VI B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B2",
+   "name": "B2-Track GERL301B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0121",
+   "name": "Probability and Statistics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0141",
+   "name": "Engineering Workshop",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0281",
+   "name": "Technical Writing and Engineering Ethics",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0348",
+   "name": "Materials and Manufacturing Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0361",
+   "name": "Engineering Economics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IE0401",
+   "name": "Engineering Project Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0515",
+   "name": "Product Development and Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0516",
+   "name": "Facilities and Asset Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0533",
+   "name": "Supply Chain Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "IE0562",
+   "name": "Industrial Cost Analysis",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MATH0099",
+   "name": "Pre-Math",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "MATH101",
+   "name": "Calculus I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH102",
+   "name": "Calculus II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH203",
+   "name": "Applied Mathematics for Engineers",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH205",
+   "name": "Differential Equations",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ME0111",
+   "name": "Computer Aided Engineering Drawing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ME0212",
+   "name": "Electrical Circuits and Machines",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ME0346",
+   "name": "Instrumentation & Measurements",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ME0347",
+   "name": "Instrumentation & Measurements Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ME0417",
+   "name": "Micro-Electromechanical Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ME0522",
+   "name": "Hydraulics and Pneumatics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ME0548",
+   "name": "Control Systems II",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ME0551",
+   "name": "Robotics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ME0571",
+   "name": "Machine Intelligence I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ME0577",
+   "name": "Automation and Industry 4.0",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ME2103",
+   "name": "Electrical Circuits and Machines Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH2101",
+   "name": "Fundamentals of Mechanical Design",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH2102",
+   "name": "Statics and Strength",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH2103",
+   "name": "Mechanics of Materials Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH2104",
+   "name": "Dynamics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH2201",
+   "name": "Applied Thermodynamics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH2202",
+   "name": "Fluid Flow and Heat Transfer",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH3201",
+   "name": "Thermofluids Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH3202",
+   "name": "Computer Aided Thermal Engineering",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH3301",
+   "name": "Machine Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH3302",
+   "name": "Machine Design Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH3401",
+   "name": "Maintenance Spare Parts Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH3801",
+   "name": "Computer Aided Mathematics for MECH",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH3901",
+   "name": "Field Training",
+   "hours": 0,
+   "prerequisite_note": "Dept. Approval"
+  },
+  {
+   "code": "MECH4201",
+   "name": "Advanced Heat Transfer",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4202",
+   "name": "Intermediate Fluid Mechanics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4203",
+   "name": "Case Studies in Thermal Engineering and Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4204",
+   "name": "Thermodynamics of Fluid Flow with Applications",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4205",
+   "name": "Computational Heat Transfer",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4206",
+   "name": "Combustion",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4207",
+   "name": "Gas Turbines",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4208",
+   "name": "Conduction",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4209",
+   "name": "Convection",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4210",
+   "name": "Thermal Radiation Heat Transfer",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4211",
+   "name": "Bioheat and Mass Transfer",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4212",
+   "name": "Two Phase Flow and Heat Transfer",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4213",
+   "name": "Design and Selection of Heat Exchangers",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4214",
+   "name": "Thermal Management of Electronic Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4215",
+   "name": "Renewable Energy",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4216",
+   "name": "Battery Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4217",
+   "name": "Bioenergy",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4218",
+   "name": "Power Grid Technologies",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4219",
+   "name": "Solar Thermal Technologies",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4301",
+   "name": "Structural Dynamics and Durability Analysis",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4302",
+   "name": "Finite Element Methods",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4303",
+   "name": "Multi-Body Dynamics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4304",
+   "name": "Machine Dynamics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4305",
+   "name": "Nonlinear Dynamics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4401",
+   "name": "Automotive Maintenance",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4402",
+   "name": "Building Maintenance",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4403",
+   "name": "Safety & Loss Prevention",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4404",
+   "name": "Maintenance Costing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4405",
+   "name": "Modern Maintenance Management Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4406",
+   "name": "Systems Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4407",
+   "name": "Failure Analysis",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4408",
+   "name": "Maintenance, Repair, and Operation Strategies and Planning",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4409",
+   "name": "Human Resource Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4410",
+   "name": "Six Sigma",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4411",
+   "name": "Production Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4412",
+   "name": "Innovation Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4413",
+   "name": "Business Administration for Engineers",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4414",
+   "name": "Ergonomics and Ecodesign",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4415",
+   "name": "Process Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4601",
+   "name": "Ignition Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4602",
+   "name": "Electromobility",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4603",
+   "name": "Vehicle Emissions",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4604",
+   "name": "Data-Driven Algorithms in Vehicle Technology",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4605",
+   "name": "Driver Assistance Systems and Autonomous Driving",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4606",
+   "name": "Automotive and Railway Safety",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4607",
+   "name": "Railway Telematics Architectures",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4608",
+   "name": "Planning of Railway Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4609",
+   "name": "Railway Construction",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4610",
+   "name": "Railway Operations Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4701",
+   "name": "CAD/CAM/Rapid Prototyping",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4702",
+   "name": "Micro and ultra-precision machining",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4703",
+   "name": "Primary Shaping, Forming, and Machining",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4704",
+   "name": "Joining, Coating, and Assembly",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4705",
+   "name": "Laser Material Processing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4801",
+   "name": "Human-Machine-Interaction",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4802",
+   "name": "Smart Factory",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4803",
+   "name": "Smart Systems and Adaptive Structures",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4804",
+   "name": "Electrical Propulsion Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4901",
+   "name": "International Internshipa",
+   "hours": 12,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH4902",
+   "name": "Special Topics in Energy Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4903",
+   "name": "Special Topics in Applied Mechanics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4904",
+   "name": "Special Topics in Maintenance Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4905",
+   "name": "Special Topics in Engineering Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4906",
+   "name": "Special Topics in Automotive and E- mobility",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4907",
+   "name": "Special Topics in Manufacturing Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4908",
+   "name": "Special Topics in Mechatronics Engineering",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4910",
+   "name": "Special Topics in Thermal Systems",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4911",
+   "name": "Special Topics I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH4912",
+   "name": "Special Topics II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MECH5301",
+   "name": "Vibrations and Control",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5401",
+   "name": "Reliability for Quality Control",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5402",
+   "name": "Management of Maintenance Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5501",
+   "name": "Heating Ventilation and Air Conditioning",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5502",
+   "name": "Building Automation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5503",
+   "name": "Thermal Systems Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5504",
+   "name": "Turbomachinery",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5505",
+   "name": "Thermal System Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5506",
+   "name": "Computational Fluids Dynamics",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5601",
+   "name": "Theory of Machines",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5602",
+   "name": "Automotive Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5603",
+   "name": "Automotive Systems Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5604",
+   "name": "Fundamentals of Vehicle Structure",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5605",
+   "name": "Vehicle Electrical and Electronics Systems",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5606",
+   "name": "Hybrid and Electric Vehicles",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5701",
+   "name": "Fundamentals of Additive Manufacturing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5702",
+   "name": "Material Design and Surface Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5703",
+   "name": "Additive Manufacturing Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5704",
+   "name": "Applications in Additive Manufacturing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5705",
+   "name": "Design and Optimization for Additive Manufacturing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5706",
+   "name": "Advances in additive Manufacturing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5801",
+   "name": "Artificial Intelligence in Maintenance",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MECH5901",
+   "name": "Graduation Project I",
+   "hours": 1,
+   "prerequisite_note": "132 CrHr"
+  },
+  {
+   "code": "MECH5902",
+   "name": "Graduation Project II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT418",
+   "name": "Quality Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS103",
+   "name": "Physics I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS104",
+   "name": "Physics II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PHYS106",
+   "name": "General Physics Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1160",
+   "prereq": "CS116",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B2",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B2",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B2",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IE0121",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IE0281",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IE0348",
+   "prereq": "IE0141",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IE0348",
+   "prereq": "CHEM103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IE0361",
+   "prereq": "IE0121",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH101",
+   "prereq": "MATH0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH102",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH203",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH205",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0111",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0212",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0212",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0212",
+   "prereq": "PHYS104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0346",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0346",
+   "prereq": "ME0212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0347",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0347",
+   "prereq": "ME0212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME0347",
+   "prereq": "ME0346",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "ME2103",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME2103",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ME2103",
+   "prereq": "ME0212",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2101",
+   "prereq": "ME0111",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2102",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2102",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2102",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2102",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2103",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2103",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2103",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2103",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2103",
+   "prereq": "MECH2102",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2104",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2104",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2104",
+   "prereq": "MECH2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2201",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2201",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2201",
+   "prereq": "MATH102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2202",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2202",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2202",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH2202",
+   "prereq": "MECH2201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3201",
+   "prereq": "MECH2202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3202",
+   "prereq": "MECH2202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3301",
+   "prereq": "MECH2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3301",
+   "prereq": "MECH2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3302",
+   "prereq": "MECH2101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3302",
+   "prereq": "MECH2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3302",
+   "prereq": "MECH3301",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3401",
+   "prereq": "IE0121",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3801",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH3801",
+   "prereq": "MATH205",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH4901",
+   "prereq": "MECH3901",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5301",
+   "prereq": "MECH2104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5301",
+   "prereq": "MECH3801",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5401",
+   "prereq": "IE0121",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5402",
+   "prereq": "MECH3401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5501",
+   "prereq": "MECH3202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5502",
+   "prereq": "MECH3202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5502",
+   "prereq": "ME0212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5503",
+   "prereq": "MECH2201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5503",
+   "prereq": "MECH2202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5504",
+   "prereq": "MECH3202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5505",
+   "prereq": "MECH3202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5506",
+   "prereq": "MECH3202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5601",
+   "prereq": "MECH2104",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5601",
+   "prereq": "MATH203",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5602",
+   "prereq": "MECH2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5602",
+   "prereq": "MECH3301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5603",
+   "prereq": "MECH2102",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5603",
+   "prereq": "MECH3301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5603",
+   "prereq": "MECH5602",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5604",
+   "prereq": "MECH3301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5605",
+   "prereq": "ME0212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5606",
+   "prereq": "ME0212",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5701",
+   "prereq": "MECH3301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5701",
+   "prereq": "IE0348",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5702",
+   "prereq": "MECH3301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5702",
+   "prereq": "IE0348",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5703",
+   "prereq": "MECH3301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5703",
+   "prereq": "IE0348",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5703",
+   "prereq": "MECH5701",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5704",
+   "prereq": "MECH5701",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5705",
+   "prereq": "MECH5701",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5706",
+   "prereq": "MECH5701",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5801",
+   "prereq": "MECH3801",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5901",
+   "prereq": "MECH4901",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MECH5902",
+   "prereq": "MECH5901",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS104",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS103",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PHYS106",
+   "prereq": "PHYS104",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0121",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0141",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0281",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0361",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ME0111",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH2102",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CHEM103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS116",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1160",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH102",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH203",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH205",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS104",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "PHYS106",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH2101",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH2103",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH2104",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ME0212",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ME2103",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH2201",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH2202",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH3201",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH3202",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH3301",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH3302",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH3401",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH3801",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH3901",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH4901",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5301",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5401",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5402",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5801",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5901",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5902",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "IE0348",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ME0346",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ME0347",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program - Program Requirements (Common)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5501",
+   "group": "Program - Program Requirements (Thermal Systems Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "thermal-systems"
+  },
+  {
+   "course": "MECH5502",
+   "group": "Program - Program Requirements (Thermal Systems Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "thermal-systems"
+  },
+  {
+   "course": "MECH5503",
+   "group": "Program - Program Requirements (Thermal Systems Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "thermal-systems"
+  },
+  {
+   "course": "MECH5504",
+   "group": "Program - Program Requirements (Thermal Systems Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "thermal-systems"
+  },
+  {
+   "course": "MECH5505",
+   "group": "Program - Program Requirements (Thermal Systems Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "thermal-systems"
+  },
+  {
+   "course": "MECH5506",
+   "group": "Program - Program Requirements (Thermal Systems Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "thermal-systems"
+  },
+  {
+   "course": "MECH5601",
+   "group": "Program - Program Requirements (Automotive & E-Mobility Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5602",
+   "group": "Program - Program Requirements (Automotive & E-Mobility Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5603",
+   "group": "Program - Program Requirements (Automotive & E-Mobility Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5604",
+   "group": "Program - Program Requirements (Automotive & E-Mobility Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5605",
+   "group": "Program - Program Requirements (Automotive & E-Mobility Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5606",
+   "group": "Program - Program Requirements (Automotive & E-Mobility Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MECH5701",
+   "group": "Program - Program Requirements (Additive Manufacturing Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "additive-manufacturing"
+  },
+  {
+   "course": "MECH5702",
+   "group": "Program - Program Requirements (Additive Manufacturing Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "additive-manufacturing"
+  },
+  {
+   "course": "MECH5703",
+   "group": "Program - Program Requirements (Additive Manufacturing Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "additive-manufacturing"
+  },
+  {
+   "course": "MECH5704",
+   "group": "Program - Program Requirements (Additive Manufacturing Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "additive-manufacturing"
+  },
+  {
+   "course": "MECH5705",
+   "group": "Program - Program Requirements (Additive Manufacturing Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "additive-manufacturing"
+  },
+  {
+   "course": "MECH5706",
+   "group": "Program - Program Requirements (Additive Manufacturing Track)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": "additive-manufacturing"
+  },
+  {
+   "course": "MECH4201",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4202",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4203",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4204",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4205",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4206",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4207",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4208",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4209",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4210",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4211",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4212",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4213",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4214",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4215",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4216",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4217",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4218",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4219",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4301",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4302",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4303",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4304",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4305",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4401",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4402",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4403",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4404",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4405",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4406",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4407",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4408",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4409",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4410",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4411",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4412",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4413",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4414",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4415",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4601",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4602",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4603",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4604",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4605",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4606",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4607",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4608",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4609",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4610",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4701",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4702",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4703",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4704",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4705",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4801",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4802",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4803",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4804",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4910",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4902",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4903",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4904",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4905",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4906",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4907",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4908",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4911",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MECH4912",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0401",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0515",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0516",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0533",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IE0562",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ME0522",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ME0417",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ME0548",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ME0551",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ME0571",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ME0577",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CE441",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE432",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE433",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE525",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE531",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE520",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENE537",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT418",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "PHYS103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": "IE0141",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "CHEM103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "PHYS104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "PHYS106",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "IE0121",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "ME0111",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "MECH2101",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "MECH2102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "MECH2201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "MATH205",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": "IE0281",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "MECH2103",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "MECH2104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "MATH203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "MECH2202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "ME0212",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "ME2103",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "MECH3201",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "MECH3801",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "MECH3901",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "ME0346",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "IE0348",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 9,
+   "code": null,
+   "label": "- University Elective I",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "MECH3202",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "MECH3301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "MECH3302",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "MECH3401",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "ME0347",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "- Technical Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "- Technical Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "- Technical Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "- Technical Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": "MECH5401",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": "MECH5801",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "MECH4901",
+   "label": null,
+   "credit_hours": 12
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "MECH5501",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "MECH5502",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "MECH5901",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": "MECH5301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": "MECH5503",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": "IE0361",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 7,
+   "code": null,
+   "label": "- University Elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "MECH5504",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 2,
+   "code": "MECH5505",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 3,
+   "code": "MECH5506",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 4,
+   "code": "MECH5902",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 5,
+   "code": "MECH5402",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "MECH5601",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "MECH5602",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "MECH5901",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": "MECH5301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": "MECH5603",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": "IE0361",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 7,
+   "code": null,
+   "label": "- University Elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "MECH5604",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 2,
+   "code": "MECH5605",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 3,
+   "code": "MECH5606",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 4,
+   "code": "MECH5902",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 5,
+   "code": "MECH5402",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "MECH5701",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "MECH5702",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "MECH5901",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": "MECH5301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": "MECH5703",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": "IE0361",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 7,
+   "code": null,
+   "label": "- University Elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "MECH5704",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 2,
+   "code": "MECH5705",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 3,
+   "code": "MECH5706",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 4,
+   "code": "MECH5902",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 5,
+   "code": "MECH5402",
+   "label": null,
+   "credit_hours": 3
+  }
+ ],
+ "review_warnings": [
+  "guide all: MECH5901 appears twice (year 4 first and year 4 first)",
+  "guide all: MECH5301 appears twice (year 4 first and year 4 first)",
+  "guide all: IE0361 appears twice (year 4 first and year 4 first)",
+  "guide all: MECH5902 appears twice (year 4 second and year 4 second)",
+  "guide all: MECH5402 appears twice (year 4 second and year 4 second)",
+  "guide all: MECH5901 appears twice (year 4 first and year 4 first)",
+  "guide all: MECH5301 appears twice (year 4 first and year 4 first)",
+  "guide all: IE0361 appears twice (year 4 first and year 4 first)",
+  "guide all: MECH5902 appears twice (year 4 second and year 4 second)",
+  "guide all: MECH5402 appears twice (year 4 second and year 4 second)",
+  "NEE101: could not read credit hours from any table",
+  "table 'Program Requirements (Common)': courses add up to 68, the heading says 71"
+ ]
+}

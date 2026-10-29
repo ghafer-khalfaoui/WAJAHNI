@@ -1,0 +1,1860 @@
+{
+ "plan": "German and English for Business and Communication study plan 2023-2024 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Department%20of%20Languages/programs/german_and_english_for_business_and_communication_study_plan_2023-2024.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "gebc",
+  "name": "German and English for Business and Communication",
+  "school": "SAHSS",
+  "degree": "B.Sc.",
+  "plan_version": "2023-2024",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "PTR:Arabic Placement Test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS115",
+   "name": "Computing Fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1150",
+   "name": "Computing Fundamentals LAB",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0089",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "PTE:English Placement Test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": "PTE:English Placement Test"
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC123",
+   "name": "Reading and Summarizing of Academic Texts (EN)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC152",
+   "name": "Principles of Communication (EN)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC153",
+   "name": "Grammar in Use and Speaking Skills (EN)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC232",
+   "name": "Literary and Cultural Studies (GE)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC253",
+   "name": "Written Business Communication (EN)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC311",
+   "name": "Seminar in Linguistics (GE)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC313",
+   "name": "Arabic in Professional Contexts",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC315",
+   "name": "German for Tourism Communication",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC322",
+   "name": "Research Concept Development (GE\\EN)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC331",
+   "name": "Creative Practice (GE)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC341",
+   "name": "Overview: Politics and Institutions (EN/GE)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC351",
+   "name": "Debating in Business Scenarios (EN)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC401",
+   "name": "German Language Course I",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC402",
+   "name": "German Language Course II",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC411",
+   "name": "Special Focus: Language &Communication I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC412",
+   "name": "Special Focus: Language & Communication II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC421",
+   "name": "Special Focus: Literary & Cultural Studies I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC423",
+   "name": "Special Focus: Literary & Cultural Studies II",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC431",
+   "name": "Special Focus: Economy & Business I",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC433",
+   "name": "Special Focus: Economy and Business II",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC451A",
+   "name": "Special Topic",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC451B",
+   "name": "Special Topic",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC451C",
+   "name": "Special Topic",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC471",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GEBC481",
+   "name": "Literature Research for the B.A. The",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "GEBC482",
+   "name": "B.A. Thesis",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": "PTGIB1:German I B1 Placement Test"
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "B2-Track PTGB2T:German B2 Track Placement Test",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-Track GERL102B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERS202",
+   "name": "German IV",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERS301",
+   "name": "German V",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERS302",
+   "name": "German VI",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GLS2101",
+   "name": "German Language Skills: Speaking and Listening",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GLS2102",
+   "name": "German Language Skills: Reading and Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GLS303",
+   "name": "German Language Skills: Business German and Application Training",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GLS3101",
+   "name": "German Language Skills: Language Training",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "LOGS101",
+   "name": "Introduction to Logistics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "LOGS315",
+   "name": "Inventory Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "LOGS316",
+   "name": "Warehouse Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "LOGS324",
+   "name": "Logistics Network Design",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "LOGS446",
+   "name": "Humanitarian Logistics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT101",
+   "name": "Principles of Management",
+   "hours": 3,
+   "prerequisite_note": "___"
+  },
+  {
+   "code": "MGT124",
+   "name": "Fundamentals of Marketing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT126",
+   "name": "Fundamentals of Microeconomics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT211",
+   "name": "Organizational Behavior",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT314",
+   "name": "Human Resources Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT322",
+   "name": "Consumer Behavior",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT418",
+   "name": "Quality Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT598A",
+   "name": "Special Topics in Management",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT598B",
+   "name": "Special Topics in Management",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT598C",
+   "name": "Special Topics in Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SL111",
+   "name": "Introduction to Linguistics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SL200",
+   "name": "Field Training (160 h)",
+   "hours": 0,
+   "prerequisite_note": "60CH"
+  },
+  {
+   "code": "SL320",
+   "name": "Academic Research Techniques",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SL330",
+   "name": "Contrastive Culture Studies",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TRA311",
+   "name": "Contrastive Linguistics II (AR-GE)",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA312",
+   "name": "Translation of Literary Texts (AR-EN- GE)",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA320",
+   "name": "General Translation III (AR-GE)",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA322",
+   "name": "Translation of Legal Texts (AR-EN-GE)",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA323",
+   "name": "Interpreting I (EN-AR-GE)",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA324",
+   "name": "(Research Topics and Practice in",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TRA470",
+   "name": "Special Topics in Translation",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS115",
+   "prereq": "CS1150",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1150",
+   "prereq": "CS115",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EI101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GEBC232",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GEBC232",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GEBC253",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GEBC311",
+   "prereq": "SL111",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GEBC311",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GEBC313",
+   "prereq": "ARB100",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GEBC315",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GEBC322",
+   "prereq": "GERS301",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GEBC322",
+   "prereq": "ENGL1002",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GEBC331",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GEBC341",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GEBC341",
+   "prereq": "ENGL1002",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GEBC351",
+   "prereq": "GEBC253",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GEBC401",
+   "prereq": "GERS302",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GEBC402",
+   "prereq": "GERS302",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GEBC471",
+   "prereq": "GERS302",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GEBC482",
+   "prereq": "SL320",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERS202",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERS202",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERS301",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERS302",
+   "prereq": "GERS301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GLS2101",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GLS2101",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GLS2102",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GLS2102",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GLS303",
+   "prereq": "GERS301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GLS3101",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "LOGS101",
+   "prereq": "MGT101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MGT124",
+   "prereq": "MGT101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MGT126",
+   "prereq": "MGT101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MGT211",
+   "prereq": "MGT101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MGT314",
+   "prereq": "MGT211",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SE301",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SL111",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SL320",
+   "prereq": "ENGL1002",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "SL320",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "SL330",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "SL330",
+   "prereq": "GERS202",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0089",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERS202",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GLS2101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GLS2102",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GLS3101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GLS303",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "SL111",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "SL320",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "SL330",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS115",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1150",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERS301",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERS302",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC152",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC123",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC153",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC232",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC253",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC311",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC315",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC322",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC341",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC351",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC331",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC313",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC471",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC482",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "SL200",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT124",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT211",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT126",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT314",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "LOGS101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GEBC401",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC402",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC411",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC421",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC431",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC412",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC423",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC433",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT322",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT418",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT598A",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT598B",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT598C",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "LOGS315",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "LOGS316",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "LOGS446",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "LOGS324",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA311",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA312",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA320",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA322",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA323",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA470",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TRA324",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC451A",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC451C",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC451B",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GEBC481",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "MGT101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "GEBC152",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "SL111",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "GEBC153",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "GEBC123",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "MGT124",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "CS115",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "GLS2101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "LOGS101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "MGT211",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "GEBC253",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": null,
+   "label": "University Requirement Elective I",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERS202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "GLS2102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "GEBC232",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "MGT126",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "MGT314",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": null,
+   "label": "- University Requirements: Elective II",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "CS1150",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "GERS301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "GLS3101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "GEBC351",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "GEBC311",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "SL320",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "GEBC315",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "GEBC341",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "GERS302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "GEBC322",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "GLS303",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "SL330",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "GEBC331",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "GEBC313",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "GEBC482",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "GEBC401",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "GEBC402",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "GEBC411",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": "GEBC421",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 5,
+   "code": "GEBC431",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 6,
+   "code": "GEBC412",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 7,
+   "code": "GEBC423",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 8,
+   "code": "GEBC433",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 9,
+   "code": "GEBC481",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "GEBC471",
+   "label": null,
+   "credit_hours": 12
+  }
+ ],
+ "review_warnings": [
+  "guide all year 1 second: credits add up to 18, the PDF says 21",
+  "guide all year 2 first: credits add up to 18, the PDF says 21",
+  "guide all year 4 first: credits add up to 21, the PDF says 12",
+  "NEE101: could not read credit hours from any table",
+  "GEBC123: prerequisite ENGL0098 is not a course of this plan, skipped",
+  "GEBC153: prerequisite ENGL0098 is not a course of this plan, skipped"
+ ]
+}

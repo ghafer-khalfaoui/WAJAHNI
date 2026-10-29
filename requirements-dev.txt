@@ -1,0 +1,1 @@
+pdfplumber  # dev-time only: scripts/build_gju_program.py

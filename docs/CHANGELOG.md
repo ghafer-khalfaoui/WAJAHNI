@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-29
+- Added: multi-program model (`programs`, `program_courses`, `plan_entries.program_id`, migration c5f1a7d3e826). A course is stored once per university; which requirement table it sits in is stored per program.
+- Changed: importer replaces requirement rows and year/semester slots per program (only for tracks the file lists), keeps shared-course data from another file when it disagrees and reports it (`DIFFERENCES`), `--overwrite` replaces. Verified data still beats unverified.
+- Added: `app/services/plan_template.py` (table-based PDF parser), `scripts/build_gju_program.py`, 30 generated datasets in `datasets/gju/programs/`, CS dataset converted to the program format, `tests/test_programs.py`.
+- Not yet: program-aware chat answers.
+
 ## 2026-10-22
 - Added: rule-based chat endpoint `POST /api/v1/chat/{domain}` (no AI model, $0). Answers course info, direct/full-chain prerequisites and staff office/phone/email from the structured tables, scoped to one university taken from the URL. Replaces the earlier mock stub (response schema changed: `answer`, `status`, `sources`, `data_verified`).
 - Behaviour: returns only the contact detail asked for; says when data is unverified; asks which person when a name is ambiguous; year-like text ("deadlines in 2026") is not treated as a course code.

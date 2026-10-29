@@ -1,0 +1,1666 @@
+{
+ "plan": "Business Intelligence and Data Analytics study plan undated (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Management%20Sciences/programs/4_bida_regular.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "bida",
+  "name": "Business Intelligence and Data Analytics",
+  "school": "BS",
+  "degree": "B.Sc.",
+  "plan_version": "undated",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ACC1001",
+   "name": "Principles of Accounting I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC2501",
+   "name": "Fundamentals of Finance",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ACC4305",
+   "name": "Accounting Ethics and Corporate Governance",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ACC4505",
+   "name": "Islamic Finance and Accounting",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA1101",
+   "name": "Fundamentals of Business Intelligence (BI)",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA1301",
+   "name": "Fundamentals of Business Databases",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA1400",
+   "name": "Introduction to E-business",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA2300",
+   "name": "Cyber Security Business Applications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA2700",
+   "name": "Communications Skills in Business",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA3101",
+   "name": "Data Mining for Business",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA3200",
+   "name": "Big Data and Data Warehousing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA3300",
+   "name": "Data Analysis and Presentation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA3301",
+   "name": "Spreadsheets Management and Design for BI",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA3500",
+   "name": "E-Commerce Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA3501",
+   "name": "E-Supply Chain Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA3502",
+   "name": "Customer Relationship Policies Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA4005",
+   "name": "Tools and Applications in Business",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4006",
+   "name": "Digital Business",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4007",
+   "name": "Data Science",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4008",
+   "name": "Business Applications in Python",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4100",
+   "name": "Artificial Intelligence and Machine Learning for Business",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA4200",
+   "name": "Business Data and Analytics Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA4500",
+   "name": "Business strategies and ERP",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BIDA4901",
+   "name": "Business Elective I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4902",
+   "name": "Business Elective II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4903",
+   "name": "Business Elective III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4904",
+   "name": "Business Elective IV",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4905",
+   "name": "Business Elective V",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4906",
+   "name": "Business Elective VI",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4907",
+   "name": "Special Topics in BIDA I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4908",
+   "name": "Special Topics in BIDA II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4909",
+   "name": "Special Topics in BIDA III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "BIDA4999",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "CS115",
+   "name": "Computing Fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1150",
+   "name": "Computing Fundamentals Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201B2",
+   "name": "B2-Track GERL102B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "B2-Track GERL201B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "LOGS1001",
+   "name": "Introduction to Logistics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "LOGS4303",
+   "name": "Logistics Enterprise Resource Planning Modules",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "LOGS4406",
+   "name": "Humanitarian Logistics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MATH0099",
+   "name": "Pre-Math",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "MGT1001",
+   "name": "Principles of Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT1201",
+   "name": "Mathematics for Business",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT1202",
+   "name": "Business Statistics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT1206",
+   "name": "Fundamentals of Microeconomics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT2103",
+   "name": "Research Methods for Business",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT3103",
+   "name": "Knowledge Management",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT3303",
+   "name": "Decision Support Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MGT4102",
+   "name": "Corporate Strategies and Policies",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT4104",
+   "name": "International Business and Globalization",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT4106",
+   "name": "Organizational Development & Change",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MGT4108",
+   "name": "Quality Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ACC2501",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA1301",
+   "prereq": "BIDA1101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA1400",
+   "prereq": "CS115",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA2300",
+   "prereq": "BIDA1400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA2300",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA2700",
+   "prereq": "BIDA1101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA2700",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3101",
+   "prereq": "BIDA1101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3101",
+   "prereq": "BIDA1301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3200",
+   "prereq": "BIDA1301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3300",
+   "prereq": "BIDA1400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3300",
+   "prereq": "MGT1202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3301",
+   "prereq": "BIDA1400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3500",
+   "prereq": "BIDA1400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3501",
+   "prereq": "BIDA1400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3501",
+   "prereq": "LOGS1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3502",
+   "prereq": "BIDA1101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA3502",
+   "prereq": "BIDA1400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA4100",
+   "prereq": "BIDA1400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA4200",
+   "prereq": "BIDA1301",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BIDA4500",
+   "prereq": "BIDA3502",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1150",
+   "prereq": "CS115",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EI101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B2",
+   "prereq": "GERL201B2",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MGT2103",
+   "prereq": "MGT1202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MGT2103",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MGT3103",
+   "prereq": "BIDA1400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MGT3303",
+   "prereq": "BIDA1400",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SE301",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GERL201B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL201B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B1",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202B2",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC1001",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ACC2501",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "LOGS1001",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT1001",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT1202",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT2103",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA1101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA1301",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA1400",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA2300",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA2700",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA3500",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA3502",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA3101",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA3300",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA3301",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA3200",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA3501",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA4100",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA4200",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA4500",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA4999",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS115",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1150",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT1201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT1206",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT3103",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MGT3303",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "BIDA4901",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4902",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4903",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4904",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4905",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4906",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4907",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4908",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4909",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4005",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4006",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4007",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BIDA4008",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT4102",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT4104",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT4106",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "MGT4108",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "LOGS4303",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "LOGS4406",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4305",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ACC4505",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "MGT1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "LOGS1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "BIDA1101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "MGT1202",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "MGT2103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "MGT1206",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "CS115",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "CS1150",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 8,
+   "code": "SFTS101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "GERL201B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "ACC1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "BIDA1400",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "MGT1201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 8,
+   "code": "BIDA2700",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "IC101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "BIDA1301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "BIDA2300",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "BIDA3502",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 8,
+   "code": "BIDA3300",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "BIDA3101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "BIDA3500",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "MGT3103",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "ACC2501",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "MGT3303",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "BIDA3301",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "BIDA3200",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "BIDA3501",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "BIDA4100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "BIDA4200",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "BIDA4500",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "BIDA4903",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": "BIDA4904",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": "BIDA4905",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": "BIDA4906",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "second",
+   "position": 1,
+   "code": "BIDA4999",
+   "label": null,
+   "credit_hours": 12
+  }
+ ],
+ "review_warnings": [
+  "guide all year 2 second: credits add up to 21, the PDF says 3",
+  "guide all year 3 first: GERL301B1 has no credit hours",
+  "guide all year 3 first: credits add up to 0, the PDF says 3",
+  "guide all year 3 first: GERL301B2 has no credit hours",
+  "guide all year 3 first: credits add up to 12, the PDF says 3",
+  "guide all year 3 first: credits add up to 18, the PDF says 21",
+  "guide all year 3 second: GERL302B1 has no credit hours",
+  "guide all year 3 second: credits add up to 0, the PDF says 3",
+  "guide all year 3 second: GERL302B2 has no credit hours",
+  "guide all year 3 second: credits add up to 15, the PDF says 19",
+  "BIDA3900: could not read credit hours from any table",
+  "BIDA3901: could not read credit hours from any table",
+  "ENGL0098: names differ between tables: Elementary English | Intermediate English",
+  "ENGL0098: prerequisites differ between tables: Placement test | ENGL0098",
+  "GERL301B1: could not read credit hours from any table",
+  "GERL301B2: could not read credit hours from any table",
+  "GERL302B1: could not read credit hours from any table",
+  "GERL302B2: could not read credit hours from any table",
+  "NEE101: could not read credit hours from any table",
+  "ACC2501: prerequisite ACC101 is not a course of this plan, skipped",
+  "ACC2501: prerequisite ENGL0099 is not a course of this plan, skipped",
+  "BIDA1400: prerequisite MGT101 is not a course of this plan, skipped",
+  "BIDA2300: prerequisite ENGL0099 is not a course of this plan, skipped",
+  "BIDA2700: prerequisite ENGL0099 is not a course of this plan, skipped",
+  "ENGL0098: lists itself as prerequisite, skipped",
+  "MGT2103: prerequisite ENGL0099 is not a course of this plan, skipped",
+  "table 'Remedial courses (admission requirements)': courses add up to 9, the PDF's Total line says 12",
+  "table 'Program Requirements (Compulsory)': courses add up to 73, the PDF's Total line says 3",
+  "table 'Program Requirements (Compulsory)': courses add up to 73, the heading says 82"
+ ]
+}

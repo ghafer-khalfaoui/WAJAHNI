@@ -1,0 +1,2086 @@
+{
+ "plan": "Game Design and Media Informatics study plan 2025 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Computer%20Science/programs/gdmi_2025.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "gdmi",
+  "name": "Game Design and Media Informatics",
+  "school": "SC",
+  "degree": "B.Sc.",
+  "plan_version": "2025",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ARC111",
+   "name": "Fundamentals of Design I",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS116",
+   "name": "Computing fundamentals",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1160",
+   "name": "Computing fundamentals lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS117",
+   "name": "Object-Oriented Programming",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS1170",
+   "name": "Object-Oriented Programming Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS222",
+   "name": "Theory of Algorithms",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS223",
+   "name": "Data Structures",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS263",
+   "name": "Database Management Systems",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS330",
+   "name": "Image Understanding",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS332",
+   "name": "Computer Graphics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS333",
+   "name": "Game Programming",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS342",
+   "name": "Software Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS355",
+   "name": "Web Technologies",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS356",
+   "name": "Information Security",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS357",
+   "name": "Cybersecurity",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS358",
+   "name": "Multimedia Systems Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS364",
+   "name": "Information Retrieval",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS365",
+   "name": "Systems Analysis and Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS430",
+   "name": "Virtual and Augmented Reality",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS439",
+   "name": "Computer Animation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS451",
+   "name": "Artificial Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS459",
+   "name": "Scientific Visualization",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS460",
+   "name": "Data Mining",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS462",
+   "name": "Database Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS477",
+   "name": "Mobile Computing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS481",
+   "name": "Special Topics in Computer Graphics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS4813",
+   "name": "Special Topics in Artificial Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS482",
+   "name": "Special Topics in Software Engineering",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS4831",
+   "name": "Special Topics in Applied Computer Science",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS4832",
+   "name": "Special Topics in Applied Computer Science",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS4833",
+   "name": "Special Topics in Applied Computer Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "CS484",
+   "name": "Special Topics in Database Technologies and Applications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES1204",
+   "name": "Visual Design: Tools",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES2503",
+   "name": "Filmmaking",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES3402",
+   "name": "Web Design and Application",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES411",
+   "name": "Information Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES432",
+   "name": "Visualization in Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI1200",
+   "name": "Game Storyboarding",
+   "hours": 3,
+   "prerequisite_note": "__"
+  },
+  {
+   "code": "DMI1500",
+   "name": "Fundamentals of Game Design and Media Informatics",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI2200",
+   "name": "D igital Typography",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI2340",
+   "name": "3D Modelling",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI2350",
+   "name": "Animation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI3150",
+   "name": "Interactive Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI3160",
+   "name": "Film Animation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI3340",
+   "name": "UX/UI Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI3360",
+   "name": "Game Design",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI388",
+   "name": "Special Topics in Game Programming",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI389",
+   "name": "Special Topics in Design and Media Informatics",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI390",
+   "name": "Field Training",
+   "hours": 0,
+   "prerequisite_note": "60 credit hours/ Dept. Approval"
+  },
+  {
+   "code": "DMI3900",
+   "name": "Field Training",
+   "hours": 0,
+   "prerequisite_note": "Completion of 90 Cr. Hr."
+  },
+  {
+   "code": "DMI3902",
+   "name": "Senior Project",
+   "hours": 3,
+   "prerequisite_note": "Completion of 90 Cr. Hr."
+  },
+  {
+   "code": "DMI4180",
+   "name": "Digital Media Technology",
+   "hours": 4,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI474",
+   "name": "Human-Computer Interaction",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DMI4910",
+   "name": "International Internship",
+   "hours": 12,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "DMI5170",
+   "name": "Creative Design Studio",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EE317",
+   "name": "Linear Algebra",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "EI101",
+   "name": "Leadership and Emotional Intelligence",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper-Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": "__"
+  },
+  {
+   "code": "GERL201B1",
+   "name": "German III B1-Track B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B1",
+   "name": "German IV B1-Track B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202B2",
+   "name": "GERL201B2, ARB0099, ENGL0099",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B1",
+   "name": "German V B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301B2",
+   "name": "B2-Track GERL202B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B1",
+   "name": "German VI B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302B2",
+   "name": "B2-Track GERL301B2",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH0099",
+   "name": "Pre-Math",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "MATH101",
+   "name": "Calculus I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MATH102",
+   "name": "Calculus II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS117",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS117",
+   "prereq": "CS1160",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS117",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS117",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1170",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS1170",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "CS1160",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS222",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS223",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS223",
+   "prereq": "CS1160",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS223",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS223",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS263",
+   "prereq": "CS117",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS263",
+   "prereq": "CS1170",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS263",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS263",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS330",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS330",
+   "prereq": "EE317",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS332",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS332",
+   "prereq": "EE317",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS333",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS342",
+   "prereq": "CS117",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS342",
+   "prereq": "CS1170",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS342",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS355",
+   "prereq": "CS117",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS355",
+   "prereq": "CS1170",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS355",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS356",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS357",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS358",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS358",
+   "prereq": "EE317",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS364",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS365",
+   "prereq": "CS222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS365",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS430",
+   "prereq": "DMI2350",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS439",
+   "prereq": "CS332",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS451",
+   "prereq": "CS222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS451",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS459",
+   "prereq": "CS222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS459",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS459",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS460",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS462",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS477",
+   "prereq": "CS117",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS477",
+   "prereq": "CS1170",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS477",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS481",
+   "prereq": "CS332",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS4813",
+   "prereq": "CS451",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS482",
+   "prereq": "CS342",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS4831",
+   "prereq": "CS222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS4831",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS4832",
+   "prereq": "CS222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS4832",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS4833",
+   "prereq": "CS222",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS4833",
+   "prereq": "CS223",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "CS484",
+   "prereq": "CS263",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES2503",
+   "prereq": "DMI1500",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI1500",
+   "prereq": "CS116",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI1500",
+   "prereq": "CS1160",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI2340",
+   "prereq": "DMI1200",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI2350",
+   "prereq": "DMI2340",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI3340",
+   "prereq": "DMI3360",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI3360",
+   "prereq": "DMI2350",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI3902",
+   "prereq": "DES2503",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI3902",
+   "prereq": "DMI2350",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI474",
+   "prereq": "CS117",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DMI4910",
+   "prereq": "DMI3900",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EE317",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "EI101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201B1",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "GERL201B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL202B1",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B1",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL301B2",
+   "prereq": "GERL202B2",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL302B1",
+   "prereq": "GERL301B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "MATH102",
+   "prereq": "MATH101",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SE301",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "MATH0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ARB0099",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "EI101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "CS116",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1160",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH101",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MATH102",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "EE317",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS117",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS1170",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ARC111",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES1204",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI1500",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES2503",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI2200",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI2340",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI2350",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI3360",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI3340",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS430",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS333",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI1200",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS222",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS223",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS451",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS263",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS355",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS477",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS330",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS332",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI3900",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI4910",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI3902",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B1",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301B2",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B1",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302B2",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI3150",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI3160",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI4180",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI5170",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI474",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI388",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DMI389",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS342",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS365",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS439",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS459",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS357",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS364",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS356",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS460",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS462",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS358",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS481",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS482",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS4833",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS4832",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS4831",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS484",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "CS4813",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES432",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES411",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES3402",
+   "group": "Program - Compulsory Requirements 3.1.1 Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "CS116",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "CS1160",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "DMI1200",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "ARC111",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": "MATH101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "DMI1500",
+   "label": null,
+   "credit_hours": 4
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "DES1204",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "CS223",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "CS117",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "CS1170",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "MATH102",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "EE317",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "CS263",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "CS222",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "University Elective Requirement 1",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "DMI2200",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "DMI2340",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL201B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "DES2503",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "CS355",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "DMI2350",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "CS451",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL202B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL202B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "CS333",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "CS430",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "CS332",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "University Elective Requirement 2",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "DMI3360",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "GERL301B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 8,
+   "code": "GERL301B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "DMI3902",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "CS330",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "DMI3340",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "CS477",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "GERL302B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "GERL302B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "DMI390",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": null,
+   "label": "elective course",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "elective course",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "elective course",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "elective course",
+   "credit_hours": 3
+  }
+ ],
+ "review_warnings": [
+  "guide all year 1 second: credits add up to 17, the PDF says 20",
+  "guide all year 2 second: credits add up to 18, the PDF says 21",
+  "guide all year 4 second: credits add up to 0, the PDF says 12",
+  "DMI390: only in the year/semester guide, not in a requirement table",
+  "GERL101B1: only in the year/semester guide, not in a requirement table",
+  "GERL201B1: only in the year/semester guide, not in a requirement table",
+  "GERL202B1: only in the year/semester guide, not in a requirement table",
+  "GERL202B2: only in the year/semester guide, not in a requirement table",
+  "NEE101: could not read credit hours from any table",
+  "CS1160: prerequisite CS116CO is not a course of this plan, skipped",
+  "CS1170: prerequisite CS117CO is not a course of this plan, skipped",
+  "CS222: prerequisite 'ARB099' looks like a typo for ARB0099; used ARB0099",
+  "CS222: prerequisite 'ENGL099' looks like a typo for ENGL0099; used ENGL0099",
+  "CS223: prerequisite 'ARB099' looks like a typo for ARB0099; used ARB0099",
+  "CS223: prerequisite 'ENGL099' looks like a typo for ENGL0099; used ENGL0099",
+  "CS263: prerequisite 'ARB099' looks like a typo for ARB0099; used ARB0099",
+  "CS263: prerequisite 'ENGL099' looks like a typo for ENGL0099; used ENGL0099",
+  "CS333: prerequisite CS254 is not a course of this plan, skipped",
+  "DES3402: prerequisite DES2505 is not a course of this plan, skipped",
+  "DMI2200: prerequisite MI1500 is not a course of this plan, skipped",
+  "DMI388: prerequisite CS254 is not a course of this plan, skipped",
+  "EE317: prerequisite MATH102CO is not a course of this plan, skipped",
+  "GERL201B1: prerequisite GERL102B1 is not a course of this plan, skipped",
+  "GERL201B1: prerequisite GERL102B2 is not a course of this plan, skipped",
+  "GERL202B1: prerequisite GERL201B2 is not a course of this plan, skipped",
+  "table 'Compulsory': courses add up to 15, the PDF's Total line says 21",
+  "table 'Compulsory': courses add up to 15, the heading says 21",
+  "table 'School Requirements': courses add up to 17, the PDF's Total line says 23",
+  "table 'School Requirements': courses add up to 17, the heading says 23",
+  "table 'Compulsory Requirements 3.1.1 Program Requirements (Compulsory)': courses add up to 162, the PDF's Total line says 83",
+  "table 'Compulsory Requirements 3.1.1 Program Requirements (Compulsory)': courses add up to 162, the heading says 95"
+ ]
+}

@@ -262,12 +262,17 @@ async def import_academic_data(
             counts["courses_created"] += 1
         elif current.verified and not verified:
             counts["skipped_already_verified"] += 1  # an unverified import never overwrites verified rows
-        elif _differs(current, row, source, verified):
+        elif current.source != source and not overwrite_conflicts and not (verified and not current.verified):
+            # Shared course already stored from another file: keep it, report real disagreements only.
             changed = {k: (getattr(current, k), v) for k, v in row.items()
                        if k in ("name", "credit_hours") and getattr(current, k) != v}
-            if changed and current.source != source and not overwrite_conflicts:
-                note_conflict(f"course {row['code']}: kept " + "; ".join(f"{k} '{o}' (file says '{n}')" for k, (o, n) in changed.items()))
-                continue
+            if changed:
+                note_conflict(f"course {row['code']}: kept " + "; ".join(
+                    f"{k} '{o}' (file says '{n}')" for k, (o, n) in changed.items()))
+            elif not current.prerequisite_note and row.get("prerequisite_note"):
+                current.prerequisite_note = row["prerequisite_note"]  # fill a gap, change nothing else
+                counts["courses_updated"] += 1
+        elif _differs(current, row, source, verified):
             for k, v in row.items():
                 if k == "plan_groups" and v is None:
                     continue  # plan groups now live in program_courses; never wipe the old column

@@ -1,0 +1,2394 @@
+{
+ "plan": "Nursing study plan 2026-01 (regular)",
+ "source_url": "https://www.gju.edu.jo/sites/default/files/Nursing%20Sciences/programs/nursing_study_plan-v16.0-_21january_2026.pdf",
+ "replace_prerequisites": false,
+ "program": {
+  "code": "nursing",
+  "name": "Nursing",
+  "school": "SN",
+  "degree": "B.Sc.",
+  "plan_version": "2026-01",
+  "kind": "regular"
+ },
+ "courses": [
+  {
+   "code": "ARB0099",
+   "name": "Elementary Arabic",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ARB100",
+   "name": "Arabic",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "BE302",
+   "name": "Business Entrepreneurship",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "DES101",
+   "name": "Arts' Appreciation",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL0098",
+   "name": "Elementary English",
+   "hours": 3,
+   "prerequisite_note": "Placement test"
+  },
+  {
+   "code": "ENGL0099",
+   "name": "Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1001",
+   "name": "Upper Intermediate English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "ENGL1002",
+   "name": "Advanced English",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL101B1",
+   "name": "German I B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B1",
+   "name": "German II B1-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL102B2",
+   "name": "German II B2-Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL201NU",
+   "name": "German III- Nursing Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL202NU",
+   "name": "German IV- Nursing Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL301NU",
+   "name": "German V-Nursing Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL302NU",
+   "name": "German VI-Nursing Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL401NU",
+   "name": "German VII-Nursing Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "GERL402NU",
+   "name": "German VIII-Nursing Track",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "IC101",
+   "name": "Intercultural Communications",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "MILS100",
+   "name": "Military Science",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NE101",
+   "name": "National Education",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1104",
+   "name": "Biochemistry For Nurses",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1201",
+   "name": "Foundations of Nursing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1202",
+   "name": "Foundations of Nursing – Lab",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1203",
+   "name": "Health Assessment",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1204",
+   "name": "Health Assessment – Lab",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1302",
+   "name": "Human Anatomy",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1303",
+   "name": "Human Physiology",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1304",
+   "name": "Pathophysiology",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1305",
+   "name": "Human Physiology and Anatomy-Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1308",
+   "name": "Microbiology For Nurses",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1309",
+   "name": "Microbiology For Nurses – Lab",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1703",
+   "name": "Psychology and Sociology",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR1901",
+   "name": "Intensive Clinical Training I",
+   "hours": 1,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR2201",
+   "name": "Health Education and Communication Skills",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR2202",
+   "name": "Growth, Development, and Nutritional Needs",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR2203",
+   "name": "Research Methods and Biostatistics",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR2302",
+   "name": "Pharmacology",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR2401",
+   "name": "Adult Health Nursing I",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR2402",
+   "name": "Adult Health Nursing I - Clinical",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR2403",
+   "name": "Adult Health Nursing II",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR2404",
+   "name": "Adult Health Nursing II - Clinical",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR2901",
+   "name": "Intensive Clinical Training II",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3201",
+   "name": "Trends And Ethics of Nursing Profession",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3401",
+   "name": "Critical Care Nursing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3402",
+   "name": "Critical Care Nursing - Clinical",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3501",
+   "name": "Maternal Health Nursing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3502",
+   "name": "Maternal Health Nursing - Clinical",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3601",
+   "name": "Child Health Nursing",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3602",
+   "name": "Child Health Nursing – Clinical",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3701",
+   "name": "Mental Health Nursing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3702",
+   "name": "Mental Health Nursing - Clinical",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3801",
+   "name": "Community Health Nursing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3802",
+   "name": "Community Health Care Nursing – Clinical",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3803",
+   "name": "Geriatric Nursing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3804",
+   "name": "Geriatric Nursing – Clinical",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3901",
+   "name": "Leadership, Management, and Digital Skills in Nursing",
+   "hours": 2,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3902",
+   "name": "Intensive Clinical Training III",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR3903",
+   "name": "Exit Exam-Nursing Programa",
+   "hours": 0,
+   "prerequisite_note": null
+  },
+  {
+   "code": "NUR4101",
+   "name": "Clinical Nutrition",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4102",
+   "name": "Introduction To Technology and Digitization in Healthcare",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4201",
+   "name": "Nursing Models and Theories",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4202",
+   "name": "Comprehensive Nursing care in Complex situations",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4203",
+   "name": "Evidence-Practice in Nursing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4204",
+   "name": "Digital Future Skills in Nursing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4205",
+   "name": "Framework Conditions of Nursing Action",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4206",
+   "name": "Professional ethics in healthcare settings",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4207",
+   "name": "Reflection And Case Understanding",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4208",
+   "name": "Understanding and Diagnosing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4209",
+   "name": "Understand Nursing Research and Basics of Statistics",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4210",
+   "name": "Diagnostics And Process Design in Nursing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4211",
+   "name": "Innovation In Nursing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4401",
+   "name": "Special Topics in Nursing I",
+   "hours": 1,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4402",
+   "name": "Acute Care Across Lifespan",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4403",
+   "name": "Nursing Care for Patients with Serious Illnesses",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4404",
+   "name": "Long-Term Care for The Chronically Ill",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4405",
+   "name": "Wound Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4407",
+   "name": "Perioperative Nursing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4408",
+   "name": "Nursing People with Oncological Illness",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4409",
+   "name": "Care In Internal Medicine",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4410",
+   "name": "Nursing Care of People with Chronic Diseases/Disability",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4411",
+   "name": "Nursing Care to People with Acute Impairments",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4412",
+   "name": "Advanced Nursing Practice",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4413",
+   "name": "Advance Clinical Competencies",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4414",
+   "name": "Pain And Pain Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4415",
+   "name": "Oncological Care and Palliative Care",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4501",
+   "name": "Special Topics in Nursing II",
+   "hours": 2,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4502",
+   "name": "Midwifery Care for the community",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4503",
+   "name": "From The Unborn to The Newborn",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4601",
+   "name": "Special Topics in Nursing III",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4801",
+   "name": "Health Promotion and Prevention",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4802",
+   "name": "Rehabilitative Nursing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4803",
+   "name": "Counselling in Nursing",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4804",
+   "name": "Public Health",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4805",
+   "name": "Public Health / Socioeconomic and Legal Framework",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4901",
+   "name": "Multidisciplinary Quality and Safety",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4902",
+   "name": "Clinical Decision-Making",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4903",
+   "name": "Financing And Quality of Nursing Care",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4904",
+   "name": "Conflict management in healthcare",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4905",
+   "name": "Management Of Care Processes in An Interdisciplinary Team",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4906",
+   "name": "Care Management and Quality Control",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4907",
+   "name": "Case Management",
+   "hours": 3,
+   "prerequisite_note": "BSC001"
+  },
+  {
+   "code": "NUR4909",
+   "name": "International Intensive Clinical Internshipb",
+   "hours": 12,
+   "prerequisite_note": null
+  },
+  {
+   "code": "PE101",
+   "name": "Sports and Health",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SE301",
+   "name": "Social Entrepreneurship and Enterprises",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "SFTS101",
+   "name": "Soft Skills",
+   "hours": 3,
+   "prerequisite_note": null
+  },
+  {
+   "code": "TW303",
+   "name": "Technical and Workplace Writing",
+   "hours": 3,
+   "prerequisite_note": null
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "ARB100",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "BE302",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "DES101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL0099",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1001",
+   "prereq": "ENGL0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "ENGL1002",
+   "prereq": "ENGL1001",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL102B1",
+   "prereq": "GERL101B1",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL201NU",
+   "prereq": "GERL102B1",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL201NU",
+   "prereq": "GERL102B2",
+   "corequisite": false,
+   "alt_group": 1
+  },
+  {
+   "course": "GERL202NU",
+   "prereq": "GERL201NU",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL301NU",
+   "prereq": "GERL202NU",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL302NU",
+   "prereq": "GERL301NU",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL401NU",
+   "prereq": "GERL302NU",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "GERL402NU",
+   "prereq": "GERL401NU",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "IC101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR1202",
+   "prereq": "NUR1201",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR1203",
+   "prereq": "NUR1201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR1204",
+   "prereq": "NUR1201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR1204",
+   "prereq": "NUR1203",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR1304",
+   "prereq": "NUR1305",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR1305",
+   "prereq": "NUR1302",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR1309",
+   "prereq": "NUR1308",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR1703",
+   "prereq": "NUR1201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR1901",
+   "prereq": "NUR1201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2201",
+   "prereq": "NUR1201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2202",
+   "prereq": "NUR1201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2203",
+   "prereq": "NUR2401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2302",
+   "prereq": "NUR1303",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2401",
+   "prereq": "NUR1201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2401",
+   "prereq": "NUR1304",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2402",
+   "prereq": "NUR1202",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2402",
+   "prereq": "NUR2401",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2403",
+   "prereq": "NUR2401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2403",
+   "prereq": "NUR1304",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2403",
+   "prereq": "NUR2302",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2404",
+   "prereq": "NUR2402",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2404",
+   "prereq": "NUR2403",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2901",
+   "prereq": "NUR1901",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR2901",
+   "prereq": "NUR2402",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3201",
+   "prereq": "NUR1201",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3401",
+   "prereq": "NUR2403",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3402",
+   "prereq": "NUR2404",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3402",
+   "prereq": "NUR3401",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3501",
+   "prereq": "NUR2401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3501",
+   "prereq": "NUR2302",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3502",
+   "prereq": "NUR2402",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3502",
+   "prereq": "NUR3501",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3601",
+   "prereq": "NUR2401",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3602",
+   "prereq": "NUR2402",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3602",
+   "prereq": "NUR3601",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3701",
+   "prereq": "NUR2403",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3702",
+   "prereq": "NUR2404",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3702",
+   "prereq": "NUR3701",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3801",
+   "prereq": "NUR3501",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3801",
+   "prereq": "NUR3601",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3802",
+   "prereq": "NUR3502",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3802",
+   "prereq": "NUR3602",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3802",
+   "prereq": "NUR3801",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3803",
+   "prereq": "NUR2402",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3804",
+   "prereq": "NUR2402",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3804",
+   "prereq": "NUR3803",
+   "corequisite": true,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3901",
+   "prereq": "NUR2403",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3902",
+   "prereq": "NUR2901",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR3902",
+   "prereq": "NUR2404",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR4909",
+   "prereq": "NUR3902",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR4909",
+   "prereq": "NUR3402",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR4909",
+   "prereq": "NUR3702",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "NUR4909",
+   "prereq": "NUR3802",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "PE101",
+   "prereq": "ARB0099",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "SFTS101",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  },
+  {
+   "course": "TW303",
+   "prereq": "ENGL0098",
+   "corequisite": false,
+   "alt_group": null
+  }
+ ],
+ "program_courses": [
+  {
+   "course": "ARB0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ENGL0099",
+   "group": "Admission - Remedial courses (admission requirements)",
+   "scope": "admission",
+   "kind": "remedial",
+   "track": null
+  },
+  {
+   "course": "ARB100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1001",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "ENGL1002",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL101B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B1",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL102B2",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "MILS100",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NE101",
+   "group": "University - Compulsory",
+   "scope": "university",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "DES101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "IC101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "PE101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SE301",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "ENGL0098",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "SFTS101",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "BE302",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "TW303",
+   "group": "University - Elective",
+   "scope": "university",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "GERL201NU",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL202NU",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1302",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1303",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1305",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1104",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1308",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1309",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1304",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR2302",
+   "group": "School - School Requirements",
+   "scope": "school",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL301NU",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL302NU",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL401NU",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "GERL402NU",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1901",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1202",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1203",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1204",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR2901",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR2201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR2202",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR2203",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR2401",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR2402",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR2403",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR2404",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3803",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3804",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3201",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3401",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3402",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3501",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3502",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3601",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3602",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3701",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3702",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR1703",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3801",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3802",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3901",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3902",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR3903",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR4909",
+   "group": "Program - Program Requirements (Compulsory)",
+   "scope": "program",
+   "kind": "compulsory",
+   "track": null
+  },
+  {
+   "course": "NUR4401",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4501",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4601",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4101",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4402",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4201",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4901",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4902",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4403",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4202",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4203",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4404",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4801",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4204",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4205",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4903",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4904",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4405",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4206",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4905",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4407",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4408",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4906",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4409",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4207",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4410",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4411",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4412",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4907",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4802",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4208",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4413",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4414",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4209",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4803",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4804",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4210",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4415",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4211",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4502",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4503",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4102",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  },
+  {
+   "course": "NUR4805",
+   "group": "Program - Program Requirements (Electives)",
+   "scope": "program",
+   "kind": "elective",
+   "track": null
+  }
+ ],
+ "plan_entries": [
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL101B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 2,
+   "code": "ENGL0098",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 3,
+   "code": "NUR1201",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 4,
+   "code": "NUR1202",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 5,
+   "code": "NUR1302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 6,
+   "code": "NUR1303",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "first",
+   "position": 7,
+   "code": "NUR1305",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL102B1",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 2,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 3,
+   "code": "ENGL0099",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 4,
+   "code": "ARB0099",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 5,
+   "code": "NUR1304",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 6,
+   "code": "NUR1203",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "second",
+   "position": 7,
+   "code": "NUR1204",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "summer",
+   "position": 1,
+   "code": "NUR1901",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "summer",
+   "position": 2,
+   "code": "NUR1104",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "summer",
+   "position": 3,
+   "code": "NUR1308",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "summer",
+   "position": 4,
+   "code": "NUR1309",
+   "label": null,
+   "credit_hours": 1
+  },
+  {
+   "track": "all",
+   "year": 1,
+   "semester": "summer",
+   "position": 5,
+   "code": "MILS100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL201NU",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 2,
+   "code": "GERL102B2",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 3,
+   "code": "NUR2302",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 4,
+   "code": "NUR2401",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 5,
+   "code": "NUR2402",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 6,
+   "code": "NE101",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "first",
+   "position": 7,
+   "code": "ENGL1001",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL202NU",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 2,
+   "code": "NUR2403",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 3,
+   "code": "NUR2404",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 4,
+   "code": "NUR2202",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 5,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 6,
+   "code": "NUR3803",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "second",
+   "position": 7,
+   "code": "NUR3804",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "summer",
+   "position": 1,
+   "code": "NUR2901",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "summer",
+   "position": 2,
+   "code": "ARB100",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "summer",
+   "position": 3,
+   "code": "GERL301NU",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 2,
+   "semester": "summer",
+   "position": 4,
+   "code": "NUR2201",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL302NU",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 2,
+   "code": "NUR3501",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 3,
+   "code": "NUR3502",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 4,
+   "code": "NUR3201",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 5,
+   "code": "NUR3601",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 6,
+   "code": "NUR3602",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "first",
+   "position": 7,
+   "code": "ENGL1002",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 1,
+   "code": "GERL401NU",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 2,
+   "code": "NUR3901",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 3,
+   "code": "NUR2203",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 4,
+   "code": "NUR3701",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 5,
+   "code": "NUR3702",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 6,
+   "code": "NUR1703",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 7,
+   "code": "NUR3401",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 8,
+   "code": "NUR3402",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "second",
+   "position": 9,
+   "code": "NUR3903",
+   "label": null,
+   "credit_hours": 0
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "summer",
+   "position": 1,
+   "code": "NUR3902",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "summer",
+   "position": 2,
+   "code": "NUR3801",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "summer",
+   "position": 3,
+   "code": "NUR3802",
+   "label": null,
+   "credit_hours": 2
+  },
+  {
+   "track": "all",
+   "year": 3,
+   "semester": "summer",
+   "position": 4,
+   "code": null,
+   "label": "University Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 1,
+   "code": "GERL402NU",
+   "label": null,
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 2,
+   "code": null,
+   "label": "Program Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 3,
+   "code": null,
+   "label": "Program Elective",
+   "credit_hours": 3
+  },
+  {
+   "track": "all",
+   "year": 4,
+   "semester": "first",
+   "position": 4,
+   "code": null,
+   "label": "Program Elective",
+   "credit_hours": 3
+  }
+ ],
+ "review_warnings": [
+  "guide all: GERL102B2 appears twice (year 1 second and year 2 first)",
+  "guide all year 2 first: credits add up to 20, the PDF says 17",
+  "guide all year 4 second: credits add up to 0, the PDF says 12",
+  "EI101: could not read credit hours from any table",
+  "NEE101: could not read credit hours from any table"
+ ]
+}
